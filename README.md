@@ -56,6 +56,10 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 </p>
 
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ianalloway&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
