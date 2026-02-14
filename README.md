@@ -2,6 +2,9 @@
 
 **Data Scientist | AI Specialist | Blockchain Analyst**
 
+![Profile Views](https://komarev.com/ghpvc/?username=ianalloway&color=brightgreen&style=flat-square)
+[![GitHub followers](https://img.shields.io/github/followers/ianalloway?style=social)](https://github.com/ianalloway)
+
 I'm pursuing a Masters in Artificial Intelligence at the University of South Florida while running Alloway LLC, where I specialize in AI-driven cybersecurity solutions and blockchain analytics. I transform complex datasets into actionable insights, bridging cutting-edge AI research with practical business applications.
 
 ## What I'm Working On
@@ -41,6 +44,18 @@ Matrix-themed portfolio showcasing my work, academic papers, and professional ex
 [![Portfolio](https://img.shields.io/badge/Portfolio-00D100?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ianalloway.xyz)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ian@allowayllc.com)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://allowayai.substack.com)
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ianalloway&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
