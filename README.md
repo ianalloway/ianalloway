@@ -1,56 +1,58 @@
-# Hi, I'm Ian Alloway
+# Hi, I'm Ian 👋
 
-**Data Scientist | AI Specialist | Blockchain Analyst**
+📍 Florida | 🤖 AI & Data Science | 🎓 MS AI @ USF | 🏈 Sports Analytics
 
-![Profile Views](https://komarev.com/ghpvc/?username=ianalloway&color=brightgreen&style=flat-square)
-[![GitHub followers](https://img.shields.io/github/followers/ianalloway?style=social)](https://github.com/ianalloway)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
 
-I'm pursuing a Masters in Artificial Intelligence at the University of South Florida while running Alloway LLC, where I specialize in AI-driven cybersecurity solutions and blockchain analytics. I transform complex datasets into actionable insights, bridging cutting-edge AI research with practical business applications.
-
-## What I'm Working On
-
-### [Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)
-A financial intelligence assistant built on Clawdbot for sports betting analysis, NFT tracking, and portfolio visualization. Fork it to build your own AI-powered trading assistant.
-
-### [AI Advantage Sports](https://aiadvantagesports.com)
-AI-powered sports betting analytics platform providing data-driven insights and predictions for smarter wagering decisions.
-
-### [Mutant Intelligence](https://mutantintelligence.com)
-Transform your Mutant Ape Yacht Club NFT into a unique AI assistant with traits-based personality and specialized knowledge.
-
-### [Personal Portfolio](https://ianalloway.xyz)
-Matrix-themed portfolio showcasing my work, academic papers, and professional experience.
-
-## Skills & Technologies
-
-**Languages:** Python, R, SQL, TypeScript, JavaScript
-
-**ML/AI:** TensorFlow, PyTorch, Scikit-learn, Deep Learning, NLP
-
-**Data:** Pandas, NumPy, Power BI, Tableau, Data Visualization
-
-**Web3:** Ethereum, Smart Contracts, Blockchain Analytics
-
-**Tools:** Docker, Git, AWS, React, Tailwind CSS
-
-## Education
-
-**M.S. Artificial Intelligence** - University of South Florida (2024 - Present)
-
-## Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ianit)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/ianallowayxyz)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D100?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ianalloway.xyz)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ian@allowayllc.com)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://allowayai.substack.com)
+Building AI-powered tools at the intersection of sports analytics, blockchain, and machine learning. Currently pursuing my Masters in AI while running Alloway LLC, specializing in data-driven solutions that transform complex datasets into actionable insights.
 
 ---
 
-## GitHub Stats
+## Current Projects
+
+🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant for sports betting analysis, NFT tracking, and portfolio visualization
+
+🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - AI-powered sports betting analytics with data-driven predictions
+
+🦍 **[Mutant Intelligence](https://mutantintelligence.com)** - Transform your MAYC NFT into a unique AI assistant with traits-based personality
+
+🌐 **[Portfolio](https://ianalloway.xyz)** - Matrix-themed portfolio showcasing my work and academic papers
+
+---
+
+## What I'm Doing
+
+- 🎓 **Studying AI** - Masters in Artificial Intelligence at University of South Florida
+- 🏢 **Running Alloway LLC** - AI-driven cybersecurity solutions and blockchain analytics
+- 📊 **Building analytics tools** - Sports betting models and NFT market analysis
+- 🤝 **Open source** - Contributing to AI and data science projects
+
+---
+
+## Skills
+
+**Languages:** Python, R, SQL, TypeScript, JavaScript
+
+**ML/AI:** TensorFlow, PyTorch, Scikit-learn, Deep Learning, NLP, Computer Vision
+
+**Data:** Pandas, NumPy, Power BI, Tableau, Statistical Analysis
+
+**Web3:** Ethereum, Smart Contracts, Blockchain Analytics, NFT Technology
+
+**Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js
+
+---
+
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
@@ -59,4 +61,22 @@ Matrix-themed portfolio showcasing my work, academic papers, and professional ex
 
 ---
 
-*Open to collaborations on AI, data science, and blockchain projects.*
+## Connect
+
+[![Twitter](https://img.shields.io/badge/@ianallowayxyz-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/ianallowayxyz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ianit)
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=flat&logo=substack&logoColor=white)](https://allowayai.substack.com)
+[![Portfolio](https://img.shields.io/badge/ianalloway.xyz-00D100?style=flat&logo=google-chrome&logoColor=white)](https://ianalloway.xyz)
+[![Email](https://img.shields.io/badge/ian@allowayllc.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ian@allowayllc.com)
+
+---
+
+## Education
+
+🎓 **M.S. Artificial Intelligence** - University of South Florida (2024 - Present)
+
+---
+
+*"Ship beats perfect" - Building tools to solve real problems, then sharing them with the world.*
+
+![Profile Views](https://komarev.com/ghpvc/?username=ianalloway&color=brightgreen&style=flat-square)
