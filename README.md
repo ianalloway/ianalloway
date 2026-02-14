@@ -75,6 +75,10 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 🎓 **M.S. Artificial Intelligence** - University of South Florida (2024 - Present)
 
+🎓 **B.S. Information Science, Data Science and Analytics** - University of South Florida
+
+🎓 **A.S.** - Hillsborough Community College, Tampa
+
 ---
 
 *"Ship beats perfect" - Building tools to solve real problems, then sharing them with the world.*
