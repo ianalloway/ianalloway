@@ -6,6 +6,9 @@ I'm pursuing a Masters in Artificial Intelligence at the University of South Flo
 
 ## What I'm Working On
 
+### [Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)
+A financial intelligence assistant built on Clawdbot for sports betting analysis, NFT tracking, and portfolio visualization. Fork it to build your own AI-powered trading assistant.
+
 ### [AI Advantage Sports](https://aiadvantagesports.com)
 AI-powered sports betting analytics platform providing data-driven insights and predictions for smarter wagering decisions.
 
