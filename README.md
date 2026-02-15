@@ -14,9 +14,17 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ---
 
-## Current Projects
+## Open Source Contributions
 
-🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant for sports betting analysis, NFT tracking, and portfolio visualization
+🔧 **[OpenClaw](https://github.com/openclaw/openclaw)** - Contributor to the 194k+ star AI agent framework
+
+📦 **[ClawHub Skills](https://clawhub.ai)** - Published AI agent skills: sports-odds, nft-tracker, data-viz, screenshot-annotator
+
+🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant built on OpenClaw for sports betting, NFT tracking, and portfolio visualization
+
+---
+
+## Current Projects
 
 🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - AI-powered sports betting analytics with data-driven predictions
 
@@ -31,7 +39,7 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 - 🎓 **Studying AI** - Masters in Artificial Intelligence at University of South Florida
 - 🏢 **Running Alloway LLC** - AI-driven cybersecurity solutions and blockchain analytics
 - 📊 **Building analytics tools** - Sports betting models and NFT market analysis
-- 🤝 **Open source** - Contributing to AI and data science projects
+- 🤝 **Open source** - Contributing to OpenClaw and publishing AI agent skills on ClawHub
 
 ---
 
