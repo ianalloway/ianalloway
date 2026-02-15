@@ -46,6 +46,8 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 📊 **[AI Portfolio Analyzer](https://github.com/ianalloway/ai-portfolio-analyzer)** - AI-powered CLI tool that analyzes investment portfolios, calculates profit/loss, and generates intelligent insights for crypto and stocks
 
+🎯 **[Job Fit Analyzer](https://clawdbot-setup-app-haw39wkx.devinapps.com)** - NLP-powered tool that analyzes job descriptions against my profile to show skill matches, strengths, and recommendations
+
 ---
 
 ## What I'm Looking For
