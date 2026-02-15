@@ -26,7 +26,7 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ## Current Projects
 
-🚁 **[Drone AI](https://github.com/ianalloway/drone-ai)** - Autonomous vehicle intelligence platform with YOLOv8 vision, A*/RRT* path planning, behavior trees, and MAVLink integration
+🚁 **[Drone AI](https://github.com/ianalloway/ai-drone-auto-vehicle)** - Autonomous vehicle intelligence platform with YOLOv8 vision, A*/RRT* path planning, behavior trees, and MAVLink integration
 
 🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - NBA game prediction model with XGBoost ML and Kelly Criterion value bet detection
 
