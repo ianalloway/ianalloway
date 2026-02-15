@@ -28,6 +28,8 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - NBA game prediction model with XGBoost ML and Kelly Criterion value bet detection
 
+🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant for sports betting, NFT tracking, and portfolio visualization
+
 🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - AI-powered sports betting analytics with data-driven predictions
 
 🦍 **[Mutant Intelligence](https://mutantintelligence.com)** - Transform your MAYC NFT into a unique AI assistant with traits-based personality
