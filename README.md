@@ -51,15 +51,17 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ## Skills
 
-**Languages:** Python, R, SQL, TypeScript, JavaScript
+**Languages:** Python, R, SQL, TypeScript, JavaScript, Solidity
 
-**ML/AI:** TensorFlow, PyTorch, Scikit-learn, Deep Learning, NLP, Computer Vision
+**ML/AI:** TensorFlow, PyTorch, Scikit-learn, XGBoost, Deep Learning, NLP, Computer Vision, YOLOv8
 
-**Data:** Pandas, NumPy, Power BI, Tableau, Statistical Analysis
+**Data:** Pandas, NumPy, Power BI, Tableau, Statistical Analysis, Time Series Forecasting
 
-**Web3:** Ethereum, Smart Contracts, Blockchain Analytics, NFT Technology
+**Web3:** Ethereum, Smart Contracts, Blockchain Analytics, NFT Technology, Web3.js, Ethers.js
 
-**Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js
+**Robotics/Autonomy:** MAVLink, PX4, ArduPilot, Path Planning (A*, RRT*), Sensor Fusion, EKF
+
+**Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js, PostgreSQL, Redis
 
 ---
 
