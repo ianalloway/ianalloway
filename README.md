@@ -79,6 +79,18 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ---
 
+## Support My Work
+
+If you find my projects helpful, consider supporting with ETH:
+
+```
+0xAc7C093B312700614C80Ba3e0509f8dEde03515b
+```
+
+[![Ethereum](https://img.shields.io/badge/Donate_ETH-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://etherscan.io/address/0xAc7C093B312700614C80Ba3e0509f8dEde03515b)
+
+---
+
 ## Education
 
 🎓 **M.S. Artificial Intelligence** - University of South Florida (2024 - Present)
