@@ -39,6 +39,8 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 🌐 **[Portfolio](https://ianalloway.xyz)** - Matrix-themed portfolio showcasing my work and academic papers
 
+💰 **[Crypto Portfolio CLI](https://github.com/ianalloway/crypto-portfolio-cli)** - Terminal-based cryptocurrency portfolio tracker with live prices, charts, and alerts via CoinGecko API
+
 ---
 
 ## What I'm Doing
