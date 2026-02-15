@@ -64,6 +64,18 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 **Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js, PostgreSQL, Redis
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+</p>
+
 ---
 
 ## Connect
