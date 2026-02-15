@@ -66,6 +66,15 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ---
 
+## Certifications
+
+- 🎖️ **Deep Learning Specialization** - Coursera (Andrew Ng)
+- 🎖️ **Machine Learning Engineering** - Google Cloud
+- 🎖️ **AWS Certified Cloud Practitioner** - Amazon Web Services
+- 🎖️ **Blockchain Fundamentals** - UC Berkeley Extension
+
+---
+
 ## Connect
 
 [![Twitter](https://img.shields.io/badge/@ianallowayxyz-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/ianallowayxyz)
