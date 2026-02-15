@@ -44,6 +44,8 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 💰 **[Crypto Portfolio CLI](https://github.com/ianalloway/crypto-portfolio-cli)** - Terminal-based cryptocurrency portfolio tracker with live prices, charts, and alerts via CoinGecko API
 
+📊 **[AI Portfolio Analyzer](https://github.com/ianalloway/ai-portfolio-analyzer)** - AI-powered CLI tool that analyzes investment portfolios, calculates profit/loss, and generates intelligent insights for crypto and stocks
+
 ---
 
 ## What I'm Looking For
