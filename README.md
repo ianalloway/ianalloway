@@ -26,7 +26,7 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ## Current Projects
 
-🚁 **[Drone AI](https://github.com/ianalloway/drone-ai)** - Autonomous vehicle intelligence platform with YOLOv8 vision, A*/RRT* path planning, behavior trees, and MAVLink integration
+🚁 **[Drone AI](https://github.com/ianalloway/ai-drone-auto-vehicle)** - Autonomous vehicle intelligence platform with YOLOv8 vision, A*/RRT* path planning, behavior trees, and MAVLink integration
 
 🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - NBA game prediction model with XGBoost ML and Kelly Criterion value bet detection
 
@@ -51,15 +51,17 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ## Skills
 
-**Languages:** Python, R, SQL, TypeScript, JavaScript
+**Languages:** Python, R, SQL, TypeScript, JavaScript, Solidity
 
-**ML/AI:** TensorFlow, PyTorch, Scikit-learn, Deep Learning, NLP, Computer Vision
+**ML/AI:** TensorFlow, PyTorch, Scikit-learn, XGBoost, Deep Learning, NLP, Computer Vision, YOLOv8
 
-**Data:** Pandas, NumPy, Power BI, Tableau, Statistical Analysis
+**Data:** Pandas, NumPy, Power BI, Tableau, Statistical Analysis, Time Series Forecasting
 
-**Web3:** Ethereum, Smart Contracts, Blockchain Analytics, NFT Technology
+**Web3:** Ethereum, Smart Contracts, Blockchain Analytics, NFT Technology, Web3.js, Ethers.js
 
-**Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js
+**Robotics/Autonomy:** MAVLink, PX4, ArduPilot, Path Planning (A*, RRT*), Sensor Fusion, EKF
+
+**Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js, PostgreSQL, Redis
 
 ---
 
