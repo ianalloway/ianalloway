@@ -30,7 +30,7 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant for sports betting, NFT tracking, and portfolio visualization
 
-🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - AI-powered sports betting analytics with data-driven predictions
+🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - Sports betting platform with ML predictions, Kelly Criterion bet sizing, and value bet detection
 
 🦍 **[Mutant Intelligence](https://mutantintelligence.com)** - Transform your MAYC NFT into a unique AI assistant with traits-based personality
 
