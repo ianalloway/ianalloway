@@ -46,12 +46,13 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ---
 
-## What I'm Doing
+## What I'm Looking For
 
-- 🎓 **Studying AI** - Masters in Artificial Intelligence at University of South Florida
-- 🏢 **Running Alloway LLC** - AI-driven cybersecurity solutions and blockchain analytics
-- 📊 **Building analytics tools** - Sports betting models and NFT market analysis
-- 🤝 **Open source** - Contributing to OpenClaw and publishing AI agent skills on ClawHub
+🎯 **Data Scientist** or **ML Engineer** roles where I can build production ML systems, work with large datasets, and ship AI-powered products. Particularly interested in sports analytics, fintech, or autonomous systems.
+
+📍 **Location:** Florida (remote-friendly)
+
+💼 **Available:** Immediately
 
 ---
 
