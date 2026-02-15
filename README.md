@@ -66,22 +66,6 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ---
 
-## GitHub Activity
-
-<p align="center">
-  <a href="https://github.com/ianalloway">
-    <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ianalloway">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-  </a>
-</p>
-
----
-
 ## Connect
 
 [![Twitter](https://img.shields.io/badge/@ianallowayxyz-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/ianallowayxyz)
