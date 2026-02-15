@@ -1,5 +1,8 @@
 # Hi, I'm Ian 👋
 
+[![Open to Work](https://img.shields.io/badge/Open_to_Work-00D100?style=for-the-badge&logo=linkedin&logoColor=white)](mailto:ian@allowayllc.com)
+[![Hire Me](https://img.shields.io/badge/Hire_Me-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white)](https://ianalloway.xyz)
+
 📍 Florida | 🤖 AI & Data Science | 🎓 MS AI @ USF | 🏈 Sports Analytics
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
