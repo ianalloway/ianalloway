@@ -3,7 +3,7 @@
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-00D100?style=for-the-badge&logo=linkedin&logoColor=white)](mailto:ian@allowayllc.com)
 [![Hire Me](https://img.shields.io/badge/Hire_Me-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white)](https://ianalloway.xyz)
 
-📍 Florida | 🤖 AI & Data Science | 🎓 MS AI @ USF | 🏈 Sports Analytics
+📍 West Virginia (Remote-friendly) | 🤖 ML Engineer & Data Scientist | 🎓 B.S. Data Science @ USF (May 2026) → M.S. AI (Fall 2026)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
@@ -14,47 +14,45 @@
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
 
-Building AI-powered tools at the intersection of sports analytics, blockchain, and machine learning. Currently pursuing my Masters in AI while running Alloway LLC, specializing in data-driven solutions that transform complex datasets into actionable insights.
+I build production ML systems - from XGBoost prediction models deployed on HuggingFace to YOLOv8 computer vision pipelines for autonomous drones. Founder of Alloway LLC, where I've delivered AI analytics solutions that reduced fraud incidents by 30% and improved client operational efficiency by 40%. Active open source contributor to OpenClaw (190K+ stars).
 
 ---
 
 ## Open Source Contributions
 
-🔧 **[OpenClaw](https://github.com/openclaw/openclaw)** - Contributor to the 194k+ star AI agent framework
+🔧 **[OpenClaw](https://github.com/openclaw/openclaw)** - Contributor to the 190K+ star AI agent framework
 
-📦 **[ClawHub Skills](https://clawhub.ai)** - Published AI agent skills: sports-odds, nft-tracker, data-viz, screenshot-annotator
+📦 **[ClawHub Skills](https://clawhub.ai)** - Published 4 AI agent skills: sports-odds, nft-tracker, data-viz, screenshot-annotator
 
-🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant built on OpenClaw for sports betting, NFT tracking, and portfolio visualization
+🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Open-source financial intelligence assistant built on OpenClaw for sports betting, NFT tracking, and portfolio visualization
 
 ---
 
-## Current Projects
+## Projects
 
-🚁 **[Drone AI](https://github.com/ianalloway/ai-drone-auto-vehicle)** - Autonomous vehicle intelligence platform with YOLOv8 vision, A*/RRT* path planning, behavior trees, and MAVLink integration
+🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - Trained XGBoost model on 5 seasons of NBA data. Compares predictions against sportsbook odds to find value bets using Kelly Criterion. Live on HuggingFace.
 
-🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - NBA game prediction model with XGBoost ML and Kelly Criterion value bet detection
+🚁 **[Drone AI](https://github.com/ianalloway/ai-drone-auto-vehicle)** - Autonomous navigation: YOLOv8 obstacle detection, A*/RRT* path planning, behavior trees for mission logic, MAVLink flight controller communication.
 
-🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant for sports betting, NFT tracking, and portfolio visualization
+🎯 **[Job Fit Analyzer](https://clawdbot-setup-app-haw39wkx.devinapps.com)** - Full-stack NLP app (React + FastAPI) that analyzes job descriptions against candidate profiles using semantic similarity.
 
-🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - Sports betting platform with ML predictions, Kelly Criterion bet sizing, and value bet detection
+🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - Production sports betting platform with ML predictions, Kelly Criterion bet sizing, and real-time value bet alerts for NBA games.
 
-🦍 **[Mutant Intelligence](https://mutantintelligence.com)** - Transform your MAYC NFT into a unique AI assistant with traits-based personality
+🦍 **[Mutant Intelligence](https://mutantintelligence.com)** - Web3 app that transforms MAYC NFTs into AI assistants with traits-based personality from on-chain metadata.
 
-🌐 **[Portfolio](https://ianalloway.xyz)** - Matrix-themed portfolio showcasing my work and academic papers
+💰 **[Crypto Portfolio CLI](https://github.com/ianalloway/crypto-portfolio-cli)** - Terminal-based portfolio tracker with live CoinGecko prices, charts, alerts, and Rich terminal visualization.
 
-💰 **[Crypto Portfolio CLI](https://github.com/ianalloway/crypto-portfolio-cli)** - Terminal-based cryptocurrency portfolio tracker with live prices, charts, and alerts via CoinGecko API
+📊 **[AI Portfolio Analyzer](https://github.com/ianalloway/ai-portfolio-analyzer)** - AI-powered CLI for portfolio analysis with profit/loss calculations and diversification recommendations for crypto and stocks.
 
-📊 **[AI Portfolio Analyzer](https://github.com/ianalloway/ai-portfolio-analyzer)** - AI-powered CLI tool that analyzes investment portfolios, calculates profit/loss, and generates intelligent insights for crypto and stocks
-
-🎯 **[Job Fit Analyzer](https://clawdbot-setup-app-haw39wkx.devinapps.com)** - NLP-powered tool that analyzes job descriptions against my profile to show skill matches, strengths, and recommendations
+🌐 **[Portfolio](https://ianalloway.xyz)** - Matrix-themed portfolio site with live Substack RSS integration, academic papers, and project showcase.
 
 ---
 
 ## What I'm Looking For
 
-🎯 **Data Scientist** or **ML Engineer** roles where I can build production ML systems, work with large datasets, and ship AI-powered products. Particularly interested in sports analytics, fintech, or autonomous systems.
+**Data Scientist** or **ML Engineer** roles where I can build production ML systems, work with large datasets, and ship AI-powered products. Particularly interested in sports analytics, fintech, or autonomous systems.
 
-📍 **Location:** Florida (remote-friendly)
+📍 **Location:** West Virginia (remote-friendly)
 
 💼 **Available:** Immediately
 
@@ -62,26 +60,30 @@ Building AI-powered tools at the intersection of sports analytics, blockchain, a
 
 ## Skills
 
-**Languages:** Python, R, SQL, TypeScript, JavaScript, Solidity
+**Languages:** Python, SQL, R, TypeScript, JavaScript, Solidity
 
-**ML/AI:** TensorFlow, PyTorch, Scikit-learn, XGBoost, Deep Learning, NLP, Computer Vision, YOLOv8
+**ML/AI:** TensorFlow, PyTorch, Scikit-learn, XGBoost, YOLOv8, Deep Learning, NLP, Computer Vision
 
-**Data:** Pandas, NumPy, Power BI, Tableau, Statistical Analysis, Time Series Forecasting
+**Data:** Pandas, NumPy, Tableau, Power BI, Statistical Analysis, A/B Testing, Streamlit
 
 **Web3:** Ethereum, Smart Contracts, Blockchain Analytics, NFT Technology, Web3.js, Ethers.js
 
-**Robotics/Autonomy:** MAVLink, PX4, ArduPilot, Path Planning (A*, RRT*), Sensor Fusion, EKF
+**Autonomy:** MAVLink, PX4, ArduPilot, Path Planning (A*, RRT*), Sensor Fusion, EKF
 
-**Tools:** Docker, Git, AWS, React, Tailwind CSS, Node.js, PostgreSQL, Redis
+**Infrastructure:** Docker, AWS, Git, React, FastAPI, PostgreSQL, APIs
 
 ---
 
 ## Certifications
 
-- 🎖️ **Deep Learning Specialization** - Coursera (Andrew Ng)
-- 🎖️ **Machine Learning Engineering** - Google Cloud
-- 🎖️ **AWS Certified Cloud Practitioner** - Amazon Web Services
-- 🎖️ **Blockchain Fundamentals** - UC Berkeley Extension
+- **Deep Learning Specialization** - Coursera (Andrew Ng)
+- **Machine Learning Engineering** - Google Cloud
+- **AWS Certified Cloud Practitioner** - Amazon Web Services
+- **Blockchain Fundamentals** - UC Berkeley Extension
+- **Oracle Database SQL Certified Associate** - Oracle
+- **Tableau Desktop Certified Professional** - Tableau / Salesforce
+- **SQL Specialist Certification** - Microsoft
+- **Microsoft Office Specialist: Excel** - Microsoft
 
 ---
 
@@ -109,11 +111,13 @@ If you find my projects helpful, consider supporting with ETH:
 
 ## Education
 
-🎓 **M.S. Artificial Intelligence** - University of South Florida (2024 - Present)
+🎓 **B.S. Data Science and Analytics** - University of South Florida (Expected May 2026)
 
-🎓 **B.S. Information Science, Data Science and Analytics** - University of South Florida
+🎓 **M.S. Artificial Intelligence** - University of South Florida (Starting Fall 2026)
 
-🎓 **A.S.** - Hillsborough Community College, Tampa
+🎓 **Diploma, Hospitality Management** - Commonwealth University (2020-2022)
+
+🎓 **A.A.** - Hillsborough Community College, Tampa
 
 ---
 
