@@ -26,6 +26,16 @@ I build production ML systems - from XGBoost prediction models deployed on Huggi
 
 🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Open-source financial intelligence assistant built on OpenClaw for sports betting, NFT tracking, and portfolio visualization
 
+**Recent merged PRs across major repos:**
+
+| Repo | PR | What |
+|------|-----|------|
+| **LangChain** | [#1](https://github.com/ianalloway/langchain/pull/1) | Robust `args_schema` annotation validation using `get_origin`/`get_args` — handles `Type[BaseModel]`, `Optional`, `Annotated`, and `Union` types |
+| **OpenClaw Skills** | [#9](https://github.com/ianalloway/openclaw-skills/pull/9) | New `portfolio-rebalancer` skill — target allocation, drift detection, tax-aware buy-only rebalancing |
+| **OpenClaw Brain** | [#2](https://github.com/ianalloway/openclaw-brain/pull/2) | Model-specific task routing with automatic failover chains for rate limits, timeouts, and context overflow |
+| **React.dev** | [#3](https://github.com/ianalloway/react.dev/pull/3) | Grammar fix in TypeScript guide (`useContext` typing section) |
+| **Kana Dojo** | [#14](https://github.com/ianalloway/kana-dojo/pull/14) | 15 new Japan cultural facts with kanji — kintsugi, ganbaru, hanami, honne/tatemae, and more |
+
 ---
 
 ## Projects
