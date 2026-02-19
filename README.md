@@ -55,6 +55,12 @@ Data Scientist and AI Engineer pursuing an MS in Artificial Intelligence at the 
 
 📊 **[AI Portfolio Analyzer](https://github.com/ianalloway/ai-portfolio-analyzer)** - AI-powered CLI for portfolio analysis with profit/loss calculations and diversification recommendations for crypto and stocks.
 
+📈 **[Stock Sentiment Analyzer](https://github.com/ianalloway/stock-sentiment-analyzer)** - AI-powered news sentiment analysis for stocks and crypto using NLP transformers. Streamlit web app with real-time sentiment scoring.
+
+₿ **[Crypto Price Predictor](https://github.com/ianalloway/crypto-price-predictor)** - LSTM neural network for cryptocurrency price prediction with technical indicators and visualization.
+
+💼 **[Job Application Tracker](https://github.com/ianalloway/job-application-tracker)** - Streamlit app to track job applications with analytics dashboard, status tracking, and CSV export.
+
 🌐 **[Portfolio](https://ianalloway.xyz)** - Matrix-themed portfolio site with live Substack RSS integration, academic papers, and project showcase.
 
 ---
@@ -71,11 +77,11 @@ Data Scientist and AI Engineer pursuing an MS in Artificial Intelligence at the 
 
 ## Skills
 
-**AI/Machine Learning:** Python, TensorFlow, PyTorch, Scikit-learn, XGBoost, Deep Learning, NLP, Computer Vision, YOLOv8, Time Series Forecasting
+**AI/Machine Learning:** Python, TensorFlow, PyTorch, Scikit-learn, XGBoost, Deep Learning, NLP, Computer Vision, YOLOv8, Time Series Forecasting, LSTM, Sentiment Analysis
 
-**Data Engineering:** SQL, PostgreSQL, Oracle, Microsoft SQL Server, PL/SQL, Pandas, NumPy, Redis, ETL Pipelines
+**Data Engineering:** SQL, PostgreSQL, Oracle, Microsoft SQL Server, PL/SQL, Pandas, NumPy, Redis, ETL Pipelines, Streamlit
 
-**Visualization & BI:** Tableau (Certified Professional), Power BI, Google Analytics, Statistical Analysis, Dashboard Development
+**Visualization & BI:** Tableau (Certified Professional), Power BI, Google Analytics, Statistical Analysis, Dashboard Development, Plotly
 
 **Cloud & DevOps:** AWS (Certified Practitioner), Docker, Git, APIs, Node.js, React, TypeScript, FastAPI, Tailwind CSS
 
