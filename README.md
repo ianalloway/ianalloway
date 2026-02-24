@@ -23,9 +23,9 @@ Data Scientist and AI Engineer pursuing an MS in Artificial Intelligence at the 
 
 ## Open Source Contributions
 
-🔧 **[OpenClaw](https://github.com/openclaw/openclaw)** - Active contributor to the 194k+ star AI agent framework. Bug fixes, skill system improvements, and published 4 skills to ClawHub: sports-odds, nft-tracker, data-viz, screenshot-annotator
+🔧 **[OpenClaw](https://github.com/openclaw/openclaw)** - Active contributor to the 194k+ star AI agent framework. Bug fixes, skill system improvements, and published 9+ skills to ClawHub: sports-odds, nft-tracker, data-viz, screenshot-annotator, kelly-criterion, portfolio-rebalancer, market-sentiment, streak-tracker, devin-integration
 
-📦 **[ClawHub Skills](https://clawhub.ai)** - Published 4 AI agent skills to the marketplace
+📦 **[ClawHub Skills](https://clawhub.ai)** - Published 9+ AI agent skills to the marketplace
 
 🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant built on OpenClaw for sports odds analysis, NFT price tracking, and portfolio visualization
 
@@ -35,6 +35,8 @@ Data Scientist and AI Engineer pursuing an MS in Artificial Intelligence at the 
 |------|-----|------|
 | **LangChain** | [#1](https://github.com/ianalloway/langchain/pull/1) | Robust `args_schema` annotation validation using `get_origin`/`get_args` — handles `Type[BaseModel]`, `Optional`, `Annotated`, and `Union` types |
 | **OpenClaw Skills** | [#9](https://github.com/ianalloway/openclaw-skills/pull/9) | New `portfolio-rebalancer` skill — target allocation, drift detection, tax-aware buy-only rebalancing |
+| **OpenClaw Skills** | #10 | New `market-sentiment` skill — Fear & Greed, Reddit mention counter, headline scorer, VIX regime classifier, composite signal |
+| **OpenClaw Skills** | #11 | New `streak-tracker` skill — SU/ATS streak analysis, regression detector, home/away splits, B2B fatigue filter |
 | **OpenClaw Brain** | [#2](https://github.com/ianalloway/openclaw-brain/pull/2) | Model-specific task routing with automatic failover chains for rate limits, timeouts, and context overflow |
 | **React.dev** | [#3](https://github.com/ianalloway/react.dev/pull/3) | Grammar fix in TypeScript guide (`useContext` typing section) |
 | **Kana Dojo** | [#14](https://github.com/ianalloway/kana-dojo/pull/14) | 15 new Japan cultural facts with kanji — kintsugi, ganbaru, hanami, honne/tatemae, and more |
@@ -43,7 +45,7 @@ Data Scientist and AI Engineer pursuing an MS in Artificial Intelligence at the 
 
 ## Projects
 
-🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - Sports betting platform with integrated XGBoost ML predictions, Kelly Criterion bet sizing, and value bet detection for NBA games. Model achieved 68% prediction accuracy.
+🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - Sports betting platform with integrated XGBoost ML predictions, Kelly Criterion bet sizing, value bet detection, and a Daily Picks page. Supports NBA, NFL, and MLB. Model achieved 68% prediction accuracy.
 
 🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - NBA game prediction model deployed on HuggingFace. XGBoost classifier with feature engineering on player stats, team metrics, and historical matchups.
 
