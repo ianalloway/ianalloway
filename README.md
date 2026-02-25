@@ -1,141 +1,199 @@
-# Hi, I'm Ian 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff41,100:0d1117&height=220&section=header&text=Ian%20Alloway&fontSize=72&fontColor=00ff41&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Data%20Scientist%20%E2%80%A2%20Builder&descSize=18&descColor=7dbd8e&descAlignY=58&animation=fadeIn" width="100%" />
+
+<div align="center">
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-00D100?style=for-the-badge&logo=linkedin&logoColor=white)](mailto:ian@allowayllc.com)
 [![Hire Me](https://img.shields.io/badge/Hire_Me-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white)](https://ianalloway.xyz)
+[![Download Resume](https://img.shields.io/badge/Resume_(PDF)-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
 
-📍 Fairmont, WV (Remote-friendly) | 🤖 AI/ML Engineer | Data Scientist | Business Intelligence Specialist | 🎓 B.S. Data Science @ USF (Dec 2025) → M.S. AI @ USF (Dec 2027)
+</div>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+<div align="center">
+<a href="https://x.com/ianallowayxyz"><img src="https://img.shields.io/badge/@ianallowayxyz-000000?style=flat-square&logo=x&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/ianit"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="https://allowayai.substack.com"><img src="https://img.shields.io/badge/Substack-FF6719?style=flat-square&logo=substack&logoColor=white" /></a>
+<a href="https://ianalloway.xyz"><img src="https://img.shields.io/badge/ianalloway.xyz-00ff41?style=flat-square&logo=google-chrome&logoColor=black" /></a>
+<a href="mailto:ian@allowayllc.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=ianalloway&color=00ff41&style=flat-square&label=visitors" />
+</div>
 
-Data Scientist and AI Engineer pursuing an MS in Artificial Intelligence at the University of South Florida. Builds production ML systems, blockchain analytics pipelines, and AI-powered products. Open-source contributor to OpenClaw (194k+ stars). Founder of Alloway LLC, delivering data-driven solutions across sports analytics, fintech, and cybersecurity. Proven track record of reducing fraud incidents by 30% through AI-based anomaly detection and improving client operational efficiency by 40%.
+<br>
 
-[![Download Resume (PDF)](https://img.shields.io/badge/Download-Resume%20(PDF)-blue?style=for-the-badge&logo=adobe-acrobat-reader)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
-[![Download Resume (DOCX)](https://img.shields.io/badge/Download-Resume%20(DOCX)-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.docx)
+```
+                ╔══════════════════════════════════════════════════════════════╗
+                ║                                                              ║
+                ║   $ whoami                                                   ║
+                ║   > AI/ML Engineer. Data Scientist. Open-source builder.     ║
+                ║   > B.S. Data Science @ USF → M.S. AI @ USF (2027)          ║
+                ║   > Fairmont, WV — remote-first, ships daily                ║
+                ║                                                              ║
+                ║   $ cat /etc/mission                                         ║
+                ║   > Build production ML systems that find real edges.        ║
+                ║   > Sports analytics, fintech, autonomous systems, Web3.    ║
+                ║   > Founder @ Alloway LLC | OpenClaw contributor (194k★)    ║
+                ║                                                              ║
+                ╚══════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+
+**AI / ML**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logo=xgboost&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+**Web & Cloud**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)
+
+**Blockchain**
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
+
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=7dbd8e&count_private=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=7dbd8e&langs_count=8" />
+</div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ianalloway&theme=radical&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=ff0090&currStreakLabel=00ff41&sideLabels=7dbd8e&currStreakNum=00ff41&dates=4a7a56" />
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&bg_color=0d1117&color=00ff41&line=00ff41&point=ff0090&area=true&area_color=00ff41&hide_border=true" width="95%" />
+</div>
+
+---
+
+## Featured Projects
+
+<div align="center">
+
+| | Project | Stack | What It Does |
+|:---:|---------|-------|-------------|
+| 🏈 | **[AI Advantage Sports](https://aiadvantagesports.com)** | React, XGBoost, FastAPI, Stripe | Sports betting platform with ML predictions, Kelly Criterion sizing, Daily Picks, live odds ticker. **68% model accuracy.** |
+| 📐 | **[kelly-js](https://github.com/ianalloway/kelly-js)** | TypeScript, Zero Deps | Kelly Criterion library: bet sizing, CLV tracking, bankroll stats, odds conversion. npm-ready. |
+| 🏀 | **[nba-edge](https://github.com/ianalloway/nba-edge)** | Python, CLI | NBA edge finder: power ratings, sigmoid win model, spread + ML edges, half-Kelly portfolio sizing. |
+| 🎨 | **[openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon)** | CSS, JavaScript | Cyberpunk theme for OpenClaw: matrix rain canvas, neon glows, 4 color variants. |
+| 🚁 | **[Drone AI](https://github.com/ianalloway/ai-drone-auto-vehicle)** | Python, YOLOv8, MAVLink | Autonomous navigation: object detection, A*/RRT* path planning, behavior trees. |
+| 🦍 | **[Mutant Intelligence](https://mutantintelligence.com)** | React, Ethers.js, Solidity | Web3 app transforming MAYC NFTs into AI assistants with traits-based personality. |
+| 💰 | **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** | Python, OpenClaw, React | Financial AI assistant: sports odds, NFT tracking, portfolio visualization. |
+| 🏀 | **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** | XGBoost, Streamlit, HF | NBA prediction model on HuggingFace. Feature eng on player stats + team metrics. |
+| 📊 | **[awesome-sports-betting](https://github.com/ianalloway/awesome-sports-betting)** | Markdown | Curated list of 100+ sports betting tools, APIs, datasets, models, and books. |
+
+</div>
 
 ---
 
 ## Open Source Contributions
 
-🔧 **[OpenClaw](https://github.com/openclaw/openclaw)** - Active contributor to the 194k+ star AI agent framework. Bug fixes, skill system improvements, and published 9+ skills to ClawHub: sports-odds, nft-tracker, data-viz, screenshot-annotator, kelly-criterion, portfolio-rebalancer, market-sentiment, streak-tracker, devin-integration
+Active contributor to **[OpenClaw](https://github.com/openclaw/openclaw)** (194k+ stars) — published **9+ skills** to ClawHub:
 
-📦 **[ClawHub Skills](https://clawhub.ai)** - Published 9+ AI agent skills to the marketplace
+`sports-odds` `nft-tracker` `data-viz` `screenshot-annotator` `kelly-criterion` `portfolio-rebalancer` `market-sentiment` `streak-tracker` `devin-integration`
 
-🤖 **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** - Financial intelligence assistant built on OpenClaw for sports odds analysis, NFT price tracking, and portfolio visualization
-
-**Recent merged PRs across major repos:**
+<details>
+<summary><strong>Recent merged PRs across major repos</strong></summary>
 
 | Repo | PR | What |
 |------|-----|------|
-| **LangChain** | [#1](https://github.com/ianalloway/langchain/pull/1) | Robust `args_schema` annotation validation using `get_origin`/`get_args` — handles `Type[BaseModel]`, `Optional`, `Annotated`, and `Union` types |
-| **OpenClaw Skills** | [#9](https://github.com/ianalloway/openclaw-skills/pull/9) | New `portfolio-rebalancer` skill — target allocation, drift detection, tax-aware buy-only rebalancing |
-| **OpenClaw Skills** | #10 | New `market-sentiment` skill — Fear & Greed, Reddit mention counter, headline scorer, VIX regime classifier, composite signal |
-| **OpenClaw Skills** | #11 | New `streak-tracker` skill — SU/ATS streak analysis, regression detector, home/away splits, B2B fatigue filter |
-| **OpenClaw Brain** | [#2](https://github.com/ianalloway/openclaw-brain/pull/2) | Model-specific task routing with automatic failover chains for rate limits, timeouts, and context overflow |
-| **React.dev** | [#3](https://github.com/ianalloway/react.dev/pull/3) | Grammar fix in TypeScript guide (`useContext` typing section) |
-| **Kana Dojo** | [#14](https://github.com/ianalloway/kana-dojo/pull/14) | 15 new Japan cultural facts with kanji — kintsugi, ganbaru, hanami, honne/tatemae, and more |
+| **LangChain** | [#1](https://github.com/ianalloway/langchain/pull/1) | Robust `args_schema` annotation validation — handles `Type[BaseModel]`, `Optional`, `Annotated`, `Union` |
+| **OpenClaw Skills** | [#9](https://github.com/ianalloway/openclaw-skills/pull/9) | `portfolio-rebalancer` skill — target allocation, drift detection, tax-aware rebalancing |
+| **OpenClaw Skills** | #10 | `market-sentiment` skill — Fear & Greed, Reddit mentions, VIX classifier, composite signal |
+| **OpenClaw Skills** | #11 | `streak-tracker` skill — SU/ATS streaks, regression detection, B2B fatigue filter |
+| **OpenClaw Brain** | [#2](https://github.com/ianalloway/openclaw-brain/pull/2) | Model-specific task routing with automatic failover chains |
+| **React.dev** | [#3](https://github.com/ianalloway/react.dev/pull/3) | Grammar fix in TypeScript guide |
+| **Kana Dojo** | [#14](https://github.com/ianalloway/kana-dojo/pull/14) | 15 new Japan cultural facts with kanji |
 
----
-
-## Projects
-
-🏈 **[AI Advantage Sports](https://aiadvantagesports.com)** - Sports betting platform with integrated XGBoost ML predictions, Kelly Criterion bet sizing, value bet detection, and a Daily Picks page. Supports NBA, NFL, and MLB. Model achieved 68% prediction accuracy.
-
-🏀 **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** - NBA game prediction model deployed on HuggingFace. XGBoost classifier with feature engineering on player stats, team metrics, and historical matchups.
-
-🚁 **[Drone AI](https://github.com/ianalloway/ai-drone-auto-vehicle)** - Autonomous vehicle intelligence platform with YOLOv8 computer vision, A*/RRT* path planning, behavior trees, and MAVLink drone integration.
-
-🦍 **[Mutant Intelligence](https://mutantintelligence.com)** - Web3 application transforming Mutant Ape Yacht Club NFTs into AI assistants with traits-based personality.
-
-💰 **[Crypto Portfolio CLI](https://github.com/ianalloway/crypto-portfolio-cli)** - Terminal-based portfolio tracker with live CoinGecko prices, charts, alerts, and Rich terminal visualization.
-
-📊 **[AI Portfolio Analyzer](https://github.com/ianalloway/ai-portfolio-analyzer)** - AI-powered CLI for portfolio analysis with profit/loss calculations and diversification recommendations for crypto and stocks.
-
-📈 **[Stock Sentiment Analyzer](https://github.com/ianalloway/stock-sentiment-analyzer)** - AI-powered news sentiment analysis for stocks and crypto using NLP transformers. Streamlit web app with real-time sentiment scoring.
-
-₿ **[Crypto Price Predictor](https://github.com/ianalloway/crypto-price-predictor)** - LSTM neural network for cryptocurrency price prediction with technical indicators and visualization.
-
-💼 **[Job Application Tracker](https://github.com/ianalloway/job-application-tracker)** - Streamlit app to track job applications with analytics dashboard, status tracking, and CSV export.
-
-🌐 **[Portfolio](https://ianalloway.xyz)** - Matrix-themed portfolio site with live Substack RSS integration, academic papers, and project showcase.
-
----
-
-## What I'm Looking For
-
-**Data Scientist**, **ML Engineer**, or **AI Engineer** roles where I can build production ML systems, work with large datasets, and ship AI-powered products. Particularly interested in sports analytics, fintech, cybersecurity, or autonomous systems.
-
-📍 **Location:** Fairmont, WV (remote-friendly)
-
-💼 **Available:** Immediately
-
----
-
-## Skills
-
-**AI/Machine Learning:** Python, TensorFlow, PyTorch, Scikit-learn, XGBoost, Deep Learning, NLP, Computer Vision, YOLOv8, Time Series Forecasting, LSTM, Sentiment Analysis
-
-**Data Engineering:** SQL, PostgreSQL, Oracle, Microsoft SQL Server, PL/SQL, Pandas, NumPy, Redis, ETL Pipelines, Streamlit
-
-**Visualization & BI:** Tableau (Certified Professional), Power BI, Google Analytics, Statistical Analysis, Dashboard Development, Plotly
-
-**Cloud & DevOps:** AWS (Certified Practitioner), Docker, Git, APIs, Node.js, React, TypeScript, FastAPI, Tailwind CSS
-
-**Blockchain:** Ethereum, Solana, Polkadot, Smart Contracts, Solidity, Web3.js, Ethers.js, NFT Technology
-
-**Autonomy:** MAVLink, PX4, ArduPilot, Path Planning (A*, RRT*), Sensor Fusion, EKF
+</details>
 
 ---
 
 ## Certifications
 
-- **Deep Learning Specialization** - Coursera (Andrew Ng)
-- **Machine Learning Engineering** - Google Cloud
-- **AWS Certified Cloud Practitioner** - Amazon Web Services
-- **Blockchain Fundamentals** - UC Berkeley Extension
-- **Tableau Desktop Certified Professional** - Tableau / Salesforce
-- **Oracle Database SQL Certified Associate** - Oracle
+<div align="center">
 
----
+![Deep Learning](https://img.shields.io/badge/Deep_Learning_Specialization-Coursera_(Andrew_Ng)-0056D2?style=flat-square&logo=coursera&logoColor=white)
+![ML Engineering](https://img.shields.io/badge/ML_Engineering-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![AWS CCP](https://img.shields.io/badge/Cloud_Practitioner-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Blockchain](https://img.shields.io/badge/Blockchain_Fundamentals-UC_Berkeley-003262?style=flat-square&logo=bitcoin&logoColor=white)
+![Tableau](https://img.shields.io/badge/Desktop_Certified_Professional-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Oracle](https://img.shields.io/badge/SQL_Certified_Associate-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-## Connect
-
-[![Twitter](https://img.shields.io/badge/@ianallowayxyz-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/ianallowayxyz)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ianit)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=flat&logo=substack&logoColor=white)](https://allowayai.substack.com)
-[![Portfolio](https://img.shields.io/badge/ianalloway.xyz-00D100?style=flat&logo=google-chrome&logoColor=white)](https://ianalloway.xyz)
-[![Email](https://img.shields.io/badge/ian@allowayllc.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ian@allowayllc.com)
-
----
-
-## Support My Work
-
-If you find my projects helpful, consider supporting with ETH:
-
-```
-0x6f278ce76ba5ed31fd9be646d074863e126836e9
-```
-
-[![Ethereum](https://img.shields.io/badge/Donate_ETH-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://etherscan.io/address/0x6f278ce76ba5ed31fd9be646d074863e126836e9)
+</div>
 
 ---
 
 ## Education
 
-🎓 **M.S. Artificial Intelligence (MSAI)** - University of South Florida (Expected Dec 2027)
-
-🎓 **B.S. Data Science and Analytics** - University of South Florida (Expected Dec 2025)
-
-🎓 **Diploma, Hospitality Management** - Commonwealth University (June 2022)
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  🎓 M.S. Artificial Intelligence        University of South Florida│
+│     Expected Dec 2027                    Tampa, FL                  │
+│                                                                     │
+│  🎓 B.S. Data Science and Analytics     University of South Florida│
+│     Expected Dec 2025                    Tampa, FL                  │
+│                                                                     │
+│  📜 Diploma, Hospitality Management     Commonwealth University    │
+│     June 2022                            Bloomsburg, PA             │
+└─────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-*"Ship beats perfect" - Building tools to solve real problems, then sharing them with the world.*
+## What I'm Looking For
 
-![Profile Views](https://komarev.com/ghpvc/?username=ianalloway&color=brightgreen&style=flat-square)
+> **Data Scientist**, **ML Engineer**, or **AI Engineer** roles building production ML systems at scale.
+>
+> Interested in: sports analytics, fintech, cybersecurity, autonomous systems.
+>
+> 📍 Fairmont, WV (remote-first) &nbsp;|&nbsp; 💼 Available immediately
+
+---
+
+## Support My Work
+
+<div align="center">
+
+If my projects have been useful, consider supporting:
+
+```
+ETH: 0x6f278ce76ba5ed31fd9be646d074863e126836e9
+```
+
+[![Ethereum](https://img.shields.io/badge/Donate_ETH-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://etherscan.io/address/0x6f278ce76ba5ed31fd9be646d074863e126836e9)
+
+</div>
+
+---
+
+<div align="center">
+<em>"Ship beats perfect." — Building tools to find real edges, then sharing them with the world.</em>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff41,100:0d1117&height=100&section=footer" width="100%" />
