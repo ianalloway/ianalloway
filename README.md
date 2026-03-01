@@ -1,3 +1,5 @@
+# Improved GitHub Profile README for Ian Alloway
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff41,100:0d1117&height=220&section=header&text=Ian%20Alloway&fontSize=72&fontColor=00ff41&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Data%20Scientist%20%E2%80%A2%20Builder&descSize=18&descColor=7dbd8e&descAlignY=58&animation=fadeIn" width="100%" />
 
 <div align="center">
@@ -5,6 +7,7 @@
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-00D100?style=for-the-badge&logo=linkedin&logoColor=white)](mailto:ian@allowayllc.com)
 [![Hire Me](https://img.shields.io/badge/Hire_Me-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white)](https://ianalloway.xyz)
 [![Download Resume](https://img.shields.io/badge/Resume_(PDF)-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
+[![View Photo Zine](https://img.shields.io/badge/Photo_Zine-907CF3?style=for-the-badge&logo=ghost&logoColor=white)](https://ianalloway.com)
 
 </div>
 
@@ -24,7 +27,7 @@
                 ║                                                              ║
                 ║   $ whoami                                                   ║
                 ║   > AI/ML Engineer. Data Scientist. Open-source builder.     ║
-                ║   > B.S. Data Science @ USF → M.S. AI @ USF (2027)          ║
+                ║   > B.S. Data Science @ USF (2025) → M.S. AI @ USF (2027)      ║
                 ║   > Fairmont, WV — remote-first, ships daily                ║
                 ║                                                              ║
                 ║   $ cat /etc/mission                                         ║
@@ -157,7 +160,7 @@ Active contributor to **[OpenClaw](https://github.com/openclaw/openclaw)** (194k
 │     Expected Dec 2027                    Tampa, FL                  │
 │                                                                     │
 │  🎓 B.S. Data Science and Analytics     University of South Florida│
-│     Expected Dec 2025                    Tampa, FL                  │
+│     Dec 2025                             Tampa, FL                  │
 │                                                                     │
 │  📜 Diploma, Hospitality Management     Commonwealth University    │
 │     June 2022                            Bloomsburg, PA             │
@@ -182,10 +185,7 @@ Active contributor to **[OpenClaw](https://github.com/openclaw/openclaw)** (194k
 
 If my projects have been useful, consider supporting:
 
-```
-ETH: 0x6f278ce76ba5ed31fd9be646d074863e126836e9
-```
-
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/ianalloway)
 [![Ethereum](https://img.shields.io/badge/Donate_ETH-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://etherscan.io/address/0x6f278ce76ba5ed31fd9be646d074863e126836e9)
 
 </div>
