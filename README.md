@@ -109,6 +109,7 @@
 | 💰 | **[Money Maker Bot](https://github.com/ianalloway/Money-maker-bot)** | Python, OpenClaw, React | Financial AI assistant: sports odds, NFT tracking, portfolio visualization. |
 | 🏀 | **[Sports Betting ML](https://huggingface.co/spaces/ianalloway/sports-betting-ml)** | XGBoost, Streamlit, HF | NBA prediction model on HuggingFace. Feature eng on player stats + team metrics. |
 | 📊 | **[awesome-sports-betting](https://github.com/ianalloway/awesome-sports-betting)** | Markdown | Curated list of 100+ sports betting tools, APIs, datasets, models, and books. |
+| 👁️ | **[TF Object Detector](https://github.com/ianalloway/tf-object-detection)** | TensorFlow.js, React, TypeScript | Real-time webcam object detection in the browser. COCO-SSD identifies 80+ classes with bounding boxes and confidence scores — zero server-side processing. |
 
 </div>
 
