@@ -79,17 +79,17 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=7dbd8e&count_private=true&include_all_commits=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=7dbd8e&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=7dbd8e&count_private=true&include_all_commits=true&cache_seconds=86400" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=7dbd8e&langs_count=8&cache_seconds=86400" />
 
 </div>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=ianalloway&theme=radical&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=ff0090&currStreakLabel=00ff41&sideLabels=7dbd8e&currStreakNum=00ff41&dates=4a7a56" />
+<img src="https://streak-stats.demolab.com?user=ianalloway&theme=radical&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=ff0090&currStreakLabel=00ff41&sideLabels=7dbd8e&currStreakNum=00ff41&dates=4a7a56&card_width=500" />
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&bg_color=0d1117&color=00ff41&line=00ff41&point=ff0090&area=true&area_color=00ff41&hide_border=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&bg_color=0d1117&color=00ff41&line=00ff41&point=ff0090&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
 </div>
 
 ---
