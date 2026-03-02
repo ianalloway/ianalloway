@@ -89,7 +89,7 @@
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&bg_color=0d1117&color=00ff41&line=00ff41&point=ff0090&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
+<img src="https://github-profile-trophy.vercel.app/?username=ianalloway&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" />
 </div>
 
 ---
