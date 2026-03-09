@@ -1,0 +1,38 @@
+Package: StatLens
+Type: Package
+Title: Tools for Exploratory Statistical Analysis and Visualization
+Version: 0.1.0
+Date: 2026-03-09
+Authors@R: person(
+    "Ian", "Alloway",
+    email = "ian@example.com",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0000-0000-0000")
+  )
+Description: StatLens provides a focused toolkit for exploratory data analysis
+    (EDA) in R. It includes functions for descriptive statistics, outlier
+    detection, missing-data profiling, correlation analysis, and distribution
+    visualization. The package implements both S3 and S4 object systems to
+    represent analysis results in a structured and extensible way, making it
+    easy to integrate into reproducible research workflows.
+License: MIT + file LICENSE
+URL: https://github.com/ianalloway/ianalloway
+BugReports: https://github.com/ianalloway/ianalloway/issues
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+Imports:
+    stats,
+    graphics,
+    grDevices,
+    methods,
+    utils
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    ggplot2
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3

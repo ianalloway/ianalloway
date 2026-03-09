@@ -1,0 +1,239 @@
+---
+title: "Introduction to StatLens"
+author: "Ian Alloway"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to StatLens}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment  = "#>",
+  fig.width  = 7,
+  fig.height = 4
+)
+library(StatLens)
+```
+
+## Overview
+
+**StatLens** is an R package that provides a focused, cohesive toolkit for
+*exploratory data analysis* (EDA).  Rather than reimplementing general-purpose
+statistics, StatLens offers carefully designed wrappers and visualisations that
+help analysts quickly understand the structure and quality of a dataset.
+
+The package is organised around two complementary object systems:
+
+| System | Classes | Use case |
+|--------|---------|----------|
+| **S3** | `statlens_describe`, `statlens_outliers`, `statlens_missing`, `statlens_cor` | Lightweight result containers per function |
+| **S4** | `DataProfile` | A validated, all-in-one profile of a full data frame |
+
+---
+
+## 1. Descriptive Statistics with `describe()`
+
+`describe()` is a generic function that dispatches on the class of its input.
+
+### 1a. Numeric vector
+
+```{r describe-numeric}
+x <- c(2.1, 3.4, 2.9, 5.0, 4.2, NA, 15.0, 1.8)
+d <- describe(x)
+print(d)
+```
+
+The returned object contains mean, sd, quartiles, IQR, skewness and kurtosis.
+Use `summary()` to extract a tidy data frame:
+
+```{r describe-summary}
+summary(d)
+```
+
+### 1b. Data frame
+
+When called on a data frame, `describe()` processes every numeric column:
+
+```{r describe-df}
+d_cars <- describe(mtcars)
+print(d_cars)
+```
+
+The `plot()` method gives a quick bar chart of column means:
+
+```{r describe-plot, fig.cap="Column means from describe(mtcars)"}
+plot(d_cars, main = "mtcars — Column Means")
+```
+
+---
+
+## 2. Outlier Detection with `detect_outliers()`
+
+StatLens supports three detection strategies:
+
+* **`"iqr"`** — Tukey's 1.5 × IQR fence (default)
+* **`"zscore"`** — absolute Z-score threshold
+* **`"both"`** — union of the above two
+
+```{r outliers}
+set.seed(42)
+y <- c(rnorm(80, mean = 50, sd = 5), 85, 15, 90)
+
+out <- detect_outliers(y, method = "iqr")
+print(out)
+```
+
+```{r outliers-plot, fig.cap="Outliers highlighted in red"}
+plot(out, main = "IQR Outlier Detection")
+```
+
+Using the Z-score method with a tighter threshold:
+
+```{r outliers-z}
+out_z <- detect_outliers(y, method = "zscore", z_threshold = 2.5)
+print(out_z)
+```
+
+---
+
+## 3. Missing Data Analysis with `missing_summary()`
+
+```{r missing}
+df_miss <- data.frame(
+  age    = c(25, NA, 30, NA, 45, 22, NA, NA),
+  income = c(50000, 62000, NA, 48000, 71000, NA, 55000, 60000),
+  score  = c(88, 92, 75, NA, 81, 79, 95, NA),
+  city   = c("A", "B", "A", "C", "B", NA, "A", "C")
+)
+
+ms <- missing_summary(df_miss, threshold = 0.20)
+print(ms)
+```
+
+```{r missing-plot, fig.cap="Missing data by column (red bars exceed threshold)"}
+plot(ms, main = "Missing Data Profile")
+```
+
+---
+
+## 4. Correlation Analysis with `correlation_heatmap()`
+
+```{r corr, fig.cap="Pearson correlation heatmap for mtcars"}
+cm <- correlation_heatmap(mtcars[, 1:7])
+```
+
+Spearman correlations can be requested with `method = "spearman"`:
+
+```{r corr-spearman, fig.cap="Spearman correlation heatmap"}
+cm_s <- correlation_heatmap(mtcars[, 1:7], method = "spearman")
+```
+
+---
+
+## 5. Moment Statistics: `skewness()` and `kurtosis()`
+
+These functions implement the bias-corrected formulae used by common
+statistical software:
+
+```{r moments}
+set.seed(7)
+normal_data <- rnorm(500)
+skewed_data <- rexp(500, rate = 0.5)
+
+cat("Normal data  — skewness:", round(skewness(normal_data), 3),
+    " kurtosis:", round(kurtosis(normal_data), 3), "\n")
+cat("Skewed data  — skewness:", round(skewness(skewed_data), 3),
+    " kurtosis:", round(kurtosis(skewed_data), 3), "\n")
+```
+
+---
+
+## 6. Normalisation with `normalize()`
+
+Four scaling strategies are available:
+
+```{r normalize}
+v <- c(10, 20, 30, 40, 50)
+normalize(v, "minmax")   # [0, 1]
+normalize(v, "zscore")   # zero mean, unit variance
+normalize(v, "robust")   # median / IQR
+normalize(v, "log")      # log(v + 1)
+```
+
+`normalize()` also works on entire data frames, scaling every numeric column
+while leaving non-numeric columns unchanged:
+
+```{r normalize-df}
+cars_z <- normalize(mtcars, "zscore")
+round(colMeans(cars_z), 6)  # all effectively 0
+```
+
+The scale parameters used are stored as an attribute for traceability:
+
+```{r normalize-params}
+str(attr(cars_z, "scale_params")[1:3])
+```
+
+---
+
+## 7. Full Data Profiles with `profile_data()` (S4)
+
+The `profile_data()` function constructs a `DataProfile` S4 object that bundles
+everything above into a single, validated data structure.
+
+```{r profile}
+dp <- profile_data(iris, name = "Anderson's Iris Dataset")
+show(dp)
+```
+
+### Detailed statistics table
+
+```{r profile-summary}
+profile_summary(dp)
+```
+
+### Diagnostic plots
+
+```{r profile-plots, fig.cap="Column means from the DataProfile"}
+profile_plot(dp, which = "means")
+```
+
+```{r profile-missing, fig.cap="Missing data rates"}
+profile_plot(dp, which = "missing")
+```
+
+```{r profile-outliers, fig.cap="Outlier counts per column"}
+profile_plot(dp, which = "outliers")
+```
+
+---
+
+## 8. Design Principles
+
+### S3 vs S4
+
+StatLens deliberately uses **both** class systems:
+
+* **S3** is used for per-function result objects (`statlens_describe` etc.)
+  because it is lightweight, familiar, and easily extended without boilerplate.
+* **S4** is used for `DataProfile` because the multi-slot structure benefits
+  from formal validation (`validObject()`), explicit slot documentation, and
+  the cleaner `setGeneric`/`setMethod` dispatch model.
+
+### No heavy dependencies
+
+StatLens imports only base and recommended packages (`stats`, `graphics`,
+`grDevices`, `methods`, `utils`).  This keeps installation friction minimal
+and makes the package suitable for use in restricted computing environments.
+
+---
+
+## Session Info
+
+```{r session}
+sessionInfo()
+```
