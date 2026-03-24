@@ -81,6 +81,16 @@ Built a financial intelligence assistant on top of OpenClaw (194k+ star AI agent
 
 ---
 
+### 💾 **macOS Disk Cleanup** — *Selective cache reclamation CLI*
+**Bash | Documented algorithm | `--dry-run` | ShellCheck CI**
+
+Open-source macOS utility that reclaims disk space by removing only **regenerable** data: Homebrew/npm/pip caches, Go build + module caches, Chrome profile caches (not passwords or bookmarks), downloaded aerial wallpapers, optional Docker prune and Xcode DerivedData. The **full algorithm** (invariants + phases P1–P11) lives in the script header for auditability.
+
+**Stack:** Bash | GitHub Actions (ShellCheck) | MIT  
+**[Repository](https://github.com/ianalloway/macos-disk-cleanup)**
+
+---
+
 ### ⚰️ **Deathcon API** — *AI Wrapper + Webhook Handler*
 **Production API | Railway Deployed | Built by Deathconbot**
 
@@ -140,7 +150,7 @@ Published a zero-dependency TypeScript library for Kelly Criterion calculations.
 
 | Metric | Value | What It Means |
 |--------|-------|---------------|
-| **Production Projects** | 8+ | Shipped, live, generating value |
+| **Production Projects** | 9+ | Shipped, live, generating value |
 | **Open Source Contributions** | 194k+ stars | OpenClaw ecosystem + merged PRs |
 | **Skills Published** | 9+ | ClawHub marketplace (others use them) |
 | **Model Accuracy** | 68% | AI Advantage Sports (beats Vegas) |
