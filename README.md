@@ -91,6 +91,15 @@ Open-source macOS utility that reclaims disk space by removing only **regenerabl
 
 ---
 
+### 🧰 **2026 OSS toolkit** — *Agents, MLOps, sports, fraud, RAG*
+**MIT-licensed repos · README + CI on each**
+
+Shipped a **cohesive public portfolio**: Mac bootstrap (**[dev-setup-macos](https://github.com/ianalloway/dev-setup-macos)**), model/data **cards** from JSON (**[model-cardgen](https://github.com/ianalloway/model-cardgen)**), **line shopping** CSV + Kelly (**[line-shop-cli](https://github.com/ianalloway/line-shop-cli)**), **Elo / Kelly** primitives (**[nba-ratings](https://github.com/ianalloway/nba-ratings)**), **agent trace** replay (**[agent-trace-kit](https://github.com/ianalloway/agent-trace-kit)**), **NBA eval** dashboard (**[nba-clv-dashboard](https://github.com/ianalloway/nba-clv-dashboard)**), **fraud** benchmark harness (**[fraud-anomaly-bench](https://github.com/ianalloway/fraud-anomaly-bench)**), **Substack RAG** local (**[substack-rag-local](https://github.com/ianalloway/substack-rag-local)**).
+
+**Stack:** Python · Bash · FastAPI · GitHub Actions · scikit-learn · Streamlit
+
+---
+
 ### ⚰️ **Deathcon API** — *AI Wrapper + Webhook Handler*
 **Production API | Railway Deployed | Built by Deathconbot**
 
@@ -150,7 +159,7 @@ Published a zero-dependency TypeScript library for Kelly Criterion calculations.
 
 | Metric | Value | What It Means |
 |--------|-------|---------------|
-| **Production Projects** | 9+ | Shipped, live, generating value |
+| **Production Projects** | 17+ | Shipped OSS + live products |
 | **Open Source Contributions** | 194k+ stars | OpenClaw ecosystem + merged PRs |
 | **Skills Published** | 9+ | ClawHub marketplace (others use them) |
 | **Model Accuracy** | 68% | AI Advantage Sports (beats Vegas) |
