@@ -1,16 +1,13 @@
 # Ian Alloway
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=280&section=header&text=IAN%20ALLOWAY&fontSize=90&fontColor=00d9ff&fontAlignY=30&desc=ML%20ENGINEER%20%E2%80%A2%20EDGE%20FINDER%20%E2%80%A2%20BUILDER&descSize=22&descColor=16c784&descAlignY=60&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=220&section=header&text=IAN%20ALLOWAY&fontSize=88&fontColor=00d9ff&fontAlignY=32&desc=ML%20%C2%B7%20SPORTS%20ANALYTICS%20%C2%B7%20OPEN%20SOURCE&descSize=20&descColor=16c784&descAlignY=58&animation=fadeIn" width="100%" />
 
 <div align="center">
 
-### 🎯 **Sports ML — Calibration-First, Production Python**
-
-*Flagship open stack: eval dashboard + Elo/Kelly primitives (PyPI) + line-shopping CLI. I still ship agents, vision, and full-stack ML — but above the fold is honest sports model evaluation.*
-
----
+**ML engineer · Sports analytics & calibration-first evaluation · Production Python**
 
 [![📄 Case study](https://img.shields.io/badge/📄_CASE_STUDY-16c784?style=for-the-badge&labelColor=0a0e27)](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)
+[![🧰 Toolkit](https://img.shields.io/badge/🧰_PUBLIC_TOOLKIT-16c784?style=for-the-badge&labelColor=0a0e27)](https://ianalloway.xyz/toolkit)
 [![🚀 Portfolio](https://img.shields.io/badge/🚀_PORTFOLIO-00d9ff?style=for-the-badge&labelColor=0a0e27&color=00d9ff&logoColor=white)](https://ianalloway.xyz)
 [![📧 Email](https://img.shields.io/badge/📧_EMAIL-FF6B6B?style=for-the-badge&labelColor=0a0e27)](mailto:ian@allowayllc.com)
 [![📄 Resume](https://img.shields.io/badge/📄_RESUME-16c784?style=for-the-badge&labelColor=0a0e27)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
@@ -24,317 +21,129 @@
 
 ---
 
-## 🧠 The Pitch
+## Start here
 
-I'm an **ML engineer** with a public **sports analytics flagship**: a **FastAPI + Chart.js** dashboard for **calibration**, **rolling accuracy**, and **CLV-style** summaries—plus **`nba-edge`** on PyPI (Elo, logistic win prob, Kelly helpers) and a **line-shopping CLI**. The narrative is **evaluation honesty**, not a single vanity accuracy. I also ship agents (OpenClaw), vision, and full-stack products when the problem demands it.
-
-**Currently:** M.S. in AI @ USF | Founder @ Alloway LLC | OpenClaw contributor (194k+ stars) | Shipping ML daily
-
-**Employer artifact:** [Sports ML case study (print to PDF)](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)
-
-**Where:** Fairmont, WV (remote-first) | **Status:** 🟢 Open to work
+| Link | What |
+|------|------|
+| **[Public toolkit](https://ianalloway.xyz/toolkit)** | All sports + OSS repos in one page — *use this if the list below feels long* |
+| **[All repositories](https://github.com/ianalloway?tab=repositories&q=&sort=updated)** | GitHub view, sort by updated |
+| **[Sports ML case study](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)** | One-pager (print → PDF) |
 
 ---
 
-## 🏆 The Work — Flagship Projects
+## Repository catalog *(grouped)*
 
-### 🏀 **Sports ML evaluation stack** — *top repo*
-**Calibration · CLV language · production-shaped UX**
+### Flagship — sports ML & evaluation
 
-| Piece | Role |
-|--------|------|
-| **[nba-clv-dashboard](https://github.com/ianalloway/nba-clv-dashboard)** | Flagship repo: `/api/metrics` + Chart.js — demo JSON today, drop in your eval pipeline tomorrow |
-| **[nba-ratings](https://github.com/ianalloway/nba-ratings)** (package **`nba-edge`**) | Reusable primitives — tests, CI, stdlib-first core |
-| **[line-shop-cli](https://github.com/ianalloway/line-shop-cli)** | Normalized odds + CSV + optional fractional Kelly |
+| Repo | One line |
+|------|----------|
+| [**nba-clv-dashboard**](https://github.com/ianalloway/nba-clv-dashboard) | FastAPI + Chart.js: calibration, rolling accuracy, CLV block |
+| [**nba-ratings**](https://github.com/ianalloway/nba-ratings) | Elo / logistic / Kelly primitives · PyPI **`nba-edge`** |
+| [**backtest-report-gen**](https://github.com/ianalloway/backtest-report-gen) | `metrics.json` → static HTML report |
+| [**metric-regression-gate**](https://github.com/ianalloway/metric-regression-gate) | CI: fail when metrics regress vs baseline |
 
-**Stack:** Python · FastAPI · Chart.js · pytest · GitHub Actions  
-**[Case study](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)** · **[Pin this repo](https://github.com/ianalloway/nba-clv-dashboard)**
+### Odds, lines & data
 
----
+| Repo | One line |
+|------|----------|
+| [**line-shop-cli**](https://github.com/ianalloway/line-shop-cli) | Line shopping, CSV, optional Kelly · demo or Odds API |
+| [**closing-line-archive**](https://github.com/ianalloway/closing-line-archive) | SQLite snapshots · `beat-close` vs cutoffs |
+| [**odds-drift-watch**](https://github.com/ianalloway/odds-drift-watch) | Webhook alerts on line moves (BYOK Odds API) |
+| [**odds-cli**](https://github.com/ianalloway/odds-cli) | Terminal odds + Kelly |
+| [**kelly-js**](https://github.com/ianalloway/kelly-js) | TypeScript Kelly / CLV helpers · [npm](https://www.npmjs.com/package/kelly-js) |
 
-### 🎯 **AI Advantage Sports** — *The Vegas Killer*
-**Live Betting Platform | 68% Model Accuracy | Production ML**
+### MLOps, agents & research
 
-A full-stack sports betting platform with an XGBoost model trained on 5+ years of NBA data. The model finds edges against sportsbook odds using Kelly Criterion sizing. **Result:** Consistent value bet detection with 68% prediction accuracy. Users get daily AI picks, live odds comparison, and bankroll management tools.
+| Repo | One line |
+|------|----------|
+| [**model-cardgen**](https://github.com/ianalloway/model-cardgen) | `metrics.json` → Markdown model/data cards |
+| [**agent-trace-kit**](https://github.com/ianalloway/agent-trace-kit) | JSONL traces + HTML replay for agents |
+| [**fraud-anomaly-bench**](https://github.com/ianalloway/fraud-anomaly-bench) | sklearn benchmark harness + leaderboard |
+| [**substack-rag-local**](https://github.com/ianalloway/substack-rag-local) | Local RAG over Substack posts |
 
-**Stack:** React | Python | XGBoost | PostgreSQL | Stripe | AWS  
-**Impact:** 💰 Real money, real edges, real users  
-**[Live Demo](https://aiadvantagesports.com)** | **[Code](https://github.com/ianalloway/ai-advantage)**
+### Dev & Mac
 
----
+| Repo | One line |
+|------|----------|
+| [**macos-disk-cleanup**](https://github.com/ianalloway/macos-disk-cleanup) | Safe cache cleanup · documented algorithm · ShellCheck CI |
+| [**dev-setup-macos**](https://github.com/ianalloway/dev-setup-macos) | Homebrew Bundle bootstrap |
 
-### 🤖 **TF Object Detector** — *Vision in the Browser*
-**Real-Time Computer Vision | 80+ Object Classes | Zero Server Processing**
+### Shipped products & demos
 
-Built a production-grade object detection system that runs **entirely in your browser**. Uses TensorFlow.js COCO-SSD (MobileNet v2) to detect 80+ object classes from your webcam in real-time with animated bounding boxes, per-class confidence scores, and a live detection log. No server calls. No data leaves your device.
+| Repo / link | One line |
+|-------------|----------|
+| [**ai-advantage**](https://github.com/ianalloway/ai-advantage) | Sports ML product codebase |
+| [**AI Advantage Sports (live)**](https://aiadvantagesports.com) | XGBoost + Kelly · live app |
+| [**sports-betting-ml**](https://github.com/ianalloway/sports-betting-ml) · [HF](https://huggingface.co/spaces/ianalloway/sports-betting-ml) | Models / Spaces |
+| [**tf-object-detection**](https://github.com/ianalloway/tf-object-detection) | TF.js COCO-SSD in the browser |
+| [**ai-drone-auto-vehicle**](https://github.com/ianalloway/ai-drone-auto-vehicle) | YOLOv8 + path planning + MAVLink |
+| [**Money-maker-bot**](https://github.com/ianalloway/Money-maker-bot) | OpenClaw financial / odds agent |
+| [**deathcon-api**](https://github.com/ianalloway/deathcon-api) | FastAPI AI + webhooks |
 
-**Stack:** TensorFlow.js | React | TypeScript | WebGL  
-**Performance:** 30+ FPS on modern browsers  
-**[Live Demo](https://tf-object-detection.manus.space)** | **[Code](https://github.com/ianalloway/tf-object-detection)**
+### Legacy / reference
 
----
+| Repo | Note |
+|------|------|
+| [**nba-edge**](https://github.com/ianalloway/nba-edge) | Older CLI repo · library source of truth is **nba-ratings** |
 
-### 🚁 **Drone AI** — *Autonomous Navigation System*
-**Computer Vision | Path Planning | Real-Time Control**
+### Site & CV
 
-Built an autonomous vehicle platform with YOLOv8 object detection, A*/RRT* path planning, behavior trees for mission logic, and MAVLink flight controller integration. The system can detect obstacles, plan collision-free paths, and execute complex missions autonomously.
+| Repo | One line |
+|------|----------|
+| [**ian-web-forge**](https://github.com/ianalloway/ian-web-forge) | This portfolio site |
+| [**Resume**](https://github.com/ianalloway/Resume) | CV source + PDF |
 
-**Stack:** Python | PyTorch | YOLOv8 | MAVLink | ROS  
-**Capabilities:** Real-time obstacle detection, dynamic path planning, autonomous mission execution  
-**[Code](https://github.com/ianalloway/ai-drone-auto-vehicle)**
-
----
-
-### 💰 **Money Maker Bot** — *Financial Intelligence Agent*
-**OpenClaw Integration | Multi-Asset Tracking | AI-Powered Insights**
-
-Built a financial intelligence assistant on top of OpenClaw (194k+ star AI agent framework). Tracks sports odds, NFT prices, and portfolio performance in real-time. Published 4+ custom skills to ClawHub marketplace that other builders use.
-
-**Stack:** TypeScript | OpenClaw | FastAPI | React  
-**Skills Published:** sports-odds, nft-tracker, data-viz, screenshot-annotator  
-**[Code](https://github.com/ianalloway/Money-maker-bot)**
-
----
-
-### 💾 **macOS Disk Cleanup** — *Selective cache reclamation CLI*
-**Bash | Documented algorithm | `--dry-run` | ShellCheck CI**
-
-Open-source macOS utility that reclaims disk space by removing only **regenerable** data: Homebrew/npm/pip caches, Go build + module caches, Chrome profile caches (not passwords or bookmarks), downloaded aerial wallpapers, optional Docker prune and Xcode DerivedData. The **full algorithm** (invariants + phases P1–P11) lives in the script header for auditability.
-
-**Stack:** Bash | GitHub Actions (ShellCheck) | MIT  
-**[Repository](https://github.com/ianalloway/macos-disk-cleanup)**
+*More utilities (e.g. `code-stash`, `repo-health`, `stock-sentiment-analyzer`) — see [**all repos**](https://github.com/ianalloway?tab=repositories&q=&sort=updated).*
 
 ---
 
-### 🧰 **2026 OSS toolkit** — *Agents, MLOps, sports, fraud, RAG*
-**MIT-licensed repos · README + CI on each**
+## Snapshot
 
-Shipped a **cohesive public portfolio**: Mac bootstrap (**[dev-setup-macos](https://github.com/ianalloway/dev-setup-macos)**), model/data **cards** from JSON (**[model-cardgen](https://github.com/ianalloway/model-cardgen)**), **line shopping** CSV + Kelly (**[line-shop-cli](https://github.com/ianalloway/line-shop-cli)**), **Elo / Kelly** primitives (**[nba-ratings](https://github.com/ianalloway/nba-ratings)**), **agent trace** replay (**[agent-trace-kit](https://github.com/ianalloway/agent-trace-kit)**), **NBA eval** dashboard (**[nba-clv-dashboard](https://github.com/ianalloway/nba-clv-dashboard)**), **fraud** benchmark harness (**[fraud-anomaly-bench](https://github.com/ianalloway/fraud-anomaly-bench)**), **Substack RAG** local (**[substack-rag-local](https://github.com/ianalloway/substack-rag-local)**).
+**Now:** M.S. AI @ USF · Founder @ Alloway LLC · OpenClaw ecosystem contributor  
 
-**Stack:** Python · Bash · FastAPI · GitHub Actions · scikit-learn · Streamlit
-
----
-
-### ⚰️ **Deathcon API** — *AI Wrapper + Webhook Handler*
-**Production API | Railway Deployed | Built by Deathconbot**
-
-A FastAPI-based AI wrapper and webhook handler that powers my automation infrastructure. Built and deployed by my own Deathconbot (autonomous AI agent). Handles AI chat endpoints (Claude/OpenAI), processes webhooks from GitHub/Telegram/n8n, and manages chat history.
-
-**Stack:** Python | FastAPI | Railway | n8n  
-**Features:** AI Chat Endpoint, Webhook Handler (GitHub, Telegram, n8n), Chat History, CORS enabled  
-**Live:** [deathcon-api-production.up.railway.app](https://deathcon-api-production.up.railway.app)  
-**[Code](https://github.com/ianalloway/deathcon-api)**
+**Focus:** Evaluation-first sports ML, production Python, agents when the problem fits.
 
 ---
 
-### 🏀 **NBA Edge Finder** — *Advanced Sports Analytics*
-**Power Ratings | ML Edge Detection | Portfolio Sizing**
+## Open source credibility
 
-A CLI tool that finds NBA betting edges using power ratings, sigmoid win probability models, and spread + ML edge detection. Includes half-Kelly portfolio sizing and full backtesting on 2022–2025 data.
+**[OpenClaw](https://github.com/openclaw/openclaw)** contributor — **ClawHub** skills (e.g. sports-odds, kelly-criterion, data-viz, nft-tracker, market-sentiment, streak-tracker, screenshot-annotator).  
 
-**Stack:** Python | XGBoost | NumPy | Pandas  
-**Backtested:** 2022–2025 seasons  
-**[Code](https://github.com/ianalloway/nba-edge)** | **[Live CLI](https://github.com/ianalloway/odds-cli)**
+**Merged PRs:** LangChain, React.dev, Kana Dojo, and others.
 
 ---
 
-### 🎨 **Mutant Intelligence** — *Web3 Meets AI*
-**On-Chain Data | Trait-Based Personality | Smart Contracts**
+## Writing
 
-Transformed Mutant Ape Yacht Club NFTs into AI assistants. The system reads on-chain metadata (traits, rarity, history) and generates unique AI personalities for each NFT. Users can interact with their MAYC as an AI character.
-
-**Stack:** React | Ethers.js | Solidity | OpenAI | Web3  
-**Live:** [mutantintelligence.com](https://mutantintelligence.com)
+**[Alloway AI (Substack)](https://allowayai.substack.com)** — ML systems, agents, sports analytics.
 
 ---
 
-### 📊 **Sports Betting ML** — *HuggingFace Deployed*
-**XGBoost Classifier | Feature Engineering | Streamlit**
+## Credentials
 
-NBA prediction model deployed on HuggingFace Spaces. Built with careful feature engineering on player stats, team metrics, and historical matchups. Live predictions available.
+**M.S. Artificial Intelligence** · USF · **B.S. Data Science & Analytics** · USF  
 
-**Stack:** Python | XGBoost | Streamlit | HuggingFace  
-**[Live Demo](https://huggingface.co/spaces/ianalloway/sports-betting-ml)**
+Certifications: Deep Learning (Ng) · ML Engineering (GCP) · AWS CCP · Tableau DCP · Oracle SQL · Blockchain (Berkeley Extension)
 
 ---
 
-### 📦 **kelly-js** — *Zero-Dependency Utility*
-**Kelly Criterion | Bet Sizing | Bankroll Management**
+## What I’m looking for
 
-Published a zero-dependency TypeScript library for Kelly Criterion calculations. Handles bet sizing, CLV tracking, bankroll stats, and odds conversion. Used by traders and bettors.
+**Roles:** Data Scientist · ML Engineer · AI / Research Engineer · ML Infra  
 
-**Stack:** TypeScript (zero dependencies)  
-**[npm Package](https://www.npmjs.com/package/kelly-js)** | **[Code](https://github.com/ianalloway/kelly-js)**
+**Locations:** Remote-first (Fairmont, WV) · **Status:** Open to work
+
+**Contact:** [ian@allowayllc.com](mailto:ian@allowayllc.com) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Portfolio](https://ianalloway.xyz)
 
 ---
 
-## 🔥 By The Numbers
+## GitHub stats
 
 <div align="center">
 
-| Metric | Value | What It Means |
-|--------|-------|---------------|
-| **Production Projects** | 17+ | Shipped OSS + live products |
-| **Open Source Contributions** | 194k+ stars | OpenClaw ecosystem + merged PRs |
-| **Skills Published** | 9+ | ClawHub marketplace (others use them) |
-| **Model Accuracy** | 68% | AI Advantage Sports (beats Vegas) |
-| **Years of ML** | 5+ | Deep expertise across domains |
-| **Languages** | 6+ | Python, TypeScript, SQL, R, Solidity, JavaScript |
-| **Frameworks** | 10+ | TensorFlow, PyTorch, XGBoost, React, FastAPI, etc. |
-| **Domains** | 5+ | Sports analytics, fintech, Web3, autonomous systems, computer vision |
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e27&title_color=00d9ff&icon_color=16c784&text_color=a8dadc&count_private=false" />
 
-</div>
-
----
-
-## 💻 Technical Arsenal
-
-<div align="center">
-
-### 🐍 **Python** — The Workhorse
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logo=xgboost&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### 🧠 **Deep Learning & AI**
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logoColor=black)
-
-### 🌐 **Web & Full-Stack**
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### 📊 **Data & Analytics**
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-
-### 🔗 **Blockchain & Web3**
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
-
-### ☁️ **Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### 🎯 **Specializations**
-**Computer Vision:** YOLOv8, COCO-SSD, OpenCV, Real-time Detection  
-**NLP:** Transformers, Sentence Embeddings, Semantic Search, LLM Integration  
-**Time Series:** LSTM, ARIMA, Forecasting, Anomaly Detection  
-**Autonomous Systems:** A*, RRT*, Behavior Trees, MAVLink, Sensor Fusion  
-**Sports Analytics:** Power Ratings, Edge Detection, Kelly Criterion, Backtesting  
-**Blockchain:** Smart Contracts, Web3.js, On-Chain Data, DeFi
-
-</div>
-
----
-
-## 🌟 Open Source Credibility
-
-**Active Contributor** to **[OpenClaw](https://github.com/openclaw/openclaw)** — the leading open-source AI agent framework with **194k+ stars**.
-
-### 🎁 Skills Published to ClawHub (9+)
-- **sports-odds** — Real-time odds aggregation, line shopping, value detection
-- **kelly-criterion** — Bet sizing, bankroll management, CLV tracking
-- **nft-tracker** — On-chain NFT portfolio monitoring with price alerts
-- **portfolio-rebalancer** — Target allocation, drift detection, tax-aware rebalancing
-- **market-sentiment** — Fear & Greed Index, Reddit sentiment, VIX classifier
-- **streak-tracker** — SU/ATS streak detection, regression analysis, fatigue filtering
-- **data-viz** — Interactive charts, dashboards, real-time updates
-- **screenshot-annotator** — Visual annotation with bounding boxes and labels
-- **devin-integration** — Agent orchestration, task routing, failover chains
-
-### 📌 Merged PRs Across Major Ecosystems
-- **LangChain** — Robust `args_schema` validation for complex type annotations
-- **React.dev** — Documentation improvements, TypeScript guide enhancements
-- **Kana Dojo** — 15 new Japanese cultural facts with kanji
-
----
-
-## 📖 Thought Leadership & Writing
-
-**[Alloway AI (Substack)](https://allowayai.substack.com)** — Technical writing on ML systems, AI agents, and sports analytics.
-
-### Recent Articles
-- **"How I Built an ML Model That Beats Vegas (Sometimes)"** — XGBoost, feature engineering, Kelly Criterion
-- **"Real-Time Object Detection in the Browser: TensorFlow.js Deep Dive"** — WebGL, model optimization, production deployment
-- **"Building a Job Fit Analyzer with NLP and React"** — Semantic similarity, full-stack ML
-- **"Sports Betting Edge Detection: From Data to Deployment"** — End-to-end ML pipeline
-- **"Autonomous Drones Meet Computer Vision"** — YOLOv8, path planning, real-time control
-
----
-
-## 🎓 Credentials
-
-**M.S. Artificial Intelligence** — University of South Florida (2024–Present)
-
-**B.S. Data Science & Analytics** — University of South Florida (2023–2025)
-
-### Certifications
-![Deep Learning](https://img.shields.io/badge/Deep_Learning_Specialization-Coursera_(Andrew_Ng)-0056D2?style=flat-square&logo=coursera&logoColor=white)
-![ML Engineering](https://img.shields.io/badge/ML_Engineering-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![AWS CCP](https://img.shields.io/badge/Cloud_Practitioner-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![Blockchain](https://img.shields.io/badge/Blockchain_Fundamentals-UC_Berkeley-003262?style=flat-square&logo=bitcoin&logoColor=white)
-![Tableau](https://img.shields.io/badge/Desktop_Certified_Professional-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Oracle](https://img.shields.io/badge/SQL_Certified_Associate-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
-
----
-
-## 🎯 What I'm Looking For
-
-**Roles:** Data Scientist | ML Engineer | AI Engineer | Research Engineer | ML Infrastructure
-
-**Industries:** Sports Analytics | Fintech | Autonomous Systems | Computer Vision | LLM Applications | Cybersecurity
-
-**What Excites Me:**
-- Building ML systems that solve real problems at scale
-- Finding edges in competitive markets (sports, finance, crypto)
-- Autonomous systems and robotics
-- Open-source AI projects
-- Teams that ship fast and iterate
-
-**Location:** Fairmont, WV (remote-first, flexible for the right opportunity)  
-**Status:** 🟢 **Available immediately**
-
----
-
-## 💬 Let's Talk
-
-I'm always interested in discussing production ML, edge detection, autonomous systems, and building things that matter.
-
-<div align="center">
-
-**Direct:** ian@allowayllc.com  
-**LinkedIn:** [linkedin.com/in/ianit](https://www.linkedin.com/in/ianit)  
-**Twitter:** [@ianallowayxyz](https://x.com/ianallowayxyz)  
-**Portfolio:** [ianalloway.xyz](https://ianalloway.xyz)  
-**Writing:** [allowayai.substack.com](https://allowayai.substack.com)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e27&title_color=00d9ff&icon_color=16c784&text_color=a8dadc&count_private=false" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e27&title_color=00d9ff&text_color=a8dadc&langs_count=8" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ianalloway&theme=tokyonight&hide_border=true&background=0a0e27&stroke=16c784&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff&sideLabels=a8dadc&currStreakNum=16c784&dates=4a7a56" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e27&title_color=00d9ff&text_color=a8dadc&langs_count=8" />
 
 </div>
 
@@ -342,12 +151,10 @@ I'm always interested in discussing production ML, edge detection, autonomous sy
 
 <div align="center">
 
-### 🚀 **"Ship beats perfect. Build systems that find real edges, then share them with the world."**
+**Ship beats perfect.**
 
-**Last Updated:** March 2026 | **Status:** Actively Shipping
+*Last updated: March 2026*
 
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=100&section=footer" width="100%" />
 
 </div>
