@@ -4,12 +4,13 @@
 
 <div align="center">
 
-### 🎯 **I Build ML Systems That Find Real Edges**
+### 🎯 **Sports ML — Calibration-First, Production Python**
 
-*Production-grade AI. Sports analytics that beat the odds. Autonomous systems. Full-stack ML engineer who ships daily.*
+*Flagship open stack: eval dashboard + Elo/Kelly primitives (PyPI) + line-shopping CLI. I still ship agents, vision, and full-stack ML — but above the fold is honest sports model evaluation.*
 
 ---
 
+[![📄 Case study](https://img.shields.io/badge/📄_CASE_STUDY-16c784?style=for-the-badge&labelColor=0a0e27)](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)
 [![🚀 Portfolio](https://img.shields.io/badge/🚀_PORTFOLIO-00d9ff?style=for-the-badge&labelColor=0a0e27&color=00d9ff&logoColor=white)](https://ianalloway.xyz)
 [![📧 Email](https://img.shields.io/badge/📧_EMAIL-FF6B6B?style=for-the-badge&labelColor=0a0e27)](mailto:ian@allowayllc.com)
 [![📄 Resume](https://img.shields.io/badge/📄_RESUME-16c784?style=for-the-badge&labelColor=0a0e27)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
@@ -25,17 +26,31 @@
 
 ## 🧠 The Pitch
 
-I'm an **AI/ML engineer** who doesn't just build models—I build systems that **find real edges** and **ship to production**. Whether it's a sports betting algorithm that beats Vegas, a drone that navigates autonomously, or a Web3 app that transforms NFTs into AI agents, I obsess over **impact over complexity**.
+I'm an **ML engineer** with a public **sports analytics flagship**: a **FastAPI + Chart.js** dashboard for **calibration**, **rolling accuracy**, and **CLV-style** summaries—plus **`nba-edge`** on PyPI (Elo, logistic win prob, Kelly helpers) and a **line-shopping CLI**. The narrative is **evaluation honesty**, not a single vanity accuracy. I also ship agents (OpenClaw), vision, and full-stack products when the problem demands it.
 
 **Currently:** M.S. in AI @ USF | Founder @ Alloway LLC | OpenClaw contributor (194k+ stars) | Shipping ML daily
 
-**What I do:** Turn data into competitive advantages. Build full-stack ML systems. Contribute to major open-source projects. Write about the intersection of AI and finance.
+**Employer artifact:** [Sports ML case study (print to PDF)](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)
 
 **Where:** Fairmont, WV (remote-first) | **Status:** 🟢 Open to work
 
 ---
 
 ## 🏆 The Work — Flagship Projects
+
+### 🏀 **Sports ML evaluation stack** — *top repo*
+**Calibration · CLV language · production-shaped UX**
+
+| Piece | Role |
+|--------|------|
+| **[nba-clv-dashboard](https://github.com/ianalloway/nba-clv-dashboard)** | Flagship repo: `/api/metrics` + Chart.js — demo JSON today, drop in your eval pipeline tomorrow |
+| **[nba-ratings](https://github.com/ianalloway/nba-ratings)** (package **`nba-edge`**) | Reusable primitives — tests, CI, stdlib-first core |
+| **[line-shop-cli](https://github.com/ianalloway/line-shop-cli)** | Normalized odds + CSV + optional fractional Kelly |
+
+**Stack:** Python · FastAPI · Chart.js · pytest · GitHub Actions  
+**[Case study](https://ianalloway.xyz/papers/sports-ml-evaluation-case-study.html)** · **[Pin this repo](https://github.com/ianalloway/nba-clv-dashboard)**
+
+---
 
 ### 🎯 **AI Advantage Sports** — *The Vegas Killer*
 **Live Betting Platform | 68% Model Accuracy | Production ML**
