@@ -83,8 +83,8 @@ CLI that scores repository quality across README, CI, licensing, staleness, and 
 
 ## Background
 
-- M.S. Artificial Intelligence, University of South Florida
-- B.S. Data Science and Analytics, University of South Florida
+- B.S. Information Science, University of South Florida, expected May 2026
+- Starting M.S. Artificial Intelligence at the University of South Florida in August 2026
 - Interested in ML Engineer, Data Scientist, AI Engineer, and applied research roles
 - Open to remote-first opportunities
 
