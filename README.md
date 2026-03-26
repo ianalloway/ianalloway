@@ -14,7 +14,7 @@
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&labelColor=0a0e27)](https://allowayai.substack.com)
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-24292f?style=for-the-badge&labelColor=0a0e27)](https://github.com/sponsors/ianalloway)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?style=for-the-badge&labelColor=0a0e27&color=ffdd00)](https://buymeacoffee.com/ianalloway)
+[![Crypto Tips](https://img.shields.io/badge/Crypto_Tips-627eea?style=for-the-badge&labelColor=0a0e27)](https://etherscan.io/address/0x6F278Ce76BA5ED31Fd9bE646D074863e126836E9)
 
 </div>
 
@@ -96,7 +96,7 @@ I write about ML systems, analytics, and applied AI on [Alloway AI](https://allo
 
 If you like the open-source work and want to support it:
 - [GitHub Sponsors](https://github.com/sponsors/ianalloway)
-- [Buy Me a Coffee](https://buymeacoffee.com/ianalloway)
+- Crypto wallet: `0x6F278Ce76BA5ED31Fd9bE646D074863e126836E9`
 
 ---
 
