@@ -22,7 +22,7 @@
 
 ## About Me
 
-I build machine learning and analytics products that are meant to be used, not just trained.
+I build machine learning and analytics products that are meant to be used, not just trained and then abandoned in a notebook.
 
 My work usually sits at the intersection of:
 - applied ML and forecasting
@@ -31,6 +31,8 @@ My work usually sits at the intersection of:
 - CLI tools, dashboards, and product-style workflows
 
 I care a lot about shipping systems that are inspectable, measurable, and useful in the real world.
+
+I like models, but I like working software, clean dashboards, and honest evaluation a little more.
 
 ---
 
@@ -52,7 +54,7 @@ FastAPI and Chart.js dashboard for calibration, rolling accuracy, and CLV report
 TypeScript package for Kelly sizing, odds conversion, and bankroll math. Lightweight and package-oriented.
 
 ### [repo-health](https://github.com/ianalloway/repo-health)
-CLI that scores repository quality across README, CI, licensing, staleness, and maintenance indicators.
+CLI that scores repository quality across README, CI, licensing, staleness, and maintenance indicators. Basically: tough love for repositories.
 
 ---
 
@@ -101,5 +103,7 @@ If you like the open-source work and want to support it:
 <div align="center">
 
 **If you're hiring for applied ML, analytics systems, or product-minded engineering, I'd be glad to connect.**
+
+*I bring models, metrics, and a healthy suspicion of dashboards that look too good.*
 
 </div>
