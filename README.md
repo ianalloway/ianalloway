@@ -68,18 +68,13 @@ CLI that scores repository quality across README, CI, licensing, staleness, and 
 
 **Workflow:** GitHub Actions, reproducible tooling, documentation, repo health, developer experience
 
-**This quarter on GitHub:** Topics on every public repo, Dependabot on active apps and libs, consistent `CONTRIBUTING` / `SECURITY` / issue templates on flagship OSS, and keeping [the public toolkit](https://ianalloway.xyz/toolkit) in sync with this README.
+**This quarter on GitHub:** Topics on every public repo, Dependabot on active apps and libs, consistent `CONTRIBUTING` / `SECURITY` / issue templates on flagship OSS, and a **condensed** [public toolkit](https://ianalloway.xyz/toolkit) (core repos + link to the full list).
 
 ---
 
-## Other Public Projects
+## Other public work (~40 repos)
 
-- [odds-drift-watch](https://github.com/ianalloway/odds-drift-watch): webhook-based line-move monitoring with FastAPI and SQLite
-- [closing-line-archive](https://github.com/ianalloway/closing-line-archive): CLI for historical odds snapshots and beat-close analysis
-- [backtest-report-gen](https://github.com/ianalloway/backtest-report-gen): static HTML backtest reports from evaluation JSON
-- [metric-regression-gate](https://github.com/ianalloway/metric-regression-gate): GitHub Action for metric regression checks in CI
-- [macos-disk-cleanup](https://github.com/ianalloway/macos-disk-cleanup): pragmatic macOS cleanup utility with dry-run support
-- [allowayai](https://github.com/ianalloway/allowayai): AI and sports analytics utility toolkit for R
+Everything else—odds tools, eval reports, CI gates, Mac utilities, R packages, coursework, OpenClaw skills, CLIs, and experiments—lives on GitHub. **Browse the full public list** (sorted by last update): **[github.com/ianalloway — repositories](https://github.com/ianalloway?tab=repositories&q=&sort=updated)**.
 
 ---
 
