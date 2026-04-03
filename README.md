@@ -68,6 +68,8 @@ CLI that scores repository quality across README, CI, licensing, staleness, and 
 
 **Workflow:** GitHub Actions, reproducible tooling, documentation, repo health, developer experience
 
+**This quarter on GitHub:** Topics on every public repo, Dependabot on active apps and libs, consistent `CONTRIBUTING` / `SECURITY` / issue templates on flagship OSS, and keeping [the public toolkit](https://ianalloway.xyz/toolkit) in sync with this README.
+
 ---
 
 ## Other Public Projects
