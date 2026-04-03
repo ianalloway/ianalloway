@@ -44,6 +44,9 @@ Sports betting platform with ML predictions, Kelly-based bet sizing, live odds v
 ### [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml)
 Applied modeling repo for NBA and NFL edge detection using logistic regression, XGBoost, and ensemble methods.
 
+### [ai-sports-monorepo](https://github.com/ianalloway/ai-sports-monorepo)
+Monorepo that combines `ai-advantage` and `sports-betting-ml` as `apps/*` directories with subtree-imported history for coordinated evolution.
+
 ### [nba-ratings](https://github.com/ianalloway/nba-ratings)
 Reusable ratings and win-probability library with Kelly helpers. Good example of turning modeling logic into a usable package.
 
@@ -71,7 +74,7 @@ Hub repo: **one branch per retired public project** (`archive/<repo-name>`) copi
 
 **Workflow:** GitHub Actions, reproducible tooling, documentation, repo health, developer experience
 
-**GitHub layout:** **8 active** public repositories plus **[oss-archive](https://github.com/ianalloway/oss-archive)** (frozen copies of **24** retired repos as `archive/<name>` branches before archiving originals). [Public toolkit](https://ianalloway.xyz/toolkit) matches this story.
+**GitHub layout:** **9 active** public repositories plus **[oss-archive](https://github.com/ianalloway/oss-archive)** (frozen copies of **24** retired repos as `archive/<name>` branches before archiving originals). [Public toolkit](https://ianalloway.xyz/toolkit) matches this story.
 
 ---
 
