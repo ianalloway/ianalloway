@@ -47,14 +47,17 @@ Applied modeling repo for NBA and NFL edge detection using logistic regression, 
 ### [nba-ratings](https://github.com/ianalloway/nba-ratings)
 Reusable ratings and win-probability library with Kelly helpers. Good example of turning modeling logic into a usable package.
 
-### [nba-clv-dashboard](https://github.com/ianalloway/nba-clv-dashboard)
-FastAPI and Chart.js dashboard for calibration, rolling accuracy, and CLV reporting.
-
 ### [kelly-js](https://github.com/ianalloway/kelly-js)
 TypeScript package for Kelly sizing, odds conversion, and bankroll math. Lightweight and package-oriented.
 
-### [repo-health](https://github.com/ianalloway/repo-health)
-CLI that scores repository quality across README, CI, licensing, staleness, and maintenance indicators. Basically: tough love for repositories.
+### [nba-clv-dashboard](https://github.com/ianalloway/oss-archive/tree/archive/nba-clv-dashboard) *(frozen snapshot)*
+FastAPI and Chart.js dashboard for calibration, rolling accuracy, and CLV reporting. Original repo archived; code preserved on `oss-archive`.
+
+### [repo-health](https://github.com/ianalloway/oss-archive/tree/archive/repo-health) *(frozen snapshot)*
+CLI that scores repository quality across README, CI, licensing, staleness, and maintenance indicators. Original repo archived; code preserved on `oss-archive`.
+
+### [oss-archive](https://github.com/ianalloway/oss-archive)
+Hub repo: **one branch per retired public project** (`archive/<repo-name>`) copied before those repos were archived read-only. [Branch index](https://github.com/ianalloway/oss-archive#index).
 
 ---
 
@@ -68,13 +71,13 @@ CLI that scores repository quality across README, CI, licensing, staleness, and 
 
 **Workflow:** GitHub Actions, reproducible tooling, documentation, repo health, developer experience
 
-**This quarter on GitHub:** Topics on every public repo, Dependabot on active apps and libs, consistent `CONTRIBUTING` / `SECURITY` / issue templates on flagship OSS, and a **condensed** [public toolkit](https://ianalloway.xyz/toolkit) (core repos + link to the full list).
+**GitHub layout:** **8 active** public repositories plus **[oss-archive](https://github.com/ianalloway/oss-archive)** (frozen copies of **24** retired repos as `archive/<name>` branches before archiving originals). [Public toolkit](https://ianalloway.xyz/toolkit) matches this story.
 
 ---
 
-## Other public work (~40 repos)
+## Other work (archived repos)
 
-Everything else—odds tools, eval reports, CI gates, Mac utilities, R packages, coursework, OpenClaw skills, CLIs, and experiments—lives on GitHub. **Browse the full public list** (sorted by last update): **[github.com/ianalloway — repositories](https://github.com/ianalloway?tab=repositories&q=&sort=updated)**.
+Retired OSS (odds tools, eval pipeline, coursework, agents, etc.) is **read-only archived** on GitHub but browsable via **[oss-archive branches](https://github.com/ianalloway/oss-archive/branches/all)** or **[all repositories including archived](https://github.com/ianalloway?tab=repositories&q=&sort=updated&type=source)**.
 
 ---
 
