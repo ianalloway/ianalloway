@@ -64,6 +64,15 @@ Hub repo: **one branch per retired public project** (`archive/<repo-name>`) copi
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight" alt="Ian's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight" alt="Top Languages" />
+</div>
+
+---
+
 ## Languages and Tools
 
 **Languages:** Python, R, SQL, TypeScript, JavaScript, Bash, HTML/CSS
