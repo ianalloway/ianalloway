@@ -14,7 +14,7 @@
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&labelColor=0a0e27)](https://allowayai.substack.com)
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-24292f?style=for-the-badge&labelColor=0a0e27)](https://github.com/sponsors/ianalloway)
-[![Crypto Tips](https://img.shields.io/badge/Crypto_Tips-627eea?style=for-the-badge&labelColor=0a0e27)](https://etherscan.io/address/0x6F278Ce76BA5ED31Fd9bE646D074863e126836E9)
+[![Crypto Tips](https://img.shields.io/badge/Crypto_Tips-627eea?style=for-the-badge&labelColor=0a0e27)](https://etherscan.io/address/0xAc7C093B312700614C80Ba3e0509f8dEde03515b)
 
 </div>
 
@@ -38,6 +38,9 @@ I like models, but I like working software, clean dashboards, and honest evaluat
 
 ## Featured Work
 
+### [ian-web-forge](https://github.com/ianalloway/ian-web-forge)
+Portfolio site at [ianalloway.xyz](https://ianalloway.xyz) — project showcase, toolkit index, testimonials, and live Substack RSS. React, TypeScript, and Vite.
+
 ### [ai-advantage](https://github.com/ianalloway/ai-advantage)
 Sports betting platform with ML predictions, Kelly-based bet sizing, live odds views, and product-style delivery. Strong signal for end-to-end application work.
 
@@ -52,6 +55,9 @@ Reusable ratings and win-probability library with Kelly helpers. Good example of
 
 ### [kelly-js](https://github.com/ianalloway/kelly-js)
 TypeScript package for Kelly sizing, odds conversion, and bankroll math. Lightweight and package-oriented.
+
+### [allowayai](https://github.com/ianalloway/allowayai)
+R utility toolkit for AI and sports analytics workflows — reusable helpers for modeling, reporting, and exploration.
 
 ### [nba-clv-dashboard](https://github.com/ianalloway/oss-archive/tree/archive/nba-clv-dashboard) *(frozen snapshot)*
 FastAPI and Chart.js dashboard for calibration, rolling accuracy, and CLV reporting. Original repo archived; code preserved on `oss-archive`.
@@ -101,7 +107,7 @@ Hub repo: **one branch per retired public project** (`archive/<repo-name>`) copi
 
 **Workflow:** GitHub Actions, reproducible tooling, documentation, repo health, developer experience
 
-**GitHub layout:** **9 active** public repositories plus **[oss-archive](https://github.com/ianalloway/oss-archive)** (frozen copies of **24** retired repos as `archive/<name>` branches before archiving originals). [Public toolkit](https://ianalloway.xyz/toolkit) matches this story.
+**GitHub layout:** **11 active** public repositories plus **[oss-archive](https://github.com/ianalloway/oss-archive)** (frozen copies of **24** retired repos as `archive/<name>` branches before archiving originals). [Public toolkit](https://ianalloway.xyz/toolkit) matches this story.
 
 ---
 
@@ -113,8 +119,8 @@ Retired OSS (odds tools, eval pipeline, coursework, agents, etc.) is **read-only
 
 ## Background
 
-- B.S. Information Science, University of South Florida, expected May 2026
-- Starting M.S. Artificial Intelligence at the University of South Florida in August 2026
+- B.S. Information Science, University of South Florida
+- M.S. Artificial Intelligence, University of South Florida (in progress)
 - Interested in ML Engineer, Data Scientist, AI Engineer, and applied research roles
 - Open to remote-first opportunities
 
@@ -126,7 +132,7 @@ I write about ML systems, analytics, and applied AI on [Alloway AI](https://allo
 
 If you like the open-source work and want to support it:
 - [GitHub Sponsors](https://github.com/sponsors/ianalloway)
-- Crypto wallet: `0x6F278Ce76BA5ED31Fd9bE646D074863e126836E9`
+- Crypto wallet: `0xAc7C093B312700614C80Ba3e0509f8dEde03515b`
 
 ---
 

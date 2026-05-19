@@ -19,7 +19,9 @@ edit_topics ianalloway github-profile readme portfolio open-source
 edit_topics ian-web-forge portfolio react typescript vite sports-analytics
 edit_topics Resume cv resume career latex python
 edit_topics ai-advantage sports-analytics machine-learning react typescript vite kelly-criterion
+edit_topics ai-sports-monorepo monorepo sports-analytics machine-learning python typescript
 edit_topics sports-betting-ml machine-learning xgboost python sports-analytics nba
+edit_topics allowayai r sports-analytics machine-learning open-source
 edit_topics kelly-js kelly-criterion sports-betting typescript npm statistics
 edit_topics nba-ratings sports-analytics python nba kelly-criterion pypi
 edit_topics oss-archive archive monorepo snapshot open-source

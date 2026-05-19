@@ -4,7 +4,7 @@ Your profile README is now **table-first**. Use this checklist so github.com sta
 
 ## On GitHub.com
 
-1. **Pin up to 6 repos** on your profile — suggested: `nba-clv-dashboard`, `nba-ratings`, `ian-web-forge`, `backtest-report-gen`, one product (`ai-advantage` or `line-shop-cli`), `Resume`.
+1. **Pin up to 6 repos** on your profile — suggested: `ai-advantage`, `ian-web-forge`, `sports-betting-ml`, `nba-ratings`, `kelly-js`, `Resume`.
 2. **Topics** — add consistent tags so the repo tab is filterable, e.g. `sports-analytics`, `python`, `fastapi`, `mlops`, `cli`, `nba`.  
    - Quick batch: run `scripts/apply-topics.sh` from this repo (needs [GitHub CLI](https://cli.github.com/) `gh auth login`).
 3. **Archive** repos you do not intend to update (Settings → Archive). They stay public but drop off mental load.
