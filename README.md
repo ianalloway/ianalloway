@@ -119,8 +119,8 @@ Retired OSS (odds tools, eval pipeline, coursework, agents, etc.) is **read-only
 
 ## Background
 
-- B.S. Information Science, University of South Florida, expected May 2026
-- Starting M.S. Artificial Intelligence at the University of South Florida in August 2026
+- B.S. Information Science, University of South Florida
+- M.S. Artificial Intelligence, University of South Florida (in progress)
 - Interested in ML Engineer, Data Scientist, AI Engineer, and applied research roles
 - Open to remote-first opportunities
 
