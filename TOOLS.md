@@ -192,6 +192,21 @@ If plugin installation fails due network/DNS, retry from a terminal with normal 
 
 #### Founder OS operating procedures
 
+**Autonomy schedule (America/New_York):**
+
+| Job | Schedule | Delivery |
+| --- | --- | --- |
+| `founder-daily-brief` | Mon–Fri 08:15 | Telegram + WhatsApp summary |
+| `founder-bug-content-pipeline` | Mon–Fri 12:00 | Obsidian only |
+| `founder-kpi-snapshot` | Mon–Fri 19:05 | Obsidian only |
+| `founder-evening-recap` | Mon–Fri 20:30 | WhatsApp + Telegram |
+| `founder-weekly-goals-review` | Sun 18:30 | Telegram |
+| `weekly-stack-audit` | Sun 10:00 | Telegram brief |
+| `founder-attention-guard` | Every 3h | Telegram if NOTIFY |
+| Gateway heartbeat | Every 30m (08:00–22:00) | Silent unless NOTIFY |
+
+See `AUTONOMY.md` for fix vs notify vs ask boundaries.
+
 1. Daily brief automation:
    - Generate a concise brief with top priorities, calendar risks, blockers, and today focus.
    - Write/update the daily note in Obsidian and append key metrics to KPI files.
@@ -249,6 +264,7 @@ OpenClaw-managed MCP (`mcp.servers`, main agent only via `codex.agents`):
 - `figma-desktop` — local `http://127.0.0.1:3845/mcp` when Figma desktop Dev Mode MCP is enabled (no OAuth).
 - `peekaboo` — screen capture + visual Q&A (`~/.local/bin/peekaboo-mcp`; needs Screen Recording + Accessibility).
 - **Not wired:** Datadog (needs `DD_API_KEY`, `DD_APPLICATION_KEY`, `DD_MCP_DOMAIN` in gateway env).
+- **Not wired:** GitHub MCP (`@modelcontextprotocol/server-github`) — `mcp.servers` env does not accept SecretRef; use `github` + `gh-issues` skills + `gh` CLI instead.
 - Owner Telegram: `/mcp show` (`commands.mcp: true`).
 
 mcporter mirror config: `~/.openclaw/workspace/config/mcporter.json`
@@ -267,10 +283,23 @@ When to use what:
 - **Research:** `summarize` skill + `fetch` MCP + web search.
 - **Docs/APIs:** `context7` MCP first, then web search.
 - **Obsidian/memory:** obsidian skills + `obsidian-fs` MCP + vault path in Founder OS logs.
-- **GitHub/CI:** `github` + `gh-issues` skills (use `gh` CLI; auth via `GH_TOKEN` from `secrets.local.json` → `githubPat`, injected through `skills.entries.gh-issues.apiKey`).
+- **GitHub/CI:** `github` + `gh-issues` skills via `exec` + `gh` CLI (auth: `GH_TOKEN` from `githubPat`). No GitHub MCP — use skills instead.
 - **Multi-step work:** `taskflow` + `coding-agent`.
 
 ### Git + GitHub commits (George / Ian only)
+
+**Status: GitHub is working (verified 2026-05-29).** George uses `gh` via `exec` with `GH_TOKEN` injected from `skills.entries.gh-issues.apiKey` → SecretRef `/githubPat`. Both `github` and `gh-issues` skills show ✓ ready. GitHub MCP is **not** wired (OpenClaw rejects SecretRef in `mcp.servers` env); `gh` + skills cover issues, PRs, CI, commits.
+
+**Quick verify (Ian Terminal):**
+
+```bash
+export GH_TOKEN=$(python3 -c "import json; print(json.load(open('$HOME/.openclaw/secrets.local.json'))['githubPat'])")
+GH_TOKEN="$GH_TOKEN" gh auth status
+GH_TOKEN="$GH_TOKEN" gh api user --jq .login
+GH_TOKEN="$GH_TOKEN" gh issue list --repo ianalloway/ai-advantage --limit 3
+```
+
+**After config changes:** run `openclaw gateway restart` once from Terminal (LaunchAgent; agent sandbox cannot restart it).
 
 George (`main` agent) can commit and push when Ian **explicitly asks** in Telegram (`telegram:5663872763`) or WhatsApp (`+17274708666`). Lauren agent remains chat-only.
 
@@ -280,8 +309,8 @@ George (`main` agent) can commit and push when Ian **explicitly asks** in Telegr
 | --- | --- |
 | `githubPat` in `~/.openclaw/secrets.local.json` | Present; scopes include `repo`, `workflow` |
 | `skills.entries.gh-issues.apiKey` | SecretRef → `/githubPat` → injects `GH_TOKEN` each agent run |
-| `gh auth status` (keyring) | **Broken** — stale keyring token; run `gh auth login -h github.com` in Terminal to fix interactive CLI |
-| `GH_TOKEN` + `gh` | Works (`ianalloway`) — George should rely on injected `GH_TOKEN`, not keyring |
+| `gh auth status` (keyring) | Stale/inactive keyring entry — **ignore**; George uses injected `GH_TOKEN` |
+| `GH_TOKEN` + `gh` | **Working** (`ianalloway`) — verified `gh api user`, `gh repo list`, `gh issue list` on `ai-advantage` |
 | Git identity | `Ian Alloway` / `ian@allowayllc.com` (global git config — **never change**) |
 
 #### Tools policy (2026-05-29)
@@ -383,7 +412,16 @@ For batch issue fixing / PR automation, invoke `/gh-issues` or follow `gh-issues
 
 #### Example Telegram/WhatsApp prompts for Ian
 
+**Issues & PRs**
+- "George, list open issues on `ianalloway/ai-advantage` and summarize the top 3."
+- "What's the status of PR #5 on `ianalloway/ian-web-forge`? Show failed CI logs if any."
+- "Create a GitHub issue on `metric-regression-gate`: title 'Add regression threshold flag', body from my last message."
+
+**Commits (explicit only)**
 - "George, in `Projects/web/ai-advantage`, commit the README update with message 'docs: clarify setup steps' — don't push."
 - "Commit and push my changes in openclaw-coding-smoke on branch `fix/smoke-test`."
 - "Fix issue #12 in metric-regression-gate, commit, and open a PR."
+
+**Batch automation**
+- "/gh-issues ianalloway/ai-advantage --label 'good first issue' --dry-run"
 - **Install more skills:** `clawhub search` / `openclaw skills search` from a normal network terminal.

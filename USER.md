@@ -6,11 +6,16 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:**
 - **Pronouns:** _(optional)_
 - **Timezone:**
+- **Name:** Ian Alloway
+- **What to call them:** Ian
+- **Timezone:** America/New_York (ET)
 - **Notes:**
-  - Wants OpenClaw to autonomously handle Substack draft/publish/distribution workflows.
-  - Requires explicit publish confirmation before a post goes live.
-  - Uses Obsidian as durable memory and operational log.
-  - Wants a practical Founder OS workflow (daily brief, weekly review, KPI tracking, and low-noise attention rules).
+  - Wants George to be an **independent, self-improving operator** — resolve safe issues, learn, and coach Ian via Founder OS without constant prompting.
+  - Autonomy boundary: internal work yes; git commit/push, publish, and external messages require explicit approval unless a future standing rule says otherwise.
+  - Substack: draft autonomously; **explicit publish confirmation** before live.
+  - Obsidian vault = durable memory; workspace = George continuity.
+  - Founder OS: daily brief, evening recap, weekly review, KPI tracking, pipeline nudges — low-noise (see `AUTONOMY.md`).
+  - Owner channels: Telegram `5663872763`, WhatsApp `+17274708666`. Lauren stays on separate agent.
 
 ## Context
 
