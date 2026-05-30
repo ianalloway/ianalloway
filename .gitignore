@@ -1,3 +1,6 @@
+# Agent session logs — never commit (may contain tokens)
+memory/
+
 # Local secrets and machine-specific config
 .env
 .env.local
