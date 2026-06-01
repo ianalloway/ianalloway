@@ -1,116 +1,65 @@
 # Ian Alloway
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=220&section=header&text=IAN%20ALLOWAY&fontSize=82&fontColor=00d9ff&fontAlignY=34&desc=ML%20ENGINEER%20%C2%B7%20DATA%20SCIENCE%20%C2%B7%20SHIPPED%20TOOLS&descSize=20&descColor=16c784&descAlignY=58&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=220&section=header&text=IAN%20ALLOWAY&fontSize=82&fontColor=00d9ff&fontAlignY=34&desc=ML%20ENGINEER%20%C2%B7%20DATA%20SCIENCE%20%C2%B7%20APPLIED%20SYSTEMS&descSize=20&descColor=16c784&descAlignY=58&animation=fadeIn" width="100%" />
 
 <div align="center">
 
-**ML Engineer · Data Scientist · Production Python · Evaluation-first systems**
+**ML Engineer · Data Scientist · Applied systems builder**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-00d9ff?style=for-the-badge&labelColor=0a0e27)](https://ianalloway.xyz)
 [![Live Product](https://img.shields.io/badge/Live_Product-16c784?style=for-the-badge&labelColor=0a0e27)](https://aiadvantagesports.com)
 [![Resume](https://img.shields.io/badge/Resume-16c784?style=for-the-badge&labelColor=0a0e27)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=0a0e27)](https://www.linkedin.com/in/ianit)
 [![Email](https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&labelColor=0a0e27)](mailto:ian@allowayllc.com)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&labelColor=0a0e27)](https://allowayai.substack.com)
-
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-24292f?style=for-the-badge&labelColor=0a0e27)](https://github.com/sponsors/ianalloway)
-[![Crypto Tips](https://img.shields.io/badge/Crypto_Tips-627eea?style=for-the-badge&labelColor=0a0e27)](https://etherscan.io/address/0xAc7C093B312700614C80Ba3e0509f8dEde03515b)
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I build machine learning and analytics products that are meant to be used, not just trained and then abandoned in a notebook.
+I build ML and analytics products that are meant to ship, be measured, and actually help someone make a decision.
 
 My work usually sits at the intersection of:
 - applied ML and forecasting
-- evaluation, calibration, and decision support
+- evaluation, calibration, and backtesting
 - FastAPI, Python, SQL, and TypeScript
 - CLI tools, dashboards, and product-style workflows
 
-I care a lot about shipping systems that are inspectable, measurable, and useful in the real world.
-
-I like models, but I like working software, clean dashboards, and honest evaluation a little more.
+I care about systems that are inspectable, reusable, and honest about what they do and do not know.
 
 ---
 
 ## Featured Work
 
-### [ian-web-forge](https://github.com/ianalloway/ian-web-forge)
-Portfolio site at [ianalloway.xyz](https://ianalloway.xyz) — project showcase, toolkit index, testimonials, and live Substack RSS. React, TypeScript, and Vite.
-
 ### [ai-advantage](https://github.com/ianalloway/ai-advantage)
-Sports betting platform with ML predictions, Kelly-based bet sizing, live odds views, and product-style delivery. Strong signal for end-to-end application work.
+Sports betting product with ML predictions, Kelly-based bet sizing, live odds, and a real deployed surface.
+
+### [ian-web-forge](https://github.com/ianalloway/ian-web-forge)
+Portfolio site at [ianalloway.xyz](https://ianalloway.xyz) — project showcase, toolkit index, testimonials, and live Substack RSS.
 
 ### [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml)
 Applied modeling repo for NBA and NFL edge detection using logistic regression, XGBoost, and ensemble methods.
 
 ### [nba-ratings](https://github.com/ianalloway/nba-ratings)
-Reusable ratings and win-probability library with Kelly helpers. Good example of turning modeling logic into a usable package.
+Reusable ratings and win-probability library with Kelly helpers.
 
 ### [kelly-js](https://github.com/ianalloway/kelly-js)
-TypeScript package for Kelly sizing, odds conversion, and bankroll math. Lightweight and package-oriented.
+TypeScript package for Kelly sizing, odds conversion, and bankroll math.
 
 ### [allowayai](https://github.com/ianalloway/allowayai)
-R utility toolkit for AI and sports analytics workflows — reusable helpers for modeling, reporting, and exploration.
-
-### [nba-clv-dashboard](https://github.com/ianalloway/oss-archive/tree/archive/nba-clv-dashboard) *(frozen snapshot)*
-FastAPI and Chart.js dashboard for calibration, rolling accuracy, and CLV reporting. Original repo archived; code preserved on `oss-archive`.
-
-### [repo-health](https://github.com/ianalloway/oss-archive/tree/archive/repo-health) *(frozen snapshot)*
-CLI that scores repository quality across README, CI, licensing, staleness, and maintenance indicators. Original repo archived; code preserved on `oss-archive`.
+R utility toolkit for AI and sports analytics workflows.
 
 ### [oss-archive](https://github.com/ianalloway/oss-archive)
-Hub repo: **one branch per retired public project** (`archive/<repo-name>`) copied before those repos were archived read-only. [Branch index](https://github.com/ianalloway/oss-archive#index).
+Frozen copies of retired public repos, one branch per project.
 
 ---
 
-## GitHub Stats
+## What I’m building now
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=tokyonight" alt="Ian's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianalloway&layout=compact&theme=tokyonight" alt="Top Languages" />
-</div>
-
----
-
-## Languages and Tools
-
-**Languages:**
-<p align="left">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-  <img src="https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-**ML/Data:**
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/XGBoost-blue?style=for-the-badge" alt="XGBoost" />
-</p>
-
-*Model evaluation, calibration, backtesting, forecasting*
-
-**Backend and Product:** FastAPI, SQLite, REST APIs, CLI design, dashboards, reporting pipelines
-
-**Workflow:** GitHub Actions, reproducible tooling, documentation, repo health, developer experience
-
-**GitHub layout:** **8 active** public flagship repos plus **[oss-archive](https://github.com/ianalloway/oss-archive)** (frozen copies of **24** retired repos as `archive/<name>` branches before archiving originals). [Public toolkit](https://ianalloway.xyz/toolkit) matches this story.
-
----
-
-## Other work (archived repos)
-
-Retired OSS (odds tools, eval pipeline, coursework, agents, etc.) is **read-only archived** on GitHub but browsable via **[oss-archive branches](https://github.com/ianalloway/oss-archive/branches/all)** or **[all repositories including archived](https://github.com/ianalloway?tab=repositories&q=&sort=updated&type=source)**.
+- products that combine modeling with real user workflows
+- cleaner evaluation and decision tooling
+- durable portfolio pieces instead of throwaway demos
 
 ---
 
@@ -119,24 +68,15 @@ Retired OSS (odds tools, eval pipeline, coursework, agents, etc.) is **read-only
 - B.S. Information Science, University of South Florida
 - M.S. Artificial Intelligence, University of South Florida (in progress)
 - Interested in ML Engineer, Data Scientist, AI Engineer, and applied research roles
-- Open to remote-first opportunities
 
 ---
 
-## Support and Writing
+## Support and writing
 
-I write about ML systems, analytics, and applied AI on [Alloway AI](https://allowayai.substack.com).
+I write about ML systems and applied AI on [Alloway AI](https://allowayai.substack.com).
 
 If you like the open-source work and want to support it:
 - [GitHub Sponsors](https://github.com/sponsors/ianalloway)
 - Crypto wallet: `0xAc7C093B312700614C80Ba3e0509f8dEde03515b`
-
----
-
-<div align="center">
-
-**If you're hiring for applied ML, analytics systems, or product-minded engineering, I'd be glad to connect.**
-
-*I bring models, metrics, and a healthy suspicion of dashboards that look too good.*
 
 </div>
