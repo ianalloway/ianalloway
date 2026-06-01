@@ -1,6 +1,20 @@
 # Agent session logs — never commit (may contain tokens)
 memory/
 
+# Local agent workspace artifacts — keep private runbooks/config out of this public profile repo
+.openclaw/
+Daily/
+Logs/
+config/
+skills/
+SOUL.md
+USER.md
+AUTONOMY.md
+MEMORY.md
+HEARTBEAT.md
+TOOLS.md
+IDENTITY.md
+
 # Local secrets and machine-specific config
 .env
 .env.local
