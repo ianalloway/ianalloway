@@ -71,12 +71,6 @@ Frozen copies of retired public repos, one branch per project.
 
 ---
 
-## Support and writing
+## Writing
 
 I write about ML systems and applied AI on [Alloway AI](https://allowayai.substack.com).
-
-If you like the open-source work and want to support it:
-- [GitHub Sponsors](https://github.com/sponsors/ianalloway)
-- Crypto wallet: `0xAc7C093B312700614C80Ba3e0509f8dEde03515b`
-
-</div>
