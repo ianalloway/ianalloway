@@ -32,6 +32,10 @@ I care about systems that are inspectable, reusable, and honest about what they 
 
 ## Featured Work
 
+### [juryrig](https://github.com/ianalloway/juryrig)
+
+Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position-bias and verbosity-bias audits, judge panels with agreement scoring, and calibration (Brier, ECE) against human labels.
+
 ### [ai-advantage](https://github.com/ianalloway/ai-advantage)
 Sports betting product with ML predictions, Kelly-based bet sizing, live odds, and a real deployed surface.
 
