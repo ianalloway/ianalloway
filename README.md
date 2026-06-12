@@ -1,10 +1,10 @@
 # Ian Alloway
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=220&section=header&text=IAN%20ALLOWAY&fontSize=82&fontColor=00d9ff&fontAlignY=34&desc=ML%20ENGINEER%20%C2%B7%20DATA%20SCIENCE%20%C2%B7%20APPLIED%20SYSTEMS&descSize=20&descColor=16c784&descAlignY=58&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=220&section=header&text=IAN%20ALLOWAY&fontSize=82&fontColor=00d9ff&fontAlignY=34&desc=APPLIED%20AI%20%C2%B7%20AGENT%20APPS%20%C2%B7%20DATA%20PRODUCTS&descSize=20&descColor=16c784&descAlignY=58&animation=fadeIn" width="100%" />
 
 <div align="center">
 
-**ML Engineer · Data Scientist · Applied systems builder**
+**Applied AI engineer · Data scientist · Agent-built software**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-00d9ff?style=for-the-badge&labelColor=0a0e27)](https://ianalloway.xyz)
 [![Live Product](https://img.shields.io/badge/Live_Product-16c784?style=for-the-badge&labelColor=0a0e27)](https://aiadvantagesports.com)
@@ -18,15 +18,15 @@
 
 ## About
 
-I build ML and analytics products that are meant to ship, be measured, and actually help someone make a decision.
+I build software that makes AI systems easier to inspect, trust, and use.
 
 My work usually sits at the intersection of:
-- applied ML and forecasting
-- evaluation, calibration, and backtesting
-- FastAPI, Python, SQL, and TypeScript
-- CLI tools, dashboards, and product-style workflows
+- applied AI and analytics products
+- evaluation, audits, calibration, and model behavior
+- Python, SQL, TypeScript, FastAPI, and R
+- developer tooling, agent workflows, and product-style delivery
 
-I care about systems that are inspectable, reusable, and honest about what they do and do not know.
+I care about logic, taste, and software that still holds up after someone takes a closer look.
 
 ---
 
@@ -36,23 +36,20 @@ I care about systems that are inspectable, reusable, and honest about what they 
 
 Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position-bias and verbosity-bias audits, judge panels with agreement scoring, and calibration (Brier, ECE) against human labels.
 
-### [ai-advantage](https://github.com/ianalloway/ai-advantage)
-Sports betting product with ML predictions, Kelly-based bet sizing, live odds, and a real deployed surface.
-
 ### [ian-web-forge](https://github.com/ianalloway/ian-web-forge)
-Portfolio site at [ianalloway.xyz](https://ianalloway.xyz) — project showcase, toolkit index, testimonials, and live Substack RSS.
+Portfolio site at [ianalloway.xyz](https://ianalloway.xyz) with live project proof, case studies, writing, and recruiter-facing product polish.
 
-### [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml)
-Applied modeling repo for NBA and NFL edge detection using logistic regression, XGBoost, and ensemble methods.
+### [repo-health](https://github.com/ianalloway/repo-health)
+Repository-quality CLI for README quality, CI, licensing, staleness, and maintenance signals.
 
-### [nba-ratings](https://github.com/ianalloway/nba-ratings)
-Reusable ratings and win-probability library with Kelly helpers.
+### [ai-advantage](https://github.com/ianalloway/ai-advantage)
+Public-facing ML product with integrated predictions, Kelly-based sizing, live workflow design, and a real deployed surface.
 
 ### [kelly-js](https://github.com/ianalloway/kelly-js)
-TypeScript package for Kelly sizing, odds conversion, and bankroll math.
+TypeScript package for Kelly sizing, odds conversion, and bankroll math with a clean API surface.
 
-### [allowayai](https://github.com/ianalloway/allowayai)
-R utility toolkit for AI and sports analytics workflows.
+### [OpenClaw contributions](https://github.com/openclaw/openclaw)
+Open-source contributions to an AI agent framework through bug fixes, skill-system improvements, and practical workflow support.
 
 ### [oss-archive](https://github.com/ianalloway/oss-archive)
 Frozen copies of retired public repos, one branch per project.
@@ -61,9 +58,9 @@ Frozen copies of retired public repos, one branch per project.
 
 ## What I’m building now
 
-- products that combine modeling with real user workflows
-- cleaner evaluation and decision tooling
-- durable portfolio pieces instead of throwaway demos
+- agent-developed apps with cleaner logic and stronger public proof
+- evaluation tooling that makes model behavior easier to inspect
+- portfolio pieces that show software judgment, not just model output
 
 ---
 
@@ -71,7 +68,7 @@ Frozen copies of retired public repos, one branch per project.
 
 - B.S. Information Science, University of South Florida
 - M.S. Artificial Intelligence, University of South Florida (in progress)
-- Interested in ML Engineer, Data Scientist, AI Engineer, and applied research roles
+- Interested in Applied AI Engineer, ML Engineer, Data Scientist, and analytics product roles
 
 ---
 
