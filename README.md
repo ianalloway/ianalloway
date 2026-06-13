@@ -58,6 +58,7 @@ Frozen copies of retired public repos, one branch per project.
 
 ## What I’m building now
 
+- Project Sunflower, a ChatGPT app-development and software-practices evaluation project
 - agent-developed apps with cleaner logic and stronger public proof
 - evaluation tooling that makes model behavior easier to inspect
 - portfolio pieces that show software judgment, not just model output
