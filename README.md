@@ -67,8 +67,8 @@ Frozen copies of retired public repos, one branch per project.
 
 ## Background
 
-- B.S. Information Science, University of South Florida
-- M.S. Artificial Intelligence, University of South Florida (in progress)
+- B.S. Information Science, University of South Florida (completed May 2026)
+- M.S. Artificial Intelligence, University of South Florida (starts August 2026)
 - Interested in Applied AI Engineer, ML Engineer, Data Scientist, and analytics product roles
 
 ---
