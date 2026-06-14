@@ -28,6 +28,11 @@ My work usually sits at the intersection of:
 
 I care about logic, taste, and software that still holds up after someone takes a closer look.
 
+### Recent Highlights
+- **Built AI Advantage Sports:** A full-stack live sports analytics platform processing thousands of live data points using FastAPI and TypeScript.
+- **Developed evaluation tooling:** Created `juryrig`, a zero-dependency auditing toolkit to measure LLM-as-judge reliability, including Brier score calibration and position-bias detection.
+- **Maintained 8 active OSS repositories:** Focused on modeling edges, reusable UI components, and developer experience tools with clean architecture and robust testing.
+
 ---
 
 ## Featured Work
