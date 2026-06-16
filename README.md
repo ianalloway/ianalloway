@@ -4,11 +4,12 @@
 
 <div align="center">
 
-**Applied AI engineer · Data scientist · Agent-built software**
+**Applied AI engineer · Data scientist · Evaluation-driven software**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-00d9ff?style=for-the-badge&labelColor=0a0e27)](https://ianalloway.xyz)
 [![Live Product](https://img.shields.io/badge/Live_Product-16c784?style=for-the-badge&labelColor=0a0e27)](https://aiadvantagesports.com)
 [![Resume](https://img.shields.io/badge/Resume-16c784?style=for-the-badge&labelColor=0a0e27)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
+[![Cover Letter](https://img.shields.io/badge/Cover_Letter-00d9ff?style=for-the-badge&labelColor=0a0e27)](https://github.com/ianalloway/Resume/raw/main/job-search/Ian_Alloway_Cover_Letter.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=0a0e27)](https://www.linkedin.com/in/ianit)
 [![Email](https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&labelColor=0a0e27)](mailto:ian@allowayllc.com)
 
@@ -22,16 +23,16 @@ I build software that makes AI systems easier to inspect, trust, and use.
 
 My work usually sits at the intersection of:
 - applied AI and analytics products
-- evaluation, audits, calibration, and model behavior
-- Python, SQL, TypeScript, FastAPI, and R
-- developer tooling, agent workflows, and product-style delivery
+- model evaluation, audits, calibration, and agent-built software
+- Python, SQL, TypeScript, FastAPI, and React
+- developer tooling, blockchain analytics, and product-style delivery
 
 I care about logic, taste, and software that still holds up after someone takes a closer look.
 
 ### Recent Highlights
-- **Built AI Advantage Sports:** A full-stack live sports analytics platform processing thousands of live data points using FastAPI and TypeScript.
-- **Developed evaluation tooling:** Created `juryrig`, a zero-dependency auditing toolkit to measure LLM-as-judge reliability, including Brier score calibration and position-bias detection.
-- **Maintained 8 active OSS repositories:** Focused on modeling edges, reusable UI components, and developer experience tools with clean architecture and robust testing.
+- **Technical Staff @ OpenAI:** Evaluate ChatGPT app development and agent-built software across engineering practices, logic, design taste, and product quality.
+- **Built AI Advantage Sports:** Full-stack sports analytics platform with live workflows, ML predictions, and Kelly-based sizing.
+- **Developed evaluation tooling:** `juryrig` audits LLM-as-judge pipelines for bias, prompt-injection susceptibility, and calibration.
 
 ---
 
@@ -50,30 +51,25 @@ Repository-quality CLI for README quality, CI, licensing, staleness, and mainten
 ### [ai-advantage](https://github.com/ianalloway/ai-advantage)
 Public-facing ML product with integrated predictions, Kelly-based sizing, live workflow design, and a real deployed surface.
 
-### [kelly-js](https://github.com/ianalloway/kelly-js)
-TypeScript package for Kelly sizing, odds conversion, and bankroll math with a clean API surface.
-
 ### [OpenClaw contributions](https://github.com/openclaw/openclaw)
 Open-source contributions to an AI agent framework through bug fixes, skill-system improvements, and practical workflow support.
 
-### [oss-archive](https://github.com/ianalloway/oss-archive)
-Frozen copies of retired public repos, one branch per project.
-
 ---
 
-## What I’m building now
+## What I'm building now
 
-- Project Sunflower, a ChatGPT app-development and software-practices evaluation project
-- agent-developed apps with cleaner logic and stronger public proof
-- evaluation tooling that makes model behavior easier to inspect
-- portfolio pieces that show software judgment, not just model output
+- evaluation tooling that makes model and app behavior easier to inspect
+- agent-developed apps with stronger engineering judgment and public proof
+- applied ML products where the evaluation layer is part of the system, not an afterthought
 
 ---
 
 ## Background
 
-- B.S. Information Science, University of South Florida (completed May 2026)
-- M.S. Artificial Intelligence, University of South Florida (starts August 2026)
+- Technical Staff, OpenAI (2026–present)
+- Founder, Alloway LLC (2023–present)
+- B.S. Information Science, University of South Florida (May 2026, Magna Cum Laude, 3.5 GPA)
+- M.S. Artificial Intelligence, University of South Florida (August 2026)
 - Interested in Applied AI Engineer, ML Engineer, Data Scientist, and analytics product roles
 
 ---
