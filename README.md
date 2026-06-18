@@ -21,7 +21,7 @@ I help build systems, teams, and software at the intersection of **AI systems, p
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems
 - B.S. Information Science · M.S. Artificial Intelligence — University of South Florida (Magna Cum Laude)
 
-I care about software that still holds up when someone looks closely.
+I care about things that still holds up when someone looks closely & over time.
 
 ---
 
