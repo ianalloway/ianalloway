@@ -15,7 +15,7 @@
 
 ## About
 
-I build software at the intersection of **AI systems, product, and evaluation**.
+I help build systems, teams, and software at the intersection of **AI systems, product, and evaluation**.
 
 - **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems
