@@ -120,7 +120,7 @@ Repository-quality CLI — scores README quality, CI config, licensing, stalenes
 
 <div align="center">
 
-<img src="solvent_meme.png" width="480" alt="Other agents vs SOLVENT meme" />
+<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/solvent_meme.png" width="480" alt="Other agents vs SOLVENT meme" />
 
 *other agents can spend money · SOLVENT runs at 94% margin*
 
