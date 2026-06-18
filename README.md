@@ -17,7 +17,7 @@
 
 I build software at the intersection of **AI systems, product, and evaluation**.
 
-- **Technical Staff @ OpenAI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
+- **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems
 - B.S. Information Science · M.S. Artificial Intelligence — University of South Florida (Magna Cum Laude)
 
