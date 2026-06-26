@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=200&section=header&text=IAN%20ALLOWAY&fontSize=72&fontColor=00d9ff&fontAlignY=36&desc=Applied%20AI%20%C2%B7%20Agent%20Systems%20%C2%B7%20Data%20Products&descSize=18&descColor=16c784&descAlignY=58&animation=fadeIn" width="100%" />
+<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/banner.svg" width="100%" alt="IAN ALLOWAY — Applied AI · Agent Systems · Data Products" />
 
 <div align="center">
 
@@ -128,4 +128,17 @@ Repository-quality CLI — scores README quality, CI config, licensing, stalenes
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:16c784,50:00d9ff,75:16c784,100:0a0e27&height=100&section=footer&animation=fadeIn" width="100%" />
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=transparent&hide_border=true&title_color=00d9ff&icon_color=16c784&text_color=cdd2c5&bg_color=0a0e27" height="170" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ianalloway&theme=transparent&hide_border=true&ring=00d9ff&fire=16c784&currStreakLabel=16c784&sideNums=cdd2c5&sideLabels=cdd2c5&dates=cdd2c5" height="170" alt="GitHub Streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&theme=react-dark&hide_border=true&bg_color=0a0e27&color=16c784&line=00d9ff&point=16c784" width="95%" alt="Contribution Graph" />
+
+</div>
+
+---
+
+<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/banner-footer.svg" width="100%" alt="" />
