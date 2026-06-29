@@ -25,6 +25,16 @@ I care about things that still holds up when someone looks closely & over time.
 
 ---
 
+## 🧭 Recent Work
+
+**Browser automation is the real agent benchmark** — a practical write-up and checklist for evaluating agents against the web that actually breaks them: auth, iframes, Shadow DOM, rich-text editors, passkeys, and final-state receipts.
+
+[![Read the write-up](https://img.shields.io/badge/Read_Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark)
+[![GitHub checklist](https://img.shields.io/badge/GitHub_Checklist-0a0e27?style=for-the-badge&logo=github&logoColor=00d9ff)](https://github.com/ianalloway/browser-agent-benchmark)
+[![HF Space](https://img.shields.io/badge/Hugging_Face_Space-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/spaces/ianalloway/browser-agent-benchmark)
+
+---
+
 ## 🛠 Tech Stack
 
 <div align="center">
