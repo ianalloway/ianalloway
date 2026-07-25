@@ -4,7 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ianalloway.xyz-00d9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0e27)](https://ianalloway.xyz)
 [![Live Product](https://img.shields.io/badge/AI_Advantage_Sports-Live-16c784?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0a0e27)](https://aiadvantagesports.com)
-[![Resume](https://img.shields.io/badge/Resume-PDF-16c784?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0a0e27)](https://github.com/ianalloway/Resume/raw/main/Ian_Alloway_Resume_CV.pdf)
+[![Resume](https://img.shields.io/badge/Resume-PDF-16c784?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0a0e27)](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e27)](https://www.linkedin.com/in/ianit)
 [![Email](https://img.shields.io/badge/Email-ian%40allowayllc.com-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27)](mailto:ian@allowayllc.com)
 [![Substack](https://img.shields.io/badge/Writing-Alloway_AI-FF6719?style=for-the-badge&logo=substack&logoColor=white&labelColor=0a0e27)](https://allowayai.substack.com)
@@ -19,9 +19,9 @@ I help build systems, teams, and software at the intersection of **AI systems, p
 
 - **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems
-- B.S. Information Science · M.S. Artificial Intelligence — University of South Florida (Magna Cum Laude)
+- B.S. Information Science, magna cum laude · M.S. Artificial Intelligence candidate — University of South Florida
 
-I care about things that still holds up when someone looks closely & over time.
+I care about things that still hold up when someone looks closely & over time.
 
 ---
 
