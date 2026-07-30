@@ -113,8 +113,16 @@ Full-stack sports analytics platform with live ML predictions, Kelly-based sizin
 
 ---
 
-### 🔬 [repo-health](https://github.com/ianalloway/repo-health)
-Repository-quality CLI — scores README quality, CI config, licensing, staleness, and maintenance signals across any GitHub repo.
+### 📐 [nba-ratings](https://github.com/ianalloway/nba-ratings) · [kelly-js](https://github.com/ianalloway/kelly-js) · [matrix-rain](https://github.com/ianalloway/matrix-rain)
+Flagship libraries behind the stack: Elo/logistic/Kelly primitives on PyPI as `nba-edge`, zero-dep TypeScript Kelly math on npm, and a retina-aware Matrix rain React component.
+
+| Repo | One-liner |
+|---|---|
+| [nba-ratings](https://github.com/ianalloway/nba-ratings) | Elo, win probability, calibration — published as **nba-edge** |
+| [kelly-js](https://github.com/ianalloway/kelly-js) | Kelly sizing, CLV, bankroll stats — TypeScript, zero deps |
+| [matrix-rain](https://github.com/ianalloway/matrix-rain) | Digital rain component with reduced-motion support |
+
+More projects and demos: **[ianalloway.xyz](https://ianalloway.xyz)**
 
 ---
 
@@ -123,6 +131,7 @@ Repository-quality CLI — scores README quality, CI config, licensing, stalenes
 - Autonomous agent systems with real economic loops (earn, spend, book P&L)
 - Evaluation tooling that makes model and app behavior inspectable and trustworthy
 - Applied ML products where the evaluation layer is part of the system, not an afterthought
+- Sports decision systems — ratings → edge → Kelly → live product ([AI Advantage](https://aiadvantagesports.com))
 
 ---
 
