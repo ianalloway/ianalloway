@@ -151,8 +151,7 @@ More projects and demos: **[ianalloway.xyz](https://ianalloway.xyz)**
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ianalloway&show_icons=true&theme=transparent&hide_border=true&title_color=00d9ff&icon_color=16c784&text_color=cdd2c5&bg_color=0a0e27" height="170" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ianalloway&theme=transparent&hide_border=true&ring=00d9ff&fire=16c784&currStreakLabel=16c784&sideNums=cdd2c5&sideLabels=cdd2c5&dates=cdd2c5" height="170" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=ianalloway&theme=transparent&hide_border=true&ring=00d9ff&fire=16c784&currStreakLabel=16c784&sideNums=cdd2c5&sideLabels=cdd2c5&dates=cdd2c5" height="170" alt="GitHub Streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ianalloway&theme=react-dark&hide_border=true&bg_color=0a0e27&color=16c784&line=00d9ff&point=16c784" width="95%" alt="Contribution Graph" />
 
