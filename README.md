@@ -30,6 +30,9 @@ I care about things that still hold up when someone looks closely & over time.
 
 ## Featured
 
+### [Case study](docs/case-study-ai-advantage.md) — AI Advantage (+ SOLVENT)
+> Problem → system design → what “good” means → honest results. Live product + repos. No fabricated metrics.
+
 ### [SOLVENT](https://github.com/ianalloway/solvent-agent) — Self-Funding AI Agent
 > *NVIDIA × Stripe × Nous Research Hackathon*
 
