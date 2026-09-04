@@ -15,10 +15,12 @@
 
 ## About
 
-I help build systems, teams, and software at the intersection of **AI systems, product, and evaluation**.
+**Applied AI / eval / agent systems** · sports decision products · Alloway LLC.
+
+I build and evaluate systems at the intersection of AI products, agent tooling, and decision software that has to hold up under scrutiny.
 
 - **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
-- **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems
+- **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
 - B.S. Information Science, magna cum laude · M.S. Artificial Intelligence candidate — University of South Florida
 
 I care about things that still hold up when someone looks closely & over time.
@@ -27,11 +29,17 @@ I care about things that still hold up when someone looks closely & over time.
 
 ## 🧭 Recent Work
 
-**Browser automation is the real agent benchmark** — a practical write-up and checklist for evaluating agents against the web that actually breaks them: auth, iframes, Shadow DOM, rich-text editors, passkeys, and final-state receipts.
+Living checklist of what I've been shipping lately (not archived demos):
 
-[![Read the write-up](https://img.shields.io/badge/Read_Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark)
-[![GitHub checklist](https://img.shields.io/badge/GitHub_Checklist-0a0e27?style=for-the-badge&logo=github&logoColor=00d9ff)](https://github.com/ianalloway/browser-agent-benchmark)
-[![HF Space](https://img.shields.io/badge/Hugging_Face_Space-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/spaces/ianalloway/browser-agent-benchmark)
+| Area | What landed |
+|---|---|
+| **[ai-advantage](https://github.com/ianalloway/ai-advantage)** | TypeScript 7 upgrade on the live sports product; smoke/CI hardening for [aiadvantagesports.com](https://aiadvantagesports.com) |
+| **[sports-betting-ml](https://github.com/ianalloway/sports-betting-ml)** | Odds/Kelly math guards, shared h2h odds helper, Docker CI on PRs |
+| **[juryrig](https://github.com/ianalloway/juryrig)** | Zero-dep LLM-as-judge audits (position / verbosity / injection / calibration) |
+| **[solvent-agent](https://github.com/ianalloway/solvent-agent)** | Self-funding agent loop — earn → fulfil → spend → book P&L (hackathon demo) |
+| **[deathcon-api](https://github.com/ianalloway/deathcon-api)** | FastAPI AI chat + webhook handler (YAML/env-driven ops surface) |
+
+Eval notes that still matter (repo archived, write-up lives on): browser automation remains a hard agent benchmark — [Substack](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [checklist](https://github.com/ianalloway/browser-agent-benchmark).
 
 ---
 
@@ -83,17 +91,13 @@ I care about things that still hold up when someone looks closely & over time.
 ### 🪙 [SOLVENT](https://github.com/ianalloway/solvent-agent) — Self-Funding AI Agent
 > *Built for the NVIDIA × Stripe × Nous Research Hackathon*
 
-An AI agent that **runs as a profitable business**. It sells research briefs, collects payment via Stripe, provisions its own compute using its own revenue, and refuses any job that doesn't clear a margin. A fully automated company with its own balance sheet.
+An AI agent that **runs as a business loop**: sells research briefs, collects payment via Stripe, provisions compute from its own revenue, and refuses jobs that don't clear a margin. Demo runs book a full P&amp;L (earn → fulfil → spend); dollar figures in the demo are illustrative of the loop, not production revenue.
 
 ```
  Client pays Stripe → Agent earns → Agent fulfils → Agent pays vendors → P&L booked
 ```
 
-| Metric | Value |
-|---|---|
-| Net profit (demo run) | **$209.65** |
-| Margin | **94%** |
-| Sponsor stack | NVIDIA Nemotron · Stripe Issuing · NemoClaw guardrails |
+Sponsor stack: NVIDIA Nemotron · Stripe Issuing · NemoClaw-style guardrails.
 
 [![View SOLVENT →](https://img.shields.io/badge/View_SOLVENT-0a0e27?style=for-the-badge&logo=github&logoColor=00d9ff)](https://github.com/ianalloway/solvent-agent)
 
@@ -107,20 +111,22 @@ Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position-
 ---
 
 ### 🏈 [AI Advantage Sports](https://github.com/ianalloway/ai-advantage)
-Full-stack sports analytics platform with live ML predictions, Kelly-based sizing, and a real deployed surface at [aiadvantagesports.com](https://aiadvantagesports.com).
+Full-stack sports analytics product with live ML predictions, Kelly-based sizing, and a real deployed surface at [aiadvantagesports.com](https://aiadvantagesports.com).
+
+**Stack layering:** [nba-ratings](https://github.com/ianalloway/nba-ratings) (Python) → [kelly-js](https://github.com/ianalloway/kelly-js) (TS) → [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) (training demo) → [ai-advantage](https://github.com/ianalloway/ai-advantage) (product).
 
 [![View AI Advantage →](https://img.shields.io/badge/View_AI_Advantage-0a0e27?style=for-the-badge&logo=github&logoColor=16c784)](https://github.com/ianalloway/ai-advantage)
 
 ---
 
-### 📐 [nba-ratings](https://github.com/ianalloway/nba-ratings) · [kelly-js](https://github.com/ianalloway/kelly-js) · [matrix-rain](https://github.com/ianalloway/matrix-rain)
-Flagship libraries behind the stack: Elo/logistic/Kelly primitives on PyPI as `nba-edge`, zero-dep TypeScript Kelly math on npm, and a retina-aware Matrix rain React component.
+### 📐 [nba-ratings](https://github.com/ianalloway/nba-ratings) · [kelly-js](https://github.com/ianalloway/kelly-js) · [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml)
+Libraries and demos behind the sports stack (featured pins — not archived awesome-lists).
 
 | Repo | One-liner |
 |---|---|
-| [nba-ratings](https://github.com/ianalloway/nba-ratings) | Elo, win probability, calibration — published as **nba-edge** |
-| [kelly-js](https://github.com/ianalloway/kelly-js) | Kelly sizing, CLV, bankroll stats — TypeScript, zero deps |
-| [matrix-rain](https://github.com/ianalloway/matrix-rain) | Digital rain component with reduced-motion support |
+| [nba-ratings](https://github.com/ianalloway/nba-ratings) | Elo, win probability, calibration — published on PyPI as **nba-edge** |
+| [kelly-js](https://github.com/ianalloway/kelly-js) | Kelly sizing, CLV, bankroll stats — TypeScript, zero deps (npm publish pending) |
+| [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) | Streamlit training / value-bet demo (synthetic demo metrics) |
 
 More projects and demos: **[ianalloway.xyz](https://ianalloway.xyz)**
 
@@ -141,7 +147,7 @@ More projects and demos: **[ianalloway.xyz](https://ianalloway.xyz)**
 
 <img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/solvent_meme.png" width="480" alt="Other agents vs SOLVENT meme" />
 
-*other agents can spend money · SOLVENT runs at 94% margin*
+*other agents can spend money · SOLVENT gates spend on margin*
 
 </div>
 
