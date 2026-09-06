@@ -18,7 +18,7 @@
 
 **Website:** [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
 
-I build and evaluate systems at the intersection of AI products, agent tooling, and decision software that has to hold up under scrutiny.
+I build and evaluate systems where AI products, agent tooling, and decision software have to hold up under scrutiny.
 
 - **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
@@ -50,16 +50,20 @@ Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position 
 ### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage)
 Full-stack sports analytics product with live ML predictions, Kelly-based sizing, and a real deployed surface at [aiadvantagesports.com](https://aiadvantagesports.com).
 
-**Stack layering:** [nba-ratings](https://github.com/ianalloway/nba-ratings) (Python) → [kelly-js](https://github.com/ianalloway/kelly-js) (TS) → [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) (training demo) → [ai-advantage](https://github.com/ianalloway/ai-advantage) (product).
+**Stack layering:** [nba-ratings](https://github.com/ianalloway/nba-ratings) ([PyPI: nba-edge](https://pypi.org/project/nba-edge/)) → [kelly-js](https://github.com/ianalloway/kelly-js) (`npm install @ianalloway/kelly-js`) → [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) (training demo) → [ai-advantage](https://github.com/ianalloway/ai-advantage) (product).
 
 ---
 
 ## Also shipping
 
+[![npm @ianalloway/kelly-js](https://img.shields.io/npm/v/@ianalloway/kelly-js?style=for-the-badge&logo=npm&logoColor=white&color=CB3837&labelColor=0a0e27)](https://www.npmjs.com/package/@ianalloway/kelly-js)
+[![PyPI nba-edge](https://img.shields.io/pypi/v/nba-edge?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9&labelColor=0a0e27)](https://pypi.org/project/nba-edge/)
+
 | Repo | One-liner |
 |---|---|
-| [nba-ratings](https://github.com/ianalloway/nba-ratings) | Elo, win probability, calibration — on PyPI as **nba-edge** |
-| [kelly-js](https://github.com/ianalloway/kelly-js) | Kelly sizing, CLV, bankroll stats — TypeScript, zero deps |
+| [nba-ratings](https://github.com/ianalloway/nba-ratings) · [PyPI](https://pypi.org/project/nba-edge/) | Elo, win probability, calibration — **nba-edge** on PyPI |
+| [kelly-js](https://github.com/ianalloway/kelly-js) · [npm](https://www.npmjs.com/package/@ianalloway/kelly-js) | Kelly sizing, CLV, bankroll — `npm install @ianalloway/kelly-js` |
+| [openclaw-skills](https://github.com/ianalloway/openclaw-skills) | 15 OpenClaw/ClawHub agent skills (sports-odds, Kelly, portfolio, …) |
 | [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) | Streamlit training / value-bet demo (synthetic demo metrics) |
 
 Eval notes that still matter: browser automation remains a hard agent benchmark — [Substack](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [checklist](https://github.com/ianalloway/browser-agent-benchmark).
