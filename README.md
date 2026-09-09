@@ -44,8 +44,8 @@ An AI agent that **runs as a business loop**: sells research briefs, collects pa
 
 Sponsor stack: NVIDIA Nemotron · Stripe Issuing · NemoClaw-style guardrails.
 
-### [juryrig](https://github.com/ianalloway/juryrig)
-Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position / verbosity / injection bias checks, judge panels with agreement scoring, and calibration (Brier, ECE) against human labels.
+### [juryrig](https://github.com/ianalloway/juryrig) · [PyPI](https://pypi.org/project/juryrig/)
+Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position / verbosity / injection bias checks, judge panels with agreement scoring, and calibration (Brier, ECE) against human labels. `pip install juryrig`
 
 ### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage)
 Full-stack sports analytics product with live ML predictions, Kelly-based sizing, and a real deployed surface at [aiadvantagesports.com](https://aiadvantagesports.com).
@@ -58,10 +58,12 @@ Full-stack sports analytics product with live ML predictions, Kelly-based sizing
 
 [![npm @ianalloway/kelly-js](https://img.shields.io/npm/v/@ianalloway/kelly-js?style=for-the-badge&logo=npm&logoColor=white&color=CB3837&labelColor=0a0e27)](https://www.npmjs.com/package/@ianalloway/kelly-js)
 [![PyPI nba-edge](https://img.shields.io/pypi/v/nba-edge?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9&labelColor=0a0e27)](https://pypi.org/project/nba-edge/)
+[![PyPI juryrig](https://img.shields.io/pypi/v/juryrig?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9&labelColor=0a0e27)](https://pypi.org/project/juryrig/)
 
 | Repo | One-liner |
 |---|---|
 | [nba-ratings](https://github.com/ianalloway/nba-ratings) · [PyPI](https://pypi.org/project/nba-edge/) | Elo, win probability, calibration — **nba-edge** on PyPI |
+| [juryrig](https://github.com/ianalloway/juryrig) · [PyPI](https://pypi.org/project/juryrig/) | LLM-as-judge audit toolkit — `pip install juryrig` |
 | [kelly-js](https://github.com/ianalloway/kelly-js) · [npm](https://www.npmjs.com/package/@ianalloway/kelly-js) | Kelly sizing, CLV, bankroll — `npm install @ianalloway/kelly-js` |
 | [openclaw-skills](https://github.com/ianalloway/openclaw-skills) | 15 OpenClaw/ClawHub agent skills (sports-odds, Kelly, portfolio, …) |
 | [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) | Streamlit training / value-bet demo (synthetic demo metrics) |
