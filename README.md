@@ -45,12 +45,25 @@ An AI agent that **runs as a business loop**: sells research briefs, collects pa
 Sponsor stack: NVIDIA Nemotron · Stripe Issuing · NemoClaw-style guardrails.
 
 ### [juryrig](https://github.com/ianalloway/juryrig) · [PyPI](https://pypi.org/project/juryrig/)
-Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position / verbosity / injection bias checks, judge panels with agreement scoring, and calibration (Brier, ECE) against human labels. `pip install juryrig`
+Zero-dependency Python toolkit for auditing LLM-as-judge pipelines — position / verbosity / injection bias checks, judge panels with an agreement matrix, and calibration (Brier, ECE) against human labels. `pip install juryrig`
 
 ### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage)
-Full-stack sports analytics product with live ML predictions, Kelly-based sizing, and a real deployed surface at [aiadvantagesports.com](https://aiadvantagesports.com).
+Full-stack sports analytics product with live ML predictions, Kelly-based sizing, CLV tracking, and a real deployed surface at [aiadvantagesports.com](https://aiadvantagesports.com).
 
-**Stack layering:** [nba-ratings](https://github.com/ianalloway/nba-ratings) ([PyPI: nba-edge](https://pypi.org/project/nba-edge/)) → [kelly-js](https://github.com/ianalloway/kelly-js) (`npm install @ianalloway/kelly-js`) → [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) (training demo) → [ai-advantage](https://github.com/ianalloway/ai-advantage) (product).
+**Stack layering:** [nba-ratings](https://github.com/ianalloway/nba-ratings) ([PyPI: nba-edge](https://pypi.org/project/nba-edge/)) → [kelly-js](https://github.com/ianalloway/kelly-js) (`npm install @ianalloway/kelly-js`) → [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) (training demo) → [ai-advantage](https://github.com/ianalloway/ai-advantage) (product). Ratings → edge → Kelly / CLV → live UI.
+
+---
+
+## Public map
+
+Active public surface, grouped for navigation (pins are the sports + agent core).
+
+| Group | Repos |
+|---|---|
+| **Sports decision stack** | [nba-ratings](https://github.com/ianalloway/nba-ratings) · [kelly-js](https://github.com/ianalloway/kelly-js) · [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) · [ai-advantage](https://github.com/ianalloway/ai-advantage) |
+| **Agents & eval** | [solvent-agent](https://github.com/ianalloway/solvent-agent) · [juryrig](https://github.com/ianalloway/juryrig) · [openclaw-skills](https://github.com/ianalloway/openclaw-skills) |
+| **Portfolio / UI** | [ian-web-forge](https://github.com/ianalloway/ian-web-forge) · [matrix-rain](https://github.com/ianalloway/matrix-rain) · [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) |
+| **Web3 / archive** | [evm-sentry](https://github.com/ianalloway/evm-sentry) · [oss-archive](https://github.com/ianalloway/oss-archive) |
 
 ---
 
@@ -62,13 +75,17 @@ Full-stack sports analytics product with live ML predictions, Kelly-based sizing
 
 | Repo | One-liner |
 |---|---|
-| [nba-ratings](https://github.com/ianalloway/nba-ratings) · [PyPI](https://pypi.org/project/nba-edge/) | Elo, win probability, calibration — **nba-edge** on PyPI |
-| [juryrig](https://github.com/ianalloway/juryrig) · [PyPI](https://pypi.org/project/juryrig/) | LLM-as-judge audit toolkit — `pip install juryrig` |
+| [ian-web-forge](https://github.com/ianalloway/ian-web-forge) | Portfolio site — live at [ianalloway.xyz](https://ianalloway.xyz) |
+| [matrix-rain](https://github.com/ianalloway/matrix-rain) | React matrix rain — HiDPI, reduced-motion, message mode |
+| [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) | Neon OpenClaw theme · [Pages preview](https://ianalloway.github.io/openclaw-theme-neon/) |
+| [openclaw-skills](https://github.com/ianalloway/openclaw-skills) | 16 OpenClaw/ClawHub skills (sports-odds, Kelly, portfolio, …) |
+| [nba-ratings](https://github.com/ianalloway/nba-ratings) · [PyPI](https://pypi.org/project/nba-edge/) | Elo, win probability, Kelly + CLV helpers — **nba-edge** |
 | [kelly-js](https://github.com/ianalloway/kelly-js) · [npm](https://www.npmjs.com/package/@ianalloway/kelly-js) | Kelly sizing, CLV, bankroll — `npm install @ianalloway/kelly-js` |
-| [openclaw-skills](https://github.com/ianalloway/openclaw-skills) | 15 OpenClaw/ClawHub agent skills (sports-odds, Kelly, portfolio, …) |
 | [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) | Streamlit training / value-bet demo (synthetic demo metrics) |
+| [evm-sentry](https://github.com/ianalloway/evm-sentry) | On-chain anomaly & risk scanner (Ethereum, Base, Optimism) |
+| [oss-archive](https://github.com/ianalloway/oss-archive) | Frozen snapshots of completed projects + revive guide |
 
-Eval notes that still matter: browser automation remains a hard agent benchmark — [Substack](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [checklist](https://github.com/ianalloway/browser-agent-benchmark).
+Eval notes that still matter: browser automation remains a hard agent benchmark — [Substack](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [checklist](https://github.com/ianalloway/browser-agent-benchmark) (archived).
 
 More: **[ianalloway.xyz](https://ianalloway.xyz)**
 
@@ -87,7 +104,7 @@ More: **[ianalloway.xyz](https://ianalloway.xyz)**
 - Autonomous agent systems with real economic loops (earn, spend, book P&L)
 - Evaluation tooling that makes model and app behavior inspectable and trustworthy
 - Applied ML products where the evaluation layer is part of the system, not an afterthought
-- Sports decision systems — ratings → edge → Kelly → live product ([AI Advantage](https://aiadvantagesports.com))
+- Sports decision systems — ratings → edge → Kelly / CLV → live product ([AI Advantage](https://aiadvantagesports.com))
 
 ---
 
