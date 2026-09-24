@@ -78,7 +78,7 @@ Active public surface, grouped for navigation (pins are the sports + agent core)
 | [ian-web-forge](https://github.com/ianalloway/ian-web-forge) | Portfolio site — live at [ianalloway.xyz](https://ianalloway.xyz) |
 | [matrix-rain](https://github.com/ianalloway/matrix-rain) | React matrix rain — HiDPI, reduced-motion, message mode |
 | [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) | Neon OpenClaw theme · [Pages preview](https://ianalloway.github.io/openclaw-theme-neon/) |
-| [openclaw-skills](https://github.com/ianalloway/openclaw-skills) | 16 OpenClaw/ClawHub skills (sports-odds, Kelly, portfolio, …) |
+| [openclaw-skills](https://github.com/ianalloway/openclaw-skills) | 17 OpenClaw/ClawHub skills (sports-odds, Kelly, CLV journal, …) |
 | [nba-ratings](https://github.com/ianalloway/nba-ratings) · [PyPI](https://pypi.org/project/nba-edge/) | Elo, win probability, Kelly + CLV helpers — **nba-edge** |
 | [kelly-js](https://github.com/ianalloway/kelly-js) · [npm](https://www.npmjs.com/package/@ianalloway/kelly-js) | Kelly sizing, CLV, bankroll — `npm install @ianalloway/kelly-js` |
 | [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) | Streamlit training / value-bet demo (synthetic demo metrics) |
