@@ -24,7 +24,7 @@ I build and evaluate systems where AI products, agent tooling, and decision soft
 - **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
 - **Contract @ Mercor & Turing** — building agent eval environments, golden answers, and grader rubrics (audit/accounting, spreadsheet automation)
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
-- B.S. Information Science, magna cum laude · M.S. Artificial Intelligence candidate — University of South Florida
+- B.S. Information Science, cum laude · M.S. Artificial Intelligence candidate — University of South Florida
 
 I care about things that still hold up when someone looks closely & over time.
 
