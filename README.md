@@ -5,11 +5,12 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-ianalloway.xyz-00d9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0e27)](https://ianalloway.xyz)
 [![Live Product](https://img.shields.io/badge/AI_Advantage_Sports-Live-16c784?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0a0e27)](https://aiadvantagesports.com)
 [![Resume](https://img.shields.io/badge/Resume-PDF-16c784?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0a0e27)](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf)
-[![Visual résumé](https://img.shields.io/badge/Visual_r%C3%A9sum%C3%A9-Explore-16c784?style=for-the-badge&logoColor=white&labelColor=0a0e27)](https://ian-alloway-visual-resume--ianalloway43.replit.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e27)](https://www.linkedin.com/in/ianit)
 [![Email](https://img.shields.io/badge/Email-ian%40allowayllc.com-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27)](mailto:ian@allowayllc.com)
 
 </div>
+
+[Featured projects](#featured-projects) · [Libraries and tools](#libraries-and-tools) · [Interactive demos](#interactive-demos) · [Tech stack](#tech-stack)
 
 ---
 
@@ -26,7 +27,7 @@ I build and evaluate systems where AI products, agent tooling, and decision soft
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
 - B.S. Information Science, cum laude · M.S. Artificial Intelligence candidate — University of South Florida
 
-I care about things that still hold up when someone looks closely & over time.
+My projects emphasize inspectable behavior, reproducible demos, and tests that check the decisions a system makes.
 
 ---
 
@@ -35,7 +36,9 @@ I care about things that still hold up when someone looks closely & over time.
 ### [SOLVENT](https://github.com/ianalloway/solvent-agent) — agent economics
 
 **Problem:** an agent that can spend needs pricing, a margin gate, and an auditable ledger.
+
 **Design:** a Python business loop with SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference.
+
 **What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue.
 
 [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png)
@@ -43,22 +46,26 @@ I care about things that still hold up when someone looks closely & over time.
 ### [juryrig](https://github.com/ianalloway/juryrig) — audit the judge
 
 **Problem:** LLM evaluation scores can hide position, verbosity, and prompt-injection bias.
-**Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
-**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Stable 0.3.0 includes the agreement matrix; the disagreement atlas is currently development-only.
 
-[Stable demo source](https://github.com/ianalloway/juryrig/blob/v0.3.0/examples/audit_demo.py) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/v0.3.0/tests)
+**Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
+
+**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. The source includes agreement matrices and a disagreement atlas; see the package release notes for published features.
+
+[Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
 
 ### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage) — sports decision product
 
 **Problem:** model output needs a usable workflow for odds, stake sizing, and portfolio risk.
+
 **Design:** React / TypeScript UI with Kelly-based sizing, calibration views, and server-side Stripe entitlement handlers.
+
 **What you can inspect:** a deployed product and open source implementation. The related training demo uses synthetic data; its metrics are not evidence of live betting returns.
 
 [Live product](https://aiadvantagesports.com) · [Case study](docs/case-study-ai-advantage.md) · [Product screenshot](https://github.com/ianalloway/ai-advantage/blob/main/screenshot.png)
 
 ---
 
-## More work
+## Libraries and tools
 
 | Area | Projects |
 |---|---|
@@ -71,6 +78,17 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 ---
 
+## Interactive demos
+
+| Project | What to try | Links |
+|---|---|---|
+| **Ballpark** | A multiplayer estimation game: closest guess wins. | [Play](https://ianalloway.github.io/ballpark-game/) · [Source](https://github.com/ianalloway/ballpark-game) |
+| **Beat the Close** | A shared market game with private scouting reads and closing-line value. | [Play](https://ianalloway.github.io/beat-the-close/) · [Source](https://github.com/ianalloway/beat-the-close) |
+| **Neon theme** | Switch palettes, tune CSS variables, and preview the rain effect. | [Preview](https://ianalloway.github.io/openclaw-theme-neon/) · [Source](https://github.com/ianalloway/openclaw-theme-neon) |
+| **ASCII portfolio** | An experimental monogram landing page built with Three.js and GSAP. | [Source and local setup](https://github.com/ianalloway/ascii-portfolio) |
+
+---
+
 ## Tech stack
 
 **Languages:** Python · TypeScript · SQL · JavaScript  
@@ -79,7 +97,8 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 ---
 
-## GitHub stats
+<details>
+<summary>GitHub activity</summary>
 
 <div align="center">
 
@@ -88,9 +107,10 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 </div>
 
----
+</details>
 
-## Mandatory meme
+<details>
+<summary>One more thing: the SOLVENT meme</summary>
 
 <div align="center">
 
@@ -99,6 +119,8 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 *other agents can spend money · SOLVENT gates spend on margin*
 
 </div>
+
+</details>
 
 ---
 
