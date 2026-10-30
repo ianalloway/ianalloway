@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/banner.svg" width="100%" alt="IAN ALLOWAY — Applied AI · Agent Systems · Data Products" />
+<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/banner.svg" width="100%" alt="IAN ALLOWAY — LLM Evaluation · Agent Tooling · Applied ML" />
 
 <div align="center">
 
@@ -16,16 +16,14 @@
 
 ## About
 
-**Applied AI / eval / agent systems** · sports decision products · [Alloway LLC](https://ianalloway.xyz).
+**AI engineer focused on LLM evaluation and agent tooling.** I grade frontier-model output for AI labs' evaluation programs and build the tooling that makes those grades worth trusting.
 
 **Website:** [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
 
-I build and evaluate systems where AI products, agent tooling, and decision software have to hold up under scrutiny.
-
-- **Contract @ Handshake AI** — evaluating ChatGPT app development and agent-built software across engineering, logic, design, and product quality
+- **Contract @ Handshake AI** — grading frontier-model output on software-engineering and agent tasks; side-by-side preference evals and reviews of agent-built apps
 - **Contract @ Mercor & Turing** — building agent eval environments, golden answers, and grader rubrics (audit/accounting, spreadsheet automation)
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
-- B.S. Information Science, cum laude · M.S. Artificial Intelligence candidate — University of South Florida
+- **University of South Florida** — M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
 
 My projects emphasize inspectable behavior, reproducible demos, and tests that check the decisions a system makes.
 
@@ -39,9 +37,9 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 
 **Design:** a Python business loop with SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference.
 
-**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue.
+**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys, from `pip install solvent-agent` or in the browser. Its dollar figures are simulated, not production revenue.
 
-[Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png)
+[Try it in your browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Quick start](https://github.com/ianalloway/solvent-agent#-quick-start) · [PyPI](https://pypi.org/project/solvent-agent/) · [Changelog](https://github.com/ianalloway/solvent-agent/blob/main/CHANGELOG.md)
 
 ### [juryrig](https://github.com/ianalloway/juryrig) — audit the judge
 
@@ -49,9 +47,9 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 
 **Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
 
-**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. The source includes agreement matrices and a disagreement atlas; see the package release notes for published features.
+**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Release 0.3.1 on PyPI includes agreement matrices with Cohen's κ and a disagreement atlas that shows where a judge panel splits.
 
-[Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
+[Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [Evaluation lab](https://github.com/ianalloway/juryrig/blob/main/examples/EVALUATION.md) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
 
 ### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage) — sports decision product
 
@@ -72,6 +70,7 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 | Sports libraries & experiments | [nba-ratings / nba-edge](https://github.com/ianalloway/nba-ratings) — ratings and probability · [kelly-js](https://github.com/ianalloway/kelly-js) — odds and stake math · [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) — synthetic training demo |
 | Agent extensions | [openclaw-skills](https://github.com/ianalloway/openclaw-skills) — reusable skills · [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) — theme with a [preview](https://ianalloway.github.io/openclaw-theme-neon/) |
 | Web & experiments | [ian-web-forge](https://github.com/ianalloway/ian-web-forge) — portfolio · [matrix-rain](https://github.com/ianalloway/matrix-rain) — React animation · [evm-sentry](https://github.com/ianalloway/evm-sentry) — on-chain scanner |
+| Upstream | [LiteLLM #48895](https://github.com/BerriAI/litellm/pull/48895) (open) — reap the killed Prisma engine so it no longer lingers as a zombie process |
 | Archive | [oss-archive](https://github.com/ianalloway/oss-archive) — completed project snapshots |
 
 Writing: [The browser is the real agent benchmark](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [Archived benchmark checklist](https://github.com/ianalloway/browser-agent-benchmark).
@@ -91,8 +90,9 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 ## Tech stack
 
+**Evaluation:** LLM-as-judge auditing · rubric & preference evals · agent evals · calibration  
 **Languages:** Python · TypeScript · SQL · JavaScript  
-**AI / ML:** OpenAI · NVIDIA Nemotron · LangChain · scikit-learn · Pandas  
+**AI / ML:** OpenAI · NVIDIA Nemotron · LangChain · scikit-learn · XGBoost · Pandas  
 **Product:** FastAPI · Next.js / React · Stripe · PostgreSQL · Docker · GitHub Actions
 
 ---
