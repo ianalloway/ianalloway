@@ -39,9 +39,15 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 
 **Design:** a Python business loop with SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference.
 
-**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue.
+[![PyPI](https://img.shields.io/pypi/v/solvent-agent?label=pypi&color=16c784&labelColor=0a0e27)](https://pypi.org/project/solvent-agent/)
+[![CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml)
+[![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-try%20in%20browser-ffcc4d?labelColor=0a0e27)](https://huggingface.co/spaces/ianalloway/solvent-agent-demo)
+[![Python](https://img.shields.io/pypi/pyversions/solvent-agent?labelColor=0a0e27)](https://pypi.org/project/solvent-agent/)
 
-[Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png)
+**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default earn rail. An optional Nano settle rail runs in sim or live verify-only mode: it checks public ledger blocks before fulfilling and never holds a hot wallet. Guardrails include per-job budget envelopes and a human-approval hook.
+
+`pip install solvent-agent && solvent` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png) · [Security model](https://github.com/ianalloway/solvent-agent/blob/main/SECURITY.md)
 
 ### [juryrig](https://github.com/ianalloway/juryrig) — audit the judge
 
@@ -49,9 +55,13 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 
 **Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
 
-**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. The source includes agreement matrices and a disagreement atlas; see the package release notes for published features.
+**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Agreement matrices and the disagreement atlas ship in PyPI 0.3.1.
 
-[Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
+[![PyPI](https://img.shields.io/pypi/v/juryrig?label=pypi&color=16c784&labelColor=0a0e27)](https://pypi.org/project/juryrig/)
+[![CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml)
+[![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-judge%20audit-ffcc4d?labelColor=0a0e27)](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
+
+[Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [Try it in the browser](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
 
 ### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage) — sports decision product
 
