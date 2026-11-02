@@ -20,7 +20,8 @@
 
 **Website:** [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
 
-- **Contract @ Handshake AI** — grading frontier-model output on software-engineering and agent tasks; side-by-side preference evals and reviews of agent-built apps
+- **Contract @ AgentsOnly** (since Oct 2026) — side-by-side evaluations of consumer app pages, scored against a written policy with structured rationales for QA review
+- **Contract @ Handshake AI** (Jun–Oct 2026) — graded frontier-model output on software-engineering and agent tasks; side-by-side preference evals and reviews of agent-built apps
 - **Contract @ Mercor & Turing** — building agent eval environments, golden answers, and grader rubrics (audit/accounting, spreadsheet automation)
 - **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
 - **University of South Florida** — M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
