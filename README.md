@@ -10,7 +10,7 @@
 
 </div>
 
-[Featured projects](#featured-projects) · [Libraries and tools](#libraries-and-tools) · [Interactive demos](#interactive-demos) · [Tech stack](#tech-stack)
+[Research](#research) · [Featured projects](#featured-projects) · [Libraries and tools](#libraries-and-tools) · [Interactive demos](#interactive-demos) · [Tech stack](#tech-stack)
 
 ---
 
@@ -26,6 +26,20 @@
 - **University of South Florida** — M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
 
 My projects emphasize inspectable behavior, reproducible demos, and tests that check the decisions a system makes.
+
+---
+
+## Research
+
+### [SpendAudit](https://github.com/ianalloway/spendaudit): can an LLM auditor match an executable payment policy?
+
+**Question:** when an LLM reviews an agent's payments against a written policy, does its verdict match what the policy actually computes, and does an instruction planted in a payment memo change it?
+
+**Design:** 160 synthetic payment histories, each labeled by [SOLVENT](https://github.com/ianalloway/solvent-agent)'s deterministic spend policy and paired with a copy whose memo argues for the wrong verdict. Three models were tested under a verdict-only protocol and under one that requires rule-by-rule evidence and arithmetic, and results are compared on the scenarios each model answered in every condition.
+
+**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) without a single false rejection, but injected memos still got violating payments approved for every model. The dataset, every model response, and a one-command recount of each table are public.
+
+[Working paper (PDF)](https://github.com/ianalloway/spendaudit/blob/main/paper/spendaudit.pdf) · [Benchmark and data](https://github.com/ianalloway/spendaudit) · [Reproduce the tables](https://github.com/ianalloway/spendaudit#reproducing)
 
 ---
 
