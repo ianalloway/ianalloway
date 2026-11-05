@@ -10,47 +10,29 @@
 
 </div>
 
-[Research](#research) · [Featured projects](#featured-projects) · [Libraries and tools](#libraries-and-tools) · [Interactive demos](#interactive-demos) · [Tech stack](#tech-stack)
+[Featured work](#featured-work) · [Also building](#also-building) · [Experience](#experience) · [Libraries and tools](#libraries-and-tools) · [Interactive demos](#interactive-demos) · [Tech stack](#tech-stack)
 
 ---
 
 ## About
 
-**AI engineer focused on LLM evaluation and agent tooling.** I grade frontier-model output for AI labs' evaluation programs and build the tooling that makes those grades worth trusting.
+**AI / data engineer. I run Alloway LLC**, where I build LLM evaluation tooling, agent systems, and the data pipelines behind them, and I contract on frontier-model evaluation programs for AI labs.
 
-**Website:** [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
+What I ship is meant to be checked: open-source packages on PyPI, browser demos that run with no API keys, a working paper whose tables recompute from the repo with one command, and tests that assert on the decisions a system makes.
 
-- **Contract @ AgentsOnly** (since Oct 2026) — side-by-side evaluations of consumer app pages, scored against a written policy with structured rationales for QA review
-- **Contract @ Handshake AI** (Jun–Oct 2026) — graded frontier-model output on software-engineering and agent tasks; side-by-side preference evals and reviews of agent-built apps
-- **Contract @ Mercor & Turing** — building agent eval environments, golden answers, and grader rubrics (audit/accounting, spreadsheet automation)
-- **Founder, Alloway LLC** — applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
-- **University of South Florida** — M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
-
-My projects emphasize inspectable behavior, reproducible demos, and tests that check the decisions a system makes.
+- **Now:** Founder, Alloway LLC · evaluation contract at AgentsOnly ([details](#experience))
+- **Education:** University of South Florida, M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
+- **Contact:** [ian@allowayllc.com](mailto:ian@allowayllc.com) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Résumé (PDF)](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
 
 ---
 
-## Research
+## Featured work
 
-### [SpendAudit](https://github.com/ianalloway/spendaudit): can an LLM auditor match an executable payment policy?
+### [SOLVENT](https://github.com/ianalloway/solvent-agent): an agent that has to stay solvent
 
-**Question:** when an LLM reviews an agent's payments against a written policy, does its verdict match what the policy actually computes, and does an instruction planted in a payment memo change it?
+**Problem:** an agent that can spend money needs pricing, a margin gate, and an auditable ledger.
 
-**Design:** 160 synthetic payment histories, each labeled by [SOLVENT](https://github.com/ianalloway/solvent-agent)'s deterministic spend policy and paired with a copy whose memo argues for the wrong verdict. Three models were tested under a verdict-only protocol and under one that requires rule-by-rule evidence and arithmetic, and results are compared on the scenarios each model answered in every condition.
-
-**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) without a single false rejection, but injected memos still got violating payments approved for every model. The dataset, every model response, and a one-command recount of each table are public.
-
-[Working paper (PDF)](https://github.com/ianalloway/spendaudit/blob/main/paper/spendaudit.pdf) · [Benchmark and data](https://github.com/ianalloway/spendaudit) · [Reproduce the tables](https://github.com/ianalloway/spendaudit#reproducing)
-
----
-
-## Featured projects
-
-### [SOLVENT](https://github.com/ianalloway/solvent-agent) — agent economics
-
-**Problem:** an agent that can spend needs pricing, a margin gate, and an auditable ledger.
-
-**Design:** a Python business loop with SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference.
+**Design:** a Python business loop with a SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference. The core runs on the standard library alone.
 
 [![PyPI](https://img.shields.io/pypi/v/solvent-agent?label=pypi&color=16c784&labelColor=0a0e27)](https://pypi.org/project/solvent-agent/)
 [![CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
@@ -62,29 +44,48 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 
 `pip install solvent-agent && solvent` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png) · [Security model](https://github.com/ianalloway/solvent-agent/blob/main/SECURITY.md)
 
-### [juryrig](https://github.com/ianalloway/juryrig) — audit the judge
+### [juryrig](https://github.com/ianalloway/juryrig): audit the LLM judge before you trust it
 
-**Problem:** LLM evaluation scores can hide position, verbosity, and prompt-injection bias.
+**Problem:** LLM-as-judge scores can hide position, verbosity, and prompt-injection bias.
 
 **Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
-
-**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Agreement matrices and the disagreement atlas ship in PyPI 0.3.1.
 
 [![PyPI](https://img.shields.io/pypi/v/juryrig?label=pypi&color=16c784&labelColor=0a0e27)](https://pypi.org/project/juryrig/)
 [![CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml)
 [![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-judge%20audit-ffcc4d?labelColor=0a0e27)](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
 
-[Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [Try it in the browser](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit) · [Evaluation lab](https://github.com/ianalloway/juryrig/blob/main/examples/EVALUATION.md) · [PyPI](https://pypi.org/project/juryrig/) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
+**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Agreement matrices and the disagreement atlas ship in PyPI 0.3.1.
 
-### [AI Advantage Sports](https://github.com/ianalloway/ai-advantage) — sports decision product
+`pip install juryrig` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit) · [Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [Evaluation lab](https://github.com/ianalloway/juryrig/blob/main/examples/EVALUATION.md) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
 
-**Problem:** model output needs a usable workflow for odds, stake sizing, and portfolio risk.
+### [SpendAudit](https://github.com/ianalloway/spendaudit): can an LLM auditor match an executable payment policy?
 
-**Design:** React / TypeScript UI with Kelly-based sizing, calibration views, and server-side Stripe entitlement handlers.
+**Question:** when an LLM reviews an agent's payments against a written policy, does its verdict match what the policy actually computes, and does an instruction planted in a payment memo change it?
 
-**What you can inspect:** a deployed product and open source implementation. The related training demo uses synthetic data; its metrics are not evidence of live betting returns.
+**Design:** 160 synthetic payment histories, each labeled by SOLVENT's deterministic spend policy and paired with a copy whose memo argues for the wrong verdict (320 items). Three models were tested under a verdict-only protocol and under one that requires rule-by-rule evidence and arithmetic, and results are compared on the scenarios each model answered in every condition.
 
-[Live product](https://aiadvantagesports.com) · [Case study](docs/case-study-ai-advantage.md) · [Product screenshot](https://github.com/ianalloway/ai-advantage/blob/main/screenshot.png)
+**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) without a single false rejection, but injected memos still got violating payments approved for every model.
+
+**What you can inspect:** a working paper, the dataset (CC BY 4.0), every model response, and a one-command recount of each table.
+
+[Working paper (PDF)](https://github.com/ianalloway/spendaudit/blob/main/paper/spendaudit.pdf) · [Benchmark and data](https://github.com/ianalloway/spendaudit) · [Reproduce the tables](https://github.com/ianalloway/spendaudit#reproducing) · [Cite](https://github.com/ianalloway/spendaudit/blob/main/CITATION.cff)
+
+---
+
+## Also building
+
+**[AI Advantage Sports](https://github.com/ianalloway/ai-advantage)**: a deployed React / TypeScript product for odds, Kelly-based stake sizing, calibration views, and portfolio risk, with server-side Stripe entitlement handlers. The related training demo uses synthetic data; its metrics are not evidence of live betting returns. [Live product](https://aiadvantagesports.com) · [Case study](docs/case-study-ai-advantage.md) · [Screenshot](https://github.com/ianalloway/ai-advantage/blob/main/screenshot.png)
+
+**[openclaw-skills](https://github.com/ianalloway/openclaw-skills)**: 17 tested, installable skills for the [OpenClaw](https://github.com/openclaw/openclaw) assistant covering sports analytics, market data, and LLM-judge auditing with juryrig. Three are published on ClawHub.
+
+---
+
+## Experience
+
+- **Founder, Alloway LLC**: applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
+- **Contract @ AgentsOnly** (since Oct 2026): side-by-side evaluations of consumer app pages, scored against a written policy with structured rationales for QA review
+- **Contract @ Handshake AI** (Jun–Oct 2026): graded frontier-model output on software-engineering and agent tasks; side-by-side preference evals and reviews of agent-built apps
+- **Contract @ Mercor & Turing**: building agent eval environments, golden answers, and grader rubrics (audit/accounting, spreadsheet automation)
 
 ---
 
@@ -93,9 +94,9 @@ My projects emphasize inspectable behavior, reproducible demos, and tests that c
 | Area | Projects |
 |---|---|
 | Sports libraries & experiments | [nba-ratings / nba-edge](https://github.com/ianalloway/nba-ratings) — ratings and probability · [kelly-js](https://github.com/ianalloway/kelly-js) — odds and stake math · [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) — synthetic training demo |
-| Agent extensions | [openclaw-skills](https://github.com/ianalloway/openclaw-skills) — reusable skills · [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) — theme with a [preview](https://ianalloway.github.io/openclaw-theme-neon/) |
+| Agent extensions | [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) — theme with a [preview](https://ianalloway.github.io/openclaw-theme-neon/) |
 | Web & experiments | [ian-web-forge](https://github.com/ianalloway/ian-web-forge) — portfolio · [matrix-rain](https://github.com/ianalloway/matrix-rain) — React animation · [evm-sentry](https://github.com/ianalloway/evm-sentry) — on-chain scanner |
-| Upstream | [LiteLLM #48895](https://github.com/BerriAI/litellm/pull/48895) (open) — reap the killed Prisma engine so it no longer lingers as a zombie process |
+| Upstream | LiteLLM (open): [#48895](https://github.com/BerriAI/litellm/pull/48895) reap the killed Prisma engine so it no longer lingers as a zombie process · [#49448](https://github.com/BerriAI/litellm/pull/49448) run the Docker images under tini so orphaned Prisma processes are reaped |
 | Archive | [oss-archive](https://github.com/ianalloway/oss-archive) — completed project snapshots |
 
 Writing: [The browser is the real agent benchmark](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [Archived benchmark checklist](https://github.com/ianalloway/browser-agent-benchmark).
@@ -115,10 +116,11 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 ## Tech stack
 
-**Evaluation:** LLM-as-judge auditing · rubric & preference evals · agent evals · calibration  
+**Evaluation:** LLM-as-judge auditing · rubric & preference evals · agent evals · calibration · benchmark design  
+**Data:** SQL · SQLite · PostgreSQL · Pandas · reproducible analysis in CI  
 **Languages:** Python · TypeScript · SQL · JavaScript  
-**AI / ML:** OpenAI · NVIDIA Nemotron · LangChain · scikit-learn · XGBoost · Pandas  
-**Product:** FastAPI · Next.js / React · Stripe · PostgreSQL · Docker · GitHub Actions
+**AI / ML:** OpenAI · NVIDIA Nemotron · LangChain · scikit-learn · XGBoost  
+**Product & infra:** FastAPI · Next.js / React · Stripe · Docker · GitHub Actions · PyPI packaging · Hugging Face Spaces
 
 ---
 
