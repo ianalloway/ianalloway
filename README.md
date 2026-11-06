@@ -20,7 +20,7 @@
 
 What I ship is meant to be checked: open-source packages on PyPI, browser demos that run with no API keys, a working paper whose tables recompute from the repo with one command, and tests that assert on the decisions a system makes.
 
-- **Now:** Founder, Alloway LLC · evaluation contract at AgentsOnly ([details](#experience))
+- **Now:** Founder, Alloway LLC ([details](#experience))
 - **Education:** University of South Florida, M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
 - **Contact:** [ian@allowayllc.com](mailto:ian@allowayllc.com) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Résumé (PDF)](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
 
@@ -83,7 +83,6 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 ## Experience
 
 - **Founder, Alloway LLC**: applied ML products, analytics tooling, and autonomous agent systems (including [AI Advantage Sports](https://aiadvantagesports.com))
-- **Contract @ AgentsOnly** (since Oct 2026): side-by-side evaluations of consumer app pages, scored against a written policy with structured rationales for QA review
 - **Contract @ Handshake AI** (Jun–Oct 2026): graded frontier-model output on software-engineering and agent tasks; side-by-side preference evals and reviews of agent-built apps
 - **Contract @ Mercor & Turing**: building agent eval environments, golden answers, and grader rubrics (audit/accounting, spreadsheet automation)
 
