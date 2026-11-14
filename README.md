@@ -82,7 +82,7 @@ Start with the project that matches what you want to evaluate:
 
 **[AI Advantage Sports](https://github.com/ianalloway/ai-advantage)**: a deployed React / TypeScript product for odds, Kelly-based stake sizing, calibration views, and portfolio risk, with server-side Stripe entitlement handlers. The related training demo uses synthetic data; its metrics are not evidence of live betting returns. [Live product](https://aiadvantagesports.com) · [Case study](docs/case-study-ai-advantage.md) · [Screenshot](https://github.com/ianalloway/ai-advantage/blob/main/screenshot.png)
 
-**[openclaw-skills](https://github.com/ianalloway/openclaw-skills)**: 17 tested, installable skills for the [OpenClaw](https://github.com/openclaw/openclaw) assistant covering sports analytics, market data, and LLM-judge auditing with juryrig. Three are published on ClawHub.
+**[openclaw-skills](https://github.com/ianalloway/openclaw-skills)**: 17 tested, installable skills for the [OpenClaw](https://github.com/openclaw/openclaw) assistant covering sports analytics, market data, and LLM-judge auditing with juryrig. Published skills include [judge-audit on ClawHub](https://clawhub.ai/ianalloway/skills/judge-audit).
 
 ---
 
