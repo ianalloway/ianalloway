@@ -28,6 +28,12 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 ## Featured work
 
+Start with the project that matches what you want to evaluate:
+
+- **LLM evaluation:** [juryrig](https://github.com/ianalloway/juryrig), with a network-free audit demo.
+- **Agent spending controls:** [SOLVENT](https://github.com/ianalloway/solvent-agent), with an offline business-loop simulation.
+- **Reproducible research:** [SpendAudit](https://github.com/ianalloway/spendaudit), with data, model responses, and a table-reproduction command.
+
 ### [SOLVENT](https://github.com/ianalloway/solvent-agent): an agent that has to stay solvent
 
 **Problem:** an agent that can spend money needs pricing, a margin gate, and an auditable ledger.
@@ -40,9 +46,9 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 [![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-try%20in%20browser-ffcc4d?labelColor=0a0e27)](https://huggingface.co/spaces/ianalloway/solvent-agent-demo)
 [![Python](https://img.shields.io/pypi/pyversions/solvent-agent?labelColor=0a0e27)](https://pypi.org/project/solvent-agent/)
 
-**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default earn rail. An optional Nano settle rail runs in sim or live verify-only mode: it checks public ledger blocks before fulfilling and never holds a hot wallet. Guardrails include per-job budget envelopes and a human-approval hook.
+**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default earn rail. Guardrails include per-job budget envelopes and a human-approval hook.
 
-`pip install solvent-agent && solvent` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png) · [Security model](https://github.com/ianalloway/solvent-agent/blob/main/SECURITY.md)
+`pip install solvent-agent && solvent --no-onboard` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png) · [Security model](https://github.com/ianalloway/solvent-agent/blob/main/SECURITY.md)
 
 ### [juryrig](https://github.com/ianalloway/juryrig): audit the LLM judge before you trust it
 
@@ -64,7 +70,7 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 **Design:** 160 synthetic payment histories, each labeled by SOLVENT's deterministic spend policy and paired with a copy whose memo argues for the wrong verdict (320 items). Three models were tested under a verdict-only protocol and under one that requires rule-by-rule evidence and arithmetic, and results are compared on the scenarios each model answered in every condition.
 
-**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) without a single false rejection, but injected memos still got violating payments approved for every model.
+**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) with zero false rejections in the models’ respective matched subsets, but injected memos still got violating payments approved for every model.
 
 **What you can inspect:** a working paper, the dataset (CC BY 4.0), every model response, and a one-command recount of each table.
 
@@ -76,7 +82,7 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 **[AI Advantage Sports](https://github.com/ianalloway/ai-advantage)**: a deployed React / TypeScript product for odds, Kelly-based stake sizing, calibration views, and portfolio risk, with server-side Stripe entitlement handlers. The related training demo uses synthetic data; its metrics are not evidence of live betting returns. [Live product](https://aiadvantagesports.com) · [Case study](docs/case-study-ai-advantage.md) · [Screenshot](https://github.com/ianalloway/ai-advantage/blob/main/screenshot.png)
 
-**[openclaw-skills](https://github.com/ianalloway/openclaw-skills)**: 17 tested, installable skills for the [OpenClaw](https://github.com/openclaw/openclaw) assistant covering sports analytics, market data, and LLM-judge auditing with juryrig. Three are published on ClawHub.
+**[openclaw-skills](https://github.com/ianalloway/openclaw-skills)**: 17 tested, installable skills for the [OpenClaw](https://github.com/openclaw/openclaw) assistant covering sports analytics, market data, and LLM-judge auditing with juryrig. Published skills include [judge-audit on ClawHub](https://clawhub.ai/ianalloway/skills/judge-audit).
 
 ---
 
@@ -120,33 +126,6 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 **Languages:** Python · TypeScript · SQL · JavaScript  
 **AI / ML:** OpenAI · NVIDIA Nemotron · LangChain · scikit-learn · XGBoost  
 **Product & infra:** FastAPI · Next.js / React · Stripe · Docker · GitHub Actions · PyPI packaging · Hugging Face Spaces
-
----
-
-<details>
-<summary>GitHub activity</summary>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=ianalloway&theme=transparent&hide_border=true&ring=00d9ff&fire=16c784&currStreakLabel=16c784&sideNums=cdd2c5&sideLabels=cdd2c5&dates=cdd2c5" height="170" alt="GitHub Streak" />
-
-
-</div>
-
-</details>
-
-<details>
-<summary>One more thing: the SOLVENT meme</summary>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/solvent_meme.png" width="480" alt="Other agents vs SOLVENT meme" />
-
-*other agents can spend money · SOLVENT gates spend on margin*
-
-</div>
-
-</details>
 
 ---
 
