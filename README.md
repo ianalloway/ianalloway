@@ -70,7 +70,7 @@ Start with the project that matches what you want to evaluate:
 
 **Design:** 160 synthetic payment histories, each labeled by SOLVENT's deterministic spend policy and paired with a copy whose memo argues for the wrong verdict (320 items). Three models were tested under a verdict-only protocol and under one that requires rule-by-rule evidence and arithmetic, and results are compared on the scenarios each model answered in every condition.
 
-**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) without a single false rejection, but injected memos still got violating payments approved for every model.
+**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) with zero false rejections in the models’ respective matched subsets, but injected memos still got violating payments approved for every model.
 
 **What you can inspect:** a working paper, the dataset (CC BY 4.0), every model response, and a one-command recount of each table.
 
