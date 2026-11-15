@@ -1,12 +1,8 @@
-<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/banner.svg" width="100%" alt="IAN ALLOWAY — LLM Evaluation · Agent Tooling · Applied ML" />
+<img src="./banner.svg" width="100%" alt="IAN ALLOWAY — LLM Evaluation · Agent Tooling · Applied ML" />
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ianalloway.xyz-00d9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0e27)](https://ianalloway.xyz)
-[![Live Product](https://img.shields.io/badge/AI_Advantage_Sports-Live-16c784?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0a0e27)](https://aiadvantagesports.com)
-[![Resume](https://img.shields.io/badge/Resume-PDF-16c784?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0a0e27)](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e27)](https://www.linkedin.com/in/ianit)
-[![Email](https://img.shields.io/badge/Email-ian%40allowayllc.com-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27)](mailto:ian@allowayllc.com)
+[Portfolio](https://ianalloway.xyz) · [Live Product](https://aiadvantagesports.com) · [Resume](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
 
 </div>
 
@@ -34,13 +30,11 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 **Design:** a Python business loop with a SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference. The core runs on the standard library alone.
 
-[![PyPI](https://img.shields.io/pypi/v/solvent-agent?label=pypi&color=16c784&labelColor=0a0e27)](https://pypi.org/project/solvent-agent/)
-[![CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml)
-[![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-try%20in%20browser-ffcc4d?labelColor=0a0e27)](https://huggingface.co/spaces/ianalloway/solvent-agent-demo)
-[![Python](https://img.shields.io/pypi/pyversions/solvent-agent?labelColor=0a0e27)](https://pypi.org/project/solvent-agent/)
+[PyPI](https://pypi.org/project/solvent-agent/)
+[CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
+[CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Python](https://pypi.org/project/solvent-agent/)
 
-**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default earn rail. An optional Nano settle rail runs in sim or live verify-only mode: it checks public ledger blocks before fulfilling and never holds a hot wallet. Guardrails include per-job budget envelopes and a human-approval hook.
+**What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default payment rail. Guardrails include per-job budget envelopes and a human-approval hook.
 
 `pip install solvent-agent && solvent` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png) · [Security model](https://github.com/ianalloway/solvent-agent/blob/main/SECURITY.md)
 
@@ -50,9 +44,8 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 **Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
 
-[![PyPI](https://img.shields.io/pypi/v/juryrig?label=pypi&color=16c784&labelColor=0a0e27)](https://pypi.org/project/juryrig/)
-[![CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml)
-[![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-judge%20audit-ffcc4d?labelColor=0a0e27)](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
+[PyPI](https://pypi.org/project/juryrig/)
+[CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
 
 **What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Agreement matrices and the disagreement atlas ship in PyPI 0.3.1.
 
@@ -123,24 +116,14 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 ---
 
-<details>
-<summary>GitHub activity</summary>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=ianalloway&theme=transparent&hide_border=true&ring=00d9ff&fire=16c784&currStreakLabel=16c784&sideNums=cdd2c5&sideLabels=cdd2c5&dates=cdd2c5" height="170" alt="GitHub Streak" />
-
-
-</div>
-
-</details>
+[GitHub activity](https://github.com/ianalloway?tab=overview)
 
 <details>
 <summary>One more thing: the SOLVENT meme</summary>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/solvent_meme.png" width="480" alt="Other agents vs SOLVENT meme" />
+<img src="./solvent_meme.png" width="480" alt="Other agents vs SOLVENT meme" />
 
 *other agents can spend money · SOLVENT gates spend on margin*
 
@@ -150,4 +133,4 @@ Writing: [The browser is the real agent benchmark](https://allowayai.substack.co
 
 ---
 
-<img src="https://raw.githubusercontent.com/ianalloway/ianalloway/main/banner-footer.svg" width="100%" alt="" />
+<img src="./banner-footer.svg" width="100%" alt="" />
