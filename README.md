@@ -31,8 +31,8 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 **Design:** a Python business loop with a SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference. The core runs on the standard library alone.
 
 [PyPI](https://pypi.org/project/solvent-agent/)
-[![CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Python](https://pypi.org/project/solvent-agent/)
+[CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
+[CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Python](https://pypi.org/project/solvent-agent/)
 
 **What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default payment rail. Guardrails include per-job budget envelopes and a human-approval hook.
 
@@ -45,7 +45,7 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 **Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
 
 [PyPI](https://pypi.org/project/juryrig/)
-[![CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
+[CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
 
 **What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Agreement matrices and the disagreement atlas ship in PyPI 0.3.1.
 
