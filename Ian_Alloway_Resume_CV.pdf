@@ -1,74 +1,317 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 9 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+/Length 5808
 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.25098 .337255 .376471 rg
+BT 1 0 0 1 519.805 32.4 Tm (Ian Alloway | 1) Tj T* ET
+Q
+q
+1 0 0 1 52.8 716.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 4 Tm /F2 22 Tf 26 TL (Ian Alloway) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 700.8 cm
+q
+.137255 .419608 .470588 rg
+BT 1 0 0 1 0 3.5 Tm /F1 10.5 Tf 14 TL (Applied AI Engineer | Evaluation and Agent Systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 686.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3.5 Tm /F1 7.5 Tf 11 TL (ianalloway@usf.edu | ian@allowayllc.com) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 675.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3.5 Tm /F1 7.5 Tf 11 TL (ianalloway.xyz | github.com/ianalloway | linkedin.com/in/ianit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 654.8 cm
+q
+.137255 .419608 .470588 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Profile) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 628.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 14 Tm /F1 8 Tf 11 TL (Builds evaluation tools and agent workflows with Python and TypeScript. Focused on inspectable model behavior, reproducible tests, and) Tj T* (practical applications of machine learning.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 607.8 cm
+q
+.137255 .419608 .470588 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Selected Projects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 592.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (SpendAudit | LLM auditor benchmark) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 557.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 25 Tm /F1 8 Tf 11 TL (Built a 320-item benchmark testing whether LLM auditors match an executable payment policy, with paired prompt-injected memos. Requiring) Tj T* (rule-by-rule evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18; injected memos still caused false approvals for every) Tj T* (model. The data, all model responses and a recount script are public.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 543.8 cm
+q
+.25098 .337255 .376471 rg
+BT 1 0 0 1 0 3 Tm /F1 7 Tf 10 TL (github.com/ianalloway/spendaudit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 528.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (JuryRig | LLM judge evaluation toolkit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 504.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 14 Tm /F1 8 Tf 11 TL (Built a Python toolkit for response-order sensitivity, irrelevant-padding effects, prompt-injection checks, repeated-score consistency, judge) Tj T* (panels, and calibration. Uses deterministic fixtures and tests; mock-judge demonstrations do not establish production-model accuracy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 490.8 cm
+q
+.25098 .337255 .376471 rg
+BT 1 0 0 1 0 3 Tm /F1 7 Tf 10 TL (github.com/ianalloway/juryrig) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 475.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (SOLVENT | Agent workflow and policy simulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 451.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 14 Tm /F1 8 Tf 11 TL (Built a staged workflow for quoting, simulated payment, fulfillment, delivery, spending-policy checks, and SQLite accounting. Includes vendor) Tj T* (and budget restrictions and a regression test against duplicate revenue entries. Offline demo amounts are simulated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 437.8 cm
+q
+.25098 .337255 .376471 rg
+BT 1 0 0 1 0 3 Tm /F1 7 Tf 10 TL (github.com/ianalloway/solvent-agent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 416.8 cm
+q
+.137255 .419608 .470588 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Relevant Experience) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 401.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Handshake AI | AI evaluation contractor | Jun 2026 to Oct 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 388.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Evaluated frontier coding agents and agent-built applications against structured rubrics across engineering, logic, design, and product quality.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 373.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Mercor and Turing | AI evaluation contractor | 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 360.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Designed agentic evaluation tasks, golden solutions, rubrics, and grader guidance for accounting-domain and evaluation-recipe projects.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 345.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Alloway LLC | Founder) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 332.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Builds applied machine-learning products, analytics tools, and agent systems.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 311.8 cm
+q
+.137255 .419608 .470588 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Education) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 296.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (University of South Florida | M.S. Artificial Intelligence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 283.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Non-CS track | In progress since Fall 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 268.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Projected completion: Fall 2027 \(tentative; subject to advising and course availability\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 253.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (University of South Florida | B.S. Information Science) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 240.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Awarded May 7, 2026 | cum laude | Overall GPA: 3.50/4.00) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 219.8 cm
+q
+.137255 .419608 .470588 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Technical Tools) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 204.8 cm
+q
+.090196 .176471 .211765 rg
+BT 1 0 0 1 0 3 Tm /F1 8 Tf 11 TL (Python, TypeScript, JavaScript, SQL; pandas, scikit-learn, XGBoost; React, FastAPI, SQLite; Git and automated tests.) Tj T* ET
+Q
+Q
+ 
+
+endstream
 endobj
 6 0 obj
 <<
-/Author (Ian Alloway) /CreationDate (D:20261102182854-05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261102182854-05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (Ian Alloway Academic CV) /Trapped /False
+/F1 7 0 R
+/F2 8 0 R
 >>
 endobj
 7 0 obj
 <<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2261
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gau0D9m>U:'&EFde8g]SZ6VUSDo1Sgo/t'WnJLiB>@c3)(S^:t\(i'MaPk2&<(gU]Z)uu<fbfZ5F]J1eXfBYhKbUifQ^7^@B5i0b6'fE)!EhYO_sA9oAg\*:c'8lH)"0Xanj.R[L8<E?jb!RZ^!X&Kb.nebrN*R*+?N69kl?#irN:ft=%pM".J(X3Y^u-gR,,UFB=cuePD>@XcgkTTUMQ<VJX7_p-V8WMAnOJ%Z8tO>BA$rXpa0)M0uiHh%XEGZHq7B6@m5hFc\Q;HMjQA_e^)NqknoT_-ln8es+o<##'J,uZBX3EmUF[;<@Nb+-<G/[$`O^iCuAdA<+'#N%87.s'W=/gf?Rmjh?GnY+.S?SE2*VA(9pH.=e1X]K3KTL!c1+WrG2#(;EWp8C]Q@2quB"(fC`LTJO93EQkP;)Ve`L;-1sD.WTu('/kY#QF3m.=eZFkW,/u`S]Wl&l't+7ga+kuflYgi"hTO";+I-nr:O;QN-l5n$U1ta/]jE2Zkho>7-/>U#Z;K.g?/_#P=nr1Q%1`pP(_'BT$FsejKhr\=$Kej/.qrf)/6:>X^a3:Yke-6.XgSc;Y-O"5adE3"]&jTf"1*N@nYO_@$CTFB(J.8Oda:qER%cq8;8A/KGK>2*oaK.:6[?e_@a/?Z9WZ\M[?q(?4`''Qq@bQ/D_0+0o4?&1I1)@Wk[5rof/2K<5qc$GdUW(U+AsV1!KTnG9=4RM*L+e>,qof''mZ_];6b78WiD#@I,1bZ<AA2b5\3Ymq6&4kFim?.ND&1F++gjt(H[o7TWgLbGNfi],mA%D^k7CG;[uA\euY6Z,Y,#!C%.F.FKi!HKO,b5JRR&Ir1H9K&$k^c4HBrs9;R0F..(sA]eC4@Km)YQn"SMLQn8mQo;i$fWMTeL]#n]A9kAlEDM%T?@f6;5#Z[6Ba]ijMkkB7rISXV3agu2f=W/`;dJ$BV.5''#!oe1nGu`rJK3dBWU654V&-[OK7ea$0df/dlOHeUh>SB4T]d9muX?[.'[?Fq"UgJ=2>)N_h9`&_HKV3q4`Icm>o3Bf;7!sjhhF/q_k#$4@2\pr`mA0?PW@D?qSkP8\<4,R)B1gHdbY8.gOIcT$[&):#H-'J<^\V=WR72`kLXP\hDOjp]V:!TC``IipD*4Jdifn<e[6)jVDQR-_H*E72>@cDO97NH_mt+hL=gT;2Hq\e@Gs>[9n)F'ZCmr1SgB(k_CZbaHbFi;_>At%Wj(d%g<hO]S7,iS"L2=B+77Cfl)f5fq5qSm1ofiMC,g5I<XECM#DY#tp=jeNi^KaEm`'&A[2-[T=>QoZg<iC_W4)NEtk9MWT(#l@V[Bd4n='0Ps(,@o]XC+pf%jKNJ*Pp_BF[/4ZX[JMkkJ]bbT-pH:.g^`ap:,IV2C\>h5L:R5>+tZG3#]3_f\7qUbli(A=:8A]XjB[TFY/0nK,+,q,t.^DcW\^m4Ls0iAo9F_<>nCdn<nXEdsO]7['Jn!ZdTj8gd6<?<Q/h%%\+5Q*h_+JLiI=6']V#n']b,+)X"n#RV91(6qdL6FauS6g,@talI[pqOG"^XN:W&#2K1EP!O[,,L%PT<AO7<$pt-e6hPbWT<rU:LE(bA87*1q2Hjk>AbEen=SAXtI`&&D]`XtjjM&*UXXYJDPhM0FKf?Ufhn8F:q5OW#u-/Xi@c*A:*:ROOiE]5?R?$f]&al"<r-%0"tlLg4i4[,S$`mu),LoPcbU@4bNGOSN#+sm8Gl+n_6P!>GBQm;>YN"W)*)&4>-SSd*HU_]9Dn5BH=(ld<M!)Hmp.nn&q]c0/k\ndGO$AjkS5d`>/*PSqol<__!Isq87CuE_E/^UqZ5CA]C1"XZVc'm+LAp`o_\(@`E@pYR,HW#%B]K:J@\#U$U=u)D)HUhd,(F&A;(hiL!nV7'.1ef2iqDDFKe-*O>94b1=$o[T(R3jVm?7mLi9Ym"fW0Aje>@9WSr64@N(4S9SqqEq[O8#l0.o![qOTq>O!k>$8YJ#PZrc(W>3J9Wugm"'j@dB@$L_9R\cD1*Wb8$V$$Zl/"=[*QMl([q#$=SO_7<ZYG@WP-/pubFi)U"3)O)L6]Sk-WE$Y.B6RATmDAtD+HN^Z\aR2%..'3iAQ;n($]n5+^G5p/l_/$tQ0%l]\Zkb'Xnm3cWE2S/6+4%b4PO=t`=*Li0kZihBiIZXH$k2J#KffSTe^dkhBg\9/MfB5sb/QeO<jLt2nc#qtE+5Rssr&NOVj1YV^bk]B*<MrtRcJaEJ[G;")auCrjQ1\?9_TC[=Pa6:~>endstream
+endobj
+9 0 obj
+<<
+>>
 endobj
 xref
-0 9
+0 10
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000514 00000 n 
-0000000582 00000 n 
-0000000870 00000 n 
-0000000929 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000178 00000 n 
+0000000367 00000 n 
+0000006227 00000 n 
+0000006268 00000 n 
+0000006375 00000 n 
+0000006487 00000 n 
 trailer
 <<
-/ID 
-[<9089dffd43edde94028d0c351e5b2963><9089dffd43edde94028d0c351e5b2963>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 6 0 R
-/Root 5 0 R
-/Size 9
+/Size 10
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3281
+6508
 %%EOF
