@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[Portfolio](https://ianalloway.xyz) · [Live Product](https://aiadvantagesports.com) · [Resume](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
+[Portfolio](https://ianalloway.xyz) · [AI Advantage Sports](https://aiadvantagesports.com) · [Résumé](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
 
 </div>
 
@@ -12,9 +12,9 @@
 
 ## About
 
-**AI / data engineer. I run Alloway LLC**, where I build LLM evaluation tooling, agent systems, and the data pipelines behind them, and I contract on frontier-model evaluation programs for AI labs.
+I’m Ian, an AI and data engineer. At **Alloway LLC**, I build tools for evaluating language models, agents that work within spending limits, and sports analytics software. I also do contract work evaluating frontier models.
 
-What I ship is meant to be checked: open-source packages on PyPI, browser demos that run with no API keys, a working paper whose tables recompute from the repo with one command, and tests that assert on the decisions a system makes.
+You can run SOLVENT’s simulated business and juryrig’s judge audit in your browser. SpendAudit includes the payment histories, model responses, and code used to reproduce the paper’s tables.
 
 - **Now:** Founder, Alloway LLC ([details](#experience))
 - **Education:** University of South Florida, M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
@@ -30,9 +30,7 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 **Design:** a Python business loop with a SQLite treasury, policy-screened spend, and optional Stripe test-mode payments and NVIDIA Nemotron inference. The core runs on the standard library alone.
 
-[PyPI](https://pypi.org/project/solvent-agent/)
-[CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml)
-[CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Python](https://pypi.org/project/solvent-agent/)
+[PyPI](https://pypi.org/project/solvent-agent/) · [CI](https://github.com/ianalloway/solvent-agent/actions/workflows/ci.yml) · [CodeQL](https://github.com/ianalloway/solvent-agent/actions/workflows/codeql.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/solvent-agent-demo)
 
 **What you can inspect:** the offline demo runs earn → fulfil → spend → P&L with no API keys. Its dollar figures are simulated, not production revenue. Stripe test mode is the default payment rail. Guardrails include per-job budget envelopes and a human-approval hook.
 
@@ -44,10 +42,9 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 
 **Design:** zero-dependency Python audits, judge panels, pairwise agreement, and calibration against human labels. Protocol-based adapters keep the judge provider replaceable.
 
-[PyPI](https://pypi.org/project/juryrig/)
-[CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
+[PyPI](https://pypi.org/project/juryrig/) · [CI](https://github.com/ianalloway/juryrig/actions/workflows/ci.yml) · [HF Space](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit)
 
-**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Agreement matrices and the disagreement atlas ship in PyPI 0.3.1.
+**What you can inspect:** a network-free demo compares fair and deliberately rigged mock judges. Use the agreement matrix to compare judges and the disagreement atlas to find cases where their scores diverge.
 
 `pip install juryrig` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit) · [Demo source](https://github.com/ianalloway/juryrig/blob/main/examples/audit_demo.py) · [Evaluation lab](https://github.com/ianalloway/juryrig/blob/main/examples/EVALUATION.md) · [Tests](https://github.com/ianalloway/juryrig/tree/main/tests)
 
@@ -88,7 +85,7 @@ What I ship is meant to be checked: open-source packages on PyPI, browser demos 
 | Sports libraries & experiments | [nba-ratings / nba-edge](https://github.com/ianalloway/nba-ratings) — ratings and probability · [kelly-js](https://github.com/ianalloway/kelly-js) — odds and stake math · [sports-betting-ml](https://github.com/ianalloway/sports-betting-ml) — synthetic training demo |
 | Agent extensions | [openclaw-theme-neon](https://github.com/ianalloway/openclaw-theme-neon) — theme with a [preview](https://ianalloway.github.io/openclaw-theme-neon/) |
 | Web & experiments | [ian-web-forge](https://github.com/ianalloway/ian-web-forge) — portfolio · [matrix-rain](https://github.com/ianalloway/matrix-rain) — React animation · [evm-sentry](https://github.com/ianalloway/evm-sentry) — on-chain scanner |
-| Upstream | LiteLLM (open): [#48895](https://github.com/BerriAI/litellm/pull/48895) reap the killed Prisma engine so it no longer lingers as a zombie process · [#49448](https://github.com/BerriAI/litellm/pull/49448) run the Docker images under tini so orphaned Prisma processes are reaped |
+| Upstream | LiteLLM proposals (both closed without merging): [#48895](https://github.com/BerriAI/litellm/pull/48895) reap the killed Prisma engine so it no longer lingers as a zombie process · [#49448](https://github.com/BerriAI/litellm/pull/49448) run the Docker images under tini so orphaned Prisma processes are reaped |
 | Archive | [oss-archive](https://github.com/ianalloway/oss-archive) — completed project snapshots |
 
 Writing: [The browser is the real agent benchmark](https://allowayai.substack.com/p/the-browser-is-the-real-agent-benchmark) · [Archived benchmark checklist](https://github.com/ianalloway/browser-agent-benchmark).
