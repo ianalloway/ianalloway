@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[Portfolio](https://ianalloway.xyz) · [AI Advantage Sports](https://aiadvantagesports.com) · [Résumé](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
+[Portfolio](https://ianalloway.xyz) · [Demos](https://huggingface.co/collections/ianalloway/ai-evaluation-and-agent-tooling) · [Writing](https://allowayai.substack.com) · [Résumé](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
 
 </div>
 
@@ -10,11 +10,19 @@
 
 ---
 
+## Start here
+
+| Project | What to look at first |
+| --- | --- |
+| **JuryRig** | [Run the no-key judge audit](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit) to see how answer order affects a sample judge. [Source](https://github.com/ianalloway/juryrig) |
+| **SpendAudit** | [Read the working paper](https://github.com/ianalloway/spendaudit/blob/main/paper/spendaudit.pdf) or [reproduce the tables](https://github.com/ianalloway/spendaudit#reproducing) from the published artifacts. |
+| **SOLVENT** | [Try the spending-policy simulator](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) with no real funds. [Source](https://github.com/ianalloway/solvent-agent) |
+
 ## About
 
 I’m Ian, an AI and data engineer. At **Alloway LLC**, I build tools for evaluating language models, agents that work within spending limits, and sports analytics software. I also do contract work evaluating frontier models.
 
-You can run SOLVENT’s simulated business and juryrig’s judge audit in your browser. SpendAudit includes the payment histories, model responses, and code used to reproduce the paper’s tables.
+You can run SOLVENT’s simulated business and JuryRig’s judge audit in your browser. SpendAudit includes the payment histories, model responses, and code used to reproduce the paper’s tables.
 
 - **Now:** Founder, Alloway LLC ([details](#experience))
 - **Education:** University of South Florida, M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
@@ -36,7 +44,7 @@ You can run SOLVENT’s simulated business and juryrig’s judge audit in your b
 
 `pip install solvent-agent && solvent` · [Try it in the browser](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) · [Run the demo](https://github.com/ianalloway/solvent-agent#-quick-start) · [Dashboard preview](https://github.com/ianalloway/solvent-agent/blob/main/docs/dashboard.png) · [Security model](https://github.com/ianalloway/solvent-agent/blob/main/SECURITY.md)
 
-### [juryrig](https://github.com/ianalloway/juryrig): audit the LLM judge before you trust it
+### [JuryRig](https://github.com/ianalloway/juryrig): audit the LLM judge before you trust it
 
 **Problem:** LLM-as-judge scores can hide position, verbosity, and prompt-injection bias.
 
@@ -54,7 +62,7 @@ You can run SOLVENT’s simulated business and juryrig’s judge audit in your b
 
 **Design:** 160 synthetic payment histories, each labeled by SOLVENT's deterministic spend policy and paired with a copy whose memo argues for the wrong verdict (320 items). Three models were tested under a verdict-only protocol and under one that requires rule-by-rule evidence and arithmetic, and results are compared on the scenarios each model answered in every condition.
 
-**Findings:** requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 (exact McNemar p < 10⁻⁷) without a single false rejection, but injected memos still got violating payments approved for every model.
+**Findings:** on each model’s matched subset, requiring evidence cut false approvals on clean traces from 34 to 6 and from 47 to 18 for the two Gemini models (exact McNemar p < 10⁻⁷). The evidence protocol had no false rejections within those matched subsets, but one occurred outside them. Violating payments were still approved in the stress test. Across the study, 531 of 1,920 intended judgments failed with API errors, so these are paired comparisons, not overall accuracy.
 
 **What you can inspect:** a working paper, the dataset (CC BY 4.0), every model response, and a one-command recount of each table.
 
