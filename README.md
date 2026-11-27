@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[Portfolio](https://ianalloway.xyz) · [Demos](https://huggingface.co/collections/ianalloway/ai-evaluation-and-agent-tooling) · [Writing](https://allowayai.substack.com) · [Résumé](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
+[Portfolio](https://ianalloway.xyz) · [Demos](https://huggingface.co/collections/ianalloway/ai-evaluation-and-agent-tooling) · [Writing](https://allowayai.substack.com) · [Résumé](https://ianalloway.xyz/Ian_Alloway_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Email](mailto:ian@allowayllc.com)
 
 </div>
 
@@ -15,7 +15,7 @@
 | Project | What to look at first |
 | --- | --- |
 | **JuryRig** | [Run the no-key judge audit](https://huggingface.co/spaces/ianalloway/juryrig-judge-audit) to see how answer order affects a sample judge. [Source](https://github.com/ianalloway/juryrig) |
-| **SpendAudit** | [Read the working paper](https://github.com/ianalloway/spendaudit/blob/main/paper/spendaudit.pdf) or [reproduce the tables](https://github.com/ianalloway/spendaudit#reproducing) from the published artifacts. |
+| **SpendAudit** | [Read the case study and browse the labels](https://huggingface.co/datasets/ianalloway/spendaudit-policy-labels), [read the working paper](https://github.com/ianalloway/spendaudit/blob/main/paper/spendaudit.pdf) or [reproduce the tables](https://github.com/ianalloway/spendaudit#reproducing) from the published artifacts. |
 | **SOLVENT** | [Try the spending-policy simulator](https://huggingface.co/spaces/ianalloway/solvent-agent-demo) with no real funds. [Source](https://github.com/ianalloway/solvent-agent) |
 
 ## About
@@ -26,7 +26,7 @@ You can run SOLVENT’s simulated business and JuryRig’s judge audit in your b
 
 - **Now:** Founder, Alloway LLC ([details](#experience))
 - **Education:** University of South Florida, M.S. Artificial Intelligence (expected Dec 2027) · B.S. Information Science, cum laude
-- **Contact:** [ian@allowayllc.com](mailto:ian@allowayllc.com) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Résumé (PDF)](https://github.com/ianalloway/ianalloway/raw/main/Ian_Alloway_Resume_CV.pdf) · [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
+- **Contact:** [ian@allowayllc.com](mailto:ian@allowayllc.com) · [LinkedIn](https://www.linkedin.com/in/ianit) · [Résumé (PDF)](https://ianalloway.xyz/Ian_Alloway_Resume.pdf) · [ianalloway.xyz](https://ianalloway.xyz) · Writing: [Alloway AI](https://allowayai.substack.com)
 
 ---
 
